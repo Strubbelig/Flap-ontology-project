@@ -3,8 +3,8 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="http://www.semanticweb.org/strubbelig/ontologies/2025/0/nicoandmoritzmerged"
-         xmlns="http://www.semanticweb.org/strubbelig/ontologies/2025/0/nicoandmoritzmerged#"
+         xml:base="https://purl.bioontology.org/ontology/OFL"
+         xmlns="https://purl.bioontology.org/ontology/OFL/"
          xmlns:term="http://purl.org/dc/terms/"
          xmlns:owlr="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#"
          xmlns:fma="http://purl.org/sig/ont/fma/"
@@ -13,7 +13,7 @@
          xmlns:oboI="http://www.geneontology.org/formats/oboInOwl#"
          xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/">
 
-<owl:Ontology rdf:about="http://www.semanticweb.org/strubbelig/ontologies/2025/0/nicoandmoritzmerged">
+<owl:Ontology rdf:about="https://purl.bioontology.org/ontology/OFL">
   <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bspo/releases/2023-05-27/bspo.owl"/>
   <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2025-03-06/obi.owl"/>
   <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2025-02-01/pato.owl"/>
