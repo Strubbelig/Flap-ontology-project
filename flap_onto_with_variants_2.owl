@@ -32,6 +32,7 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="https://purl.bioontology.org/ontology/OFL">
+        <owl:versionIRI rdf:resource="https://purl.bioontology.org/ontology/OFL/2026-05-06-14-02/"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/fma/releases/2020-04-13/fma.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2025-03-06/obi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato/releases/2025-05-14/pato.owl"/>
