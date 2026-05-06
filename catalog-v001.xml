@@ -11,10 +11,10 @@
     <uri id="Imports Wizard Entry" name="https://purl.bioontology.org/ontology/OFL/abox" uri="ofl_abox_inferred.owl"/>
     <uri id="User Entered Import Resolution" name="https://purl.bioontology.org/ontology/OFL" uri="file:/Users/nicofranke/Library/Mobile%20Documents/com~apple~CloudDocs/Flap%20ontology/flap_onto_inferred_22.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1778095329891" name="http://purl.obolibrary.org/obo/bfo/" uri="bfo-core.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778095329891" name="http://purl.obolibrary.org/obo/fma.owl" uri="fma_obo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778095329891" name="http://purl.obolibrary.org/obo/obi.owl" uri="obi.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778095329891" name="http://purl.obolibrary.org/obo/ro.owl" uri="ro.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778095329891" name="https://purl.bioontology.org/ontology/OFL/" uri="flap_onto_with_variants_2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778100233517" name="http://purl.obolibrary.org/obo/bfo/" uri="bfo-core.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778100233517" name="http://purl.obolibrary.org/obo/fma.owl" uri="fma_obo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778100233517" name="http://purl.obolibrary.org/obo/obi.owl" uri="obi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778100233517" name="http://purl.obolibrary.org/obo/ro.owl" uri="ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778100233517" name="https://purl.bioontology.org/ontology/OFL/" uri="ofl_2.1.0.owl"/>
     </group>
 </catalog>

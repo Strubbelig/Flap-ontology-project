@@ -1,0 +1,57 @@
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+@prefix ofl:  <https://purl.bioontology.org/ontology/OFL/> .
+@prefix obo:  <http://purl.obolibrary.org/obo/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# ── Prefix declarations for SPARQL constraints ────────────────────────────────
+
+ofl:OFLPrefixes
+    sh:declare
+        [ sh:prefix "obo" ;
+          sh:namespace "http://purl.obolibrary.org/obo/"^^xsd:anyURI ] ,
+        [ sh:prefix "ofl" ;
+          sh:namespace "https://purl.bioontology.org/ontology/OFL/"^^xsd:anyURI ] .
+
+# ── Local flap shape ──────────────────────────────────────────────────────────
+#
+#   ofl:OFLID10134  =  Local flap
+#   obo:RO_0000056  =  participates in
+#   obo:RO_0002338  =  has target start location
+#   obo:RO_0002339  =  has target end location
+#
+#   Constraint: a local flap must participate in a transfer process whose
+#   target start location is the same anatomical region as its target end
+#   location (i.e. the tissue does not leave the immediate donor region).
+
+ofl:LocalFlapShape
+    a sh:NodeShape ;
+    rdfs:label "Local flap start/end location constraint" ;
+    sh:targetClass ofl:OFLID10134 ;
+
+    # Both locations must be present
+    sh:property [
+        sh:path ( obo:RO_0000056 obo:RO_0002338 ) ;
+        sh:minCount 1 ;
+        sh:message "Local flap: the associated transfer process must have a target start location." ;
+    ] ;
+    sh:property [
+        sh:path ( obo:RO_0000056 obo:RO_0002339 ) ;
+        sh:minCount 1 ;
+        sh:message "Local flap: the associated transfer process must have a target end location." ;
+    ] ;
+
+    # Start location must equal end location
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:prefixes ofl:OFLPrefixes ;
+        sh:message "Local flap violation: target start location ({?start}) ≠ target end location ({?end})." ;
+        sh:select """
+            SELECT $this ?start ?end WHERE {
+                $this obo:RO_0000056 ?transfer .
+                ?transfer obo:RO_0002338 ?start .
+                ?transfer obo:RO_0002339 ?end .
+                FILTER(?start != ?end)
+            }
+        """ ;
+    ] .
