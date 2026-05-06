@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl" uri="flap_onto_with_variants_3_inferred.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/pato/releases/2025-05-14/pato.owl" uri="flap_onto_with_variants_3_inferred.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/obi/2025-03-06/obi.owl" uri="flap_onto_with_variants_3.owl"/>
+    <uri id="Imports Wizard Entry" name="https://purl.bioontology.org/ontology/OFL" uri="flap_onto_with_variants.owl"/>
+    <uri id="Imports Wizard Entry" name="https://purl.bioontology.org/ontology/OFL" uri="ofl.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fma/releases/2020-04-13/fma.owl" uri="fma_obo.owl"/>
+    <uri id="Imports Wizard Entry" name="https://purl.bioontology.org/ontology/OFL/abox" uri="ofl_abox_inferred.owl"/>
+    <uri id="User Entered Import Resolution" name="https://purl.bioontology.org/ontology/OFL" uri="file:/Users/nicofranke/Library/Mobile%20Documents/com~apple~CloudDocs/Flap%20ontology/flap_onto_inferred_22.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1778008748924" name="http://purl.obolibrary.org/obo/fma.owl" uri="fma_obo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778008748924" name="https://purl.bioontology.org/ontology/OFL/" uri="flap_onto_with_variants_2.owl"/>
+    </group>
+</catalog>
