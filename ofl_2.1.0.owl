@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://purl.bioontology.org/ontology/OFL/"
      xml:base="https://purl.bioontology.org/ontology/OFL/"
-     xmlns:cl="http://purl.obolibrary.org/obo/cl#"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:fma="http://purl.org/sig/ont/fma/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
@@ -18,21 +15,16 @@
      xmlns:medl="https://www.nlm.nih.gov/bsd/mms/medlineelements.html#"
      xmlns:oboI="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/"
-     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:chebi="http://purl.obolibrary.org/obo/chebi#2"
+     xmlns:term="http://purl.org/dc/terms/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:terms="http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/"
-     xmlns:chebi1="http://purl.obolibrary.org/obo/chebi#3"
-     xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#1"
-     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
-     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:x_1.1="http://purl.org/dc/elements/1.1/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="https://purl.bioontology.org/ontology/OFL">
-        <owl:versionIRI rdf:resource="https://purl.bioontology.org/ontology/OFL/2026-05-06-14-02/"/>
+        <owl:versionIRI rdf:resource="https://purl.bioontology.org/ontology/OFL/2.1.0"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/fma/releases/2020-04-13/fma.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2026-03-19/obi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl"/>
@@ -144,7 +136,7 @@
     <!-- https://www.nlm.nih.gov/bsd/mms/medlineelements.html#pmid -->
 
     <owl:AnnotationProperty rdf:about="https://www.nlm.nih.gov/bsd/mms/medlineelements.html#pmid">
-        <dcterms:source>https://doi.org/10.25504/FAIRsharing.2b9b61</dcterms:source>
+        <term:source>https://doi.org/10.25504/FAIRsharing.2b9b61</term:source>
     </owl:AnnotationProperty>
     
 
@@ -4676,7 +4668,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000024">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000023"/>
-        <dc:description>Starting point and end point of the incision are not the same.</dc:description>
+        <x_1.1:description>Starting point and end point of the incision are not the same.</x_1.1:description>
         <rdfs:label xml:lang="en">Flaps with open skin incision</rdfs:label>
     </owl:Class>
     
@@ -4686,7 +4678,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000025">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000023"/>
-        <dc:description>Starting point of the incision equals end point of the incision.</dc:description>
+        <x_1.1:description>Starting point of the incision equals end point of the incision.</x_1.1:description>
         <fma:synonym>Skin island</fma:synonym>
         <rdfs:label xml:lang="en">Flaps with closed skin incision</rdfs:label>
     </owl:Class>
@@ -5402,8 +5394,8 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000093">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000092"/>
-        <dc:source>https://doi.org/10.1016/j.bjps.2015.07.004</dc:source>
-        <dcterms:bibliographicCitation>Kim JT, Kim YH, Ghanem AM. Perforator chimerism for the reconstruction of complex defects: A new chimeric free flap classification system. J Plast Reconstr Aesthet Surg. 2015 Nov;68(11):1556-67. doi: 10.1016/j.bjps.2015.07.004. Epub 2015 Jul 29. PMID: 26323993.</dcterms:bibliographicCitation>
+        <x_1.1:source>https://doi.org/10.1016/j.bjps.2015.07.004</x_1.1:source>
+        <term:bibliographicCitation>Kim JT, Kim YH, Ghanem AM. Perforator chimerism for the reconstruction of complex defects: A new chimeric free flap classification system. J Plast Reconstr Aesthet Surg. 2015 Nov;68(11):1556-67. doi: 10.1016/j.bjps.2015.07.004. Epub 2015 Jul 29. PMID: 26323993.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Flaps classified by chimeric type</rdfs:label>
     </owl:Class>
     
@@ -5413,7 +5405,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000094">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000093"/>
-        <dc:description>Chimerism by flaps based on named source vessels or branches.</dc:description>
+        <x_1.1:description>Chimerism by flaps based on named source vessels or branches.</x_1.1:description>
         <rdfs:label xml:lang="en">Type i: classical chimerism</rdfs:label>
     </owl:Class>
     
@@ -5423,7 +5415,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000095">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000094"/>
-        <dc:description>Type I without perforator flaps.</dc:description>
+        <x_1.1:description>Type I without perforator flaps.</x_1.1:description>
         <rdfs:label xml:lang="en">Type ib</rdfs:label>
     </owl:Class>
     
@@ -5433,7 +5425,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000096">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000094"/>
-        <dc:description>Classical chimeric pattern including one perforator flap</dc:description>
+        <x_1.1:description>Classical chimeric pattern including one perforator flap</x_1.1:description>
         <rdfs:label xml:lang="en">Type ip</rdfs:label>
     </owl:Class>
     
@@ -5443,7 +5435,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000097">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000093"/>
-        <dc:description>Chimerism by microvascular anastomosis between two flaps.</dc:description>
+        <x_1.1:description>Chimerism by microvascular anastomosis between two flaps.</x_1.1:description>
         <rdfs:label xml:lang="en">Type ii: anastomotic chimerism</rdfs:label>
     </owl:Class>
     
@@ -5453,7 +5445,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000098">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000097"/>
-        <dc:description>Type II without perforator flaps</dc:description>
+        <x_1.1:description>Type II without perforator flaps</x_1.1:description>
         <rdfs:label xml:lang="en">Type iib</rdfs:label>
     </owl:Class>
     
@@ -5463,7 +5455,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000099">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000097"/>
-        <dc:description>Anastomotic chimeric pattern including one perforator flap.</dc:description>
+        <x_1.1:description>Anastomotic chimeric pattern including one perforator flap.</x_1.1:description>
         <rdfs:label xml:lang="en">Type iip</rdfs:label>
     </owl:Class>
     
@@ -5482,7 +5474,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000100">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000093"/>
-        <dc:description>Chimerism by flaps based on perforators only</dc:description>
+        <x_1.1:description>Chimerism by flaps based on perforators only</x_1.1:description>
         <rdfs:label xml:lang="en">Type iii: perforator chimerism</rdfs:label>
     </owl:Class>
     
@@ -5492,7 +5484,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000103">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000093"/>
-        <dc:description>A chimeric flap may consist of any combination of types I, II or III. Cases with mixed types I to III are type IV. A subscript notation in brackets indicates the specifix type, for example: Type IV (I+II).</dc:description>
+        <x_1.1:description>A chimeric flap may consist of any combination of types I, II or III. Cases with mixed types I to III are type IV. A subscript notation in brackets indicates the specifix type, for example: Type IV (I+II).</x_1.1:description>
         <rdfs:label xml:lang="en">Type iv: mixed chimerism</rdfs:label>
     </owl:Class>
     
@@ -5568,7 +5560,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:description>The entire process from first action to the last action in a transfer of tissue from one part to another part of the same body called autotransplantation typically taking place in an operating room entirely hereby creating the entity called surgical flap during the process.</dcterms:description>
+        <term:description>The entire process from first action to the last action in a transfer of tissue from one part to another part of the same body called autotransplantation typically taking place in an operating room entirely hereby creating the entity called surgical flap during the process.</term:description>
         <rdfs:label xml:lang="en">Complete flap operation process</rdfs:label>
     </owl:Class>
     
@@ -5765,7 +5757,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-        <dcterms:description>Thread or wire is used to approximate two or more at least zero dimensional parts of a material entity or different material entities. The thread or wire has to pierce through at least one of the entities.</dcterms:description>
+        <term:description>Thread or wire is used to approximate two or more at least zero dimensional parts of a material entity or different material entities. The thread or wire has to pierce through at least one of the entities.</term:description>
         <rdfs:label xml:lang="en">Suture</rdfs:label>
     </owl:Class>
     
@@ -10118,10 +10110,10 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9577"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Bubberman, Jeske M., Joep A. F. Van Rooij, René R. W. J. Van der Hulst, und Stefania M. H. Tuinder. „Sensory Recovery and the Role of Innervated Flaps in Autologous Breast Reconstruction—a Narrative Review“. Gland Surgery 12, Nr. 8 (11. August 2023): 1094. https://doi.org/10.21037/gs-23-40.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>G, Pereira, Ribeiro D, Saraiva L, und Freitas H. „Supercharging DIEP Flaps Using Contralateral Superficial Inferior Epigastric Vein Grafts“. Clinics in Surgery 8, Nr. 1 (16. Oktober 2023): 1–4. https://doi.org/10.25107/cis-v8-id3667.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>He, Jiqiang, Huairui Cui, Liming Qing, Panfeng Wu, Gunel Guliyeva, Fang Yu, Maolin Tang, und Juyu Tang. „Strategies for selecting perforator vessels for transverse and oblique DIEP flap in male pediatric patients: Anatomical study and clinical applications“. Frontiers in Pediatrics 10 (23. September 2022): 978481. https://doi.org/10.3389/fped.2022.978481.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Lee, Kyeong-Tae, und Goo-Hyun Mun. „Benefits of Superdrainage Using SIEV in DIEP Flap Breast Reconstruction: A Systematic Review and Meta-Analysis“. Microsurgery 37, Nr. 1 (Januar 2017): 75–83. https://doi.org/10.1002/micr.22420.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Bubberman, Jeske M., Joep A. F. Van Rooij, René R. W. J. Van der Hulst, und Stefania M. H. Tuinder. „Sensory Recovery and the Role of Innervated Flaps in Autologous Breast Reconstruction—a Narrative Review“. Gland Surgery 12, Nr. 8 (11. August 2023): 1094. https://doi.org/10.21037/gs-23-40.</term:bibliographicCitation>
+        <term:bibliographicCitation>G, Pereira, Ribeiro D, Saraiva L, und Freitas H. „Supercharging DIEP Flaps Using Contralateral Superficial Inferior Epigastric Vein Grafts“. Clinics in Surgery 8, Nr. 1 (16. Oktober 2023): 1–4. https://doi.org/10.25107/cis-v8-id3667.</term:bibliographicCitation>
+        <term:bibliographicCitation>He, Jiqiang, Huairui Cui, Liming Qing, Panfeng Wu, Gunel Guliyeva, Fang Yu, Maolin Tang, und Juyu Tang. „Strategies for selecting perforator vessels for transverse and oblique DIEP flap in male pediatric patients: Anatomical study and clinical applications“. Frontiers in Pediatrics 10 (23. September 2022): 978481. https://doi.org/10.3389/fped.2022.978481.</term:bibliographicCitation>
+        <term:bibliographicCitation>Lee, Kyeong-Tae, und Goo-Hyun Mun. „Benefits of Superdrainage Using SIEV in DIEP Flap Breast Reconstruction: A Systematic Review and Meta-Analysis“. Microsurgery 37, Nr. 1 (Januar 2017): 75–83. https://doi.org/10.1002/micr.22420.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Deep inferior epigastric perforator flap</rdfs:label>
     </owl:Class>
     
@@ -10205,9 +10197,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Chapter 11 The Dorsalis Pedis Flaps. An Illustrated Handbook of Flap-Raising Techniques. 2008. Aufl. Thieme Verlag, 2008. https://doi.org/10.1055/b-0034-73757.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Emsen, Ilteris Murat. „Reconstruction with distally based dorsalis pedis fasciocutaneous flap for the coverage of distal toe-plantar defects“. The Canadian Journal of Plastic Surgery 20, Nr. 2 (2012): e25–27.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Ritz, Morris, Sanjay Mahendru, Naveen Somia, und Marc D. Pacifico. „The Dorsalis Pedis Fascial Flap“. Journal of Reconstructive Microsurgery 25, Nr. 5 (Juni 2009): 313–17. https://doi.org/10.1055/s-0029-1215541.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Chapter 11 The Dorsalis Pedis Flaps. An Illustrated Handbook of Flap-Raising Techniques. 2008. Aufl. Thieme Verlag, 2008. https://doi.org/10.1055/b-0034-73757.</term:bibliographicCitation>
+        <term:bibliographicCitation>Emsen, Ilteris Murat. „Reconstruction with distally based dorsalis pedis fasciocutaneous flap for the coverage of distal toe-plantar defects“. The Canadian Journal of Plastic Surgery 20, Nr. 2 (2012): e25–27.</term:bibliographicCitation>
+        <term:bibliographicCitation>Ritz, Morris, Sanjay Mahendru, Naveen Somia, und Marc D. Pacifico. „The Dorsalis Pedis Fascial Flap“. Journal of Reconstructive Microsurgery 25, Nr. 5 (Juni 2009): 313–17. https://doi.org/10.1055/s-0029-1215541.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Dorsalis pedis flap</rdfs:label>
     </owl:Class>
     
@@ -10256,7 +10248,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10014">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10068"/>
-        <dc:description>Flaps with rotational movement respective to the flap origin into the defect without crossing intact skin.</dc:description>
+        <x_1.1:description>Flaps with rotational movement respective to the flap origin into the defect without crossing intact skin.</x_1.1:description>
         <rdfs:label xml:lang="en">Rotation flaps</rdfs:label>
     </owl:Class>
     
@@ -10284,8 +10276,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_79071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Taqi, Muhammad, Marc H. Hohman, und Sivashanmugam Raju. „Fibula Free Flaps“. In StatPearls. Treasure Island (FL): StatPearls Publishing, 2025. http://www.ncbi.nlm.nih.gov/books/NBK564337/.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>„Osteocutaneous Fibula Free Flap | Iowa Head and Neck Protocols“. Zugegriffen 3. Februar 2025. https://medicine.uiowa.edu/iowaprotocols/osteocutaneous-fibula-free-flap.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Taqi, Muhammad, Marc H. Hohman, und Sivashanmugam Raju. „Fibula Free Flaps“. In StatPearls. Treasure Island (FL): StatPearls Publishing, 2025. http://www.ncbi.nlm.nih.gov/books/NBK564337/.</term:bibliographicCitation>
+        <term:bibliographicCitation>„Osteocutaneous Fibula Free Flap | Iowa Head and Neck Protocols“. Zugegriffen 3. Februar 2025. https://medicine.uiowa.edu/iowaprotocols/osteocutaneous-fibula-free-flap.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Fibula flap</rdfs:label>
     </owl:Class>
     
@@ -10343,8 +10335,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9578"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Chuang, David C. C., L. H. Colony, H. C. Chen, und F. C. Wei. „Groin Flap Design and Versatility“. Plastic and Reconstructive Surgery 84, Nr. 1 (Juli 1989): 100.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Smith, Paul J., Brian Foley, und Jan A. McGREGOR. „THE ANATOMICAL BASIS OF THE GROIN FLAP“. Plastic and Reconstructive Surgery 49, Nr. 1 (Januar 1972): 41.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Chuang, David C. C., L. H. Colony, H. C. Chen, und F. C. Wei. „Groin Flap Design and Versatility“. Plastic and Reconstructive Surgery 84, Nr. 1 (Juli 1989): 100.</term:bibliographicCitation>
+        <term:bibliographicCitation>Smith, Paul J., Brian Foley, und Jan A. McGREGOR. „THE ANATOMICAL BASIS OF THE GROIN FLAP“. Plastic and Reconstructive Surgery 49, Nr. 1 (Januar 1972): 41.</term:bibliographicCitation>
         <fma:abbreviation>SCIA flap</fma:abbreviation>
         <fma:synonym>Superficial circumflex iliac artery flap</fma:synonym>
         <rdfs:label xml:lang="en">Groin flap</rdfs:label>
@@ -10419,8 +10411,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9578"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Innocenti, Marco, Elena Lucattelli, Primo Andrea Daolio, Stefano Bastoni, Eleonora Marini, Guido Scoccianti, und Giulio Menichini. „Calcaneal Reconstruction after Total Calcanectomy with Iliac Crest Free Flap“. Microsurgery 39, Nr. 8 (2019): 704–9. https://doi.org/10.1002/micr.30452.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Safak, Tunç, Michael J. A. Klebuc, Emin Mavili, und Saleh M. Shenaq. „A New Design of the Iliac Crest Microsurgical Free Flap Without Including the “Obligatory” Muscle Cuff“. Plastic and Reconstructive Surgery 100, Nr. 7 (Dezember 1997): 1703.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Innocenti, Marco, Elena Lucattelli, Primo Andrea Daolio, Stefano Bastoni, Eleonora Marini, Guido Scoccianti, und Giulio Menichini. „Calcaneal Reconstruction after Total Calcanectomy with Iliac Crest Free Flap“. Microsurgery 39, Nr. 8 (2019): 704–9. https://doi.org/10.1002/micr.30452.</term:bibliographicCitation>
+        <term:bibliographicCitation>Safak, Tunç, Michael J. A. Klebuc, Emin Mavili, und Saleh M. Shenaq. „A New Design of the Iliac Crest Microsurgical Free Flap Without Including the “Obligatory” Muscle Cuff“. Plastic and Reconstructive Surgery 100, Nr. 7 (Dezember 1997): 1703.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Iliac crest flap</rdfs:label>
     </owl:Class>
     
@@ -10460,8 +10452,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10016"/>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10106"/>
-        <dcterms:bibliographicCitation>Rao, Jagdeep, Rakesh Tawar, und Rakesh Dawar. „Gastrocnemius Myocutaneous Flap: A Versatile Option to Cover the Defect of Upper and Middle Third Leg“. World Journal of Plastic Surgery 7, Nr. 3 (September 2018): 314–18. https://doi.org/10.29252/wjps.7.3.314.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Walton, Zeke, Milton Armstrong, Sophia Traven, und Lee Leddy. „Pedicled Rotational Medial and Lateral Gastrocnemius Flaps: Surgical Technique“. The Journal of the American Academy of Orthopaedic Surgeons 25, Nr. 11 (November 2017): 744–51. https://doi.org/10.5435/JAAOS-D-15-00722.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Rao, Jagdeep, Rakesh Tawar, und Rakesh Dawar. „Gastrocnemius Myocutaneous Flap: A Versatile Option to Cover the Defect of Upper and Middle Third Leg“. World Journal of Plastic Surgery 7, Nr. 3 (September 2018): 314–18. https://doi.org/10.29252/wjps.7.3.314.</term:bibliographicCitation>
+        <term:bibliographicCitation>Walton, Zeke, Milton Armstrong, Sophia Traven, und Lee Leddy. „Pedicled Rotational Medial and Lateral Gastrocnemius Flaps: Surgical Technique“. The Journal of the American Academy of Orthopaedic Surgeons 25, Nr. 11 (November 2017): 744–51. https://doi.org/10.5435/JAAOS-D-15-00722.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Gastrocnemius flap</rdfs:label>
     </owl:Class>
     
@@ -10501,8 +10493,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9578"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Ahmadzadeh, Reza, Leonard Bergeron, Maolin Tang, und Steven F. Morris. „The Superior and Inferior Gluteal Artery Perforator Flaps“. Plastic and Reconstructive Surgery 120, Nr. 6 (November 2007): 1551. https://doi.org/10.1097/01.prs.0000282098.61498.ee.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Granzow, Jay W., Joshua L. Levine, Ernest S. Chiu, und Robert J. Allen. „Breast reconstruction with gluteal artery perforator flaps“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 59, Nr. 6 (1. Juni 2006): 614–21. https://doi.org/10.1016/j.bjps.2006.01.005.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Ahmadzadeh, Reza, Leonard Bergeron, Maolin Tang, und Steven F. Morris. „The Superior and Inferior Gluteal Artery Perforator Flaps“. Plastic and Reconstructive Surgery 120, Nr. 6 (November 2007): 1551. https://doi.org/10.1097/01.prs.0000282098.61498.ee.</term:bibliographicCitation>
+        <term:bibliographicCitation>Granzow, Jay W., Joshua L. Levine, Ernest S. Chiu, und Robert J. Allen. „Breast reconstruction with gluteal artery perforator flaps“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 59, Nr. 6 (1. Juni 2006): 614–21. https://doi.org/10.1016/j.bjps.2006.01.005.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Gluteal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -10540,9 +10532,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_63950"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Vranckx, Jan Jeroen, Dominique Misselyn, Gert Fabre, Nicolas Verhelle, Olivier Heymans, und Bert Van den Hof. „The Gracilis Free Muscle Flap Is More than Just a “Graceful” Flap for Lower-Leg Reconstruction“. Journal of Reconstructive Microsurgery 20, Nr. 2 (März 2004): 143–48. https://doi.org/10.1055/s-2004-820770.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>„A New Technique in Scrotal Reconstruction: Short Gracilis Flap“. Urology 61, Nr. 6 (1. Juni 2003): 1254–56. https://doi.org/10.1016/S0090-4295(03)00158-4.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>„The Anatomic Basis of the Gracilis Perforator Flap“. British Journal of Plastic Surgery 58, Nr. 8 (1. Dezember 2005): 1090–94. https://doi.org/10.1016/j.bjps.2005.01.026.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Vranckx, Jan Jeroen, Dominique Misselyn, Gert Fabre, Nicolas Verhelle, Olivier Heymans, und Bert Van den Hof. „The Gracilis Free Muscle Flap Is More than Just a “Graceful” Flap for Lower-Leg Reconstruction“. Journal of Reconstructive Microsurgery 20, Nr. 2 (März 2004): 143–48. https://doi.org/10.1055/s-2004-820770.</term:bibliographicCitation>
+        <term:bibliographicCitation>„A New Technique in Scrotal Reconstruction: Short Gracilis Flap“. Urology 61, Nr. 6 (1. Juni 2003): 1254–56. https://doi.org/10.1016/S0090-4295(03)00158-4.</term:bibliographicCitation>
+        <term:bibliographicCitation>„The Anatomic Basis of the Gracilis Perforator Flap“. British Journal of Plastic Surgery 58, Nr. 8 (1. Dezember 2005): 1090–94. https://doi.org/10.1016/j.bjps.2005.01.026.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Gracilis flap</rdfs:label>
     </owl:Class>
     
@@ -10672,8 +10664,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9577"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Barzin, Ario, Jeffrey A. Norton, Richard Whyte, und Gordon K. Lee. „Supercharged Jejunum Flap for Total Esophageal Reconstruction: Single-Surgeon 3-Year Experience and Outcomes Analysis“. Plastic and Reconstructive Surgery 127, Nr. 1 (Januar 2011): 173–80. https://doi.org/10.1097/PRS.0b013e3181f95a36.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Emiroğlu, M., S. M. Gültan, G. Adanali, I. Apaydin, und E. Yormuk. „Vaginal Reconstruction with Free Jejunal Flap“. Annals of Plastic Surgery 36, Nr. 3 (März 1996): 316–20. https://doi.org/10.1097/00000637-199603000-00016.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Barzin, Ario, Jeffrey A. Norton, Richard Whyte, und Gordon K. Lee. „Supercharged Jejunum Flap for Total Esophageal Reconstruction: Single-Surgeon 3-Year Experience and Outcomes Analysis“. Plastic and Reconstructive Surgery 127, Nr. 1 (Januar 2011): 173–80. https://doi.org/10.1097/PRS.0b013e3181f95a36.</term:bibliographicCitation>
+        <term:bibliographicCitation>Emiroğlu, M., S. M. Gültan, G. Adanali, I. Apaydin, und E. Yormuk. „Vaginal Reconstruction with Free Jejunal Flap“. Annals of Plastic Surgery 36, Nr. 3 (März 1996): 316–20. https://doi.org/10.1097/00000637-199603000-00016.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Jejunum flap</rdfs:label>
     </owl:Class>
     
@@ -10698,9 +10690,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24890"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Fernández-Palacios, Javier, und Mónica Francés Monasterio. „Superficial lateral arm flap for post-burn antecubital contractures“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 88 (1. Januar 2024): 285–91. https://doi.org/10.1016/j.bjps.2023.10.129.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Katsaros, J., M. Schusterman, M. Beppu, J. C. Banis, und R. D. Acland. „The Lateral Upper Arm Flap: Anatomy and Clinical Applications“. Annals of Plastic Surgery 12, Nr. 6 (Juni 1984): 489–500. https://doi.org/10.1097/00000637-198406000-00001.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Kim, Jong-Ho, Taekeun Yoon, Joseph Kyu-hyung Park, und Seokchan Eun. „Reconstruction of Foot and Ankle Defects Using Free Lateral Arm Flap: A Retrospective Review of Its Versatile Application“. BioMed Research International 2021, Nr. 1 (2021): 4128827. https://doi.org/10.1155/2021/4128827.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Fernández-Palacios, Javier, und Mónica Francés Monasterio. „Superficial lateral arm flap for post-burn antecubital contractures“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 88 (1. Januar 2024): 285–91. https://doi.org/10.1016/j.bjps.2023.10.129.</term:bibliographicCitation>
+        <term:bibliographicCitation>Katsaros, J., M. Schusterman, M. Beppu, J. C. Banis, und R. D. Acland. „The Lateral Upper Arm Flap: Anatomy and Clinical Applications“. Annals of Plastic Surgery 12, Nr. 6 (Juni 1984): 489–500. https://doi.org/10.1097/00000637-198406000-00001.</term:bibliographicCitation>
+        <term:bibliographicCitation>Kim, Jong-Ho, Taekeun Yoon, Joseph Kyu-hyung Park, und Seokchan Eun. „Reconstruction of Foot and Ankle Defects Using Free Lateral Arm Flap: A Retrospective Review of Its Versatile Application“. BioMed Research International 2021, Nr. 1 (2021): 4128827. https://doi.org/10.1155/2021/4128827.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Lateral arm flap</rdfs:label>
     </owl:Class>
     
@@ -10758,9 +10750,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Cherukuri, Sai, Shanda Blackmon, Karim Bakri, Samir Mardini, Steven L. Moran, und Waleed Gibreel. „Use of the Intercostal Artery-Based Latissimus Dorsi Muscle for Intrathoracic Reconstruction after Division of the Thoracodorsal Vessels and Latissimus Dorsi Muscle“. Plastic and Reconstructive Surgery. Global Open 11, Nr. 6 (Juni 2023): e5074. https://doi.org/10.1097/GOX.0000000000005074.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Ozçelik, Derya, Kemal Uğurlu, und Tuğrul Turan. „Reconstruction of the Replanted Hand with Latissimus Dorsi Muscle and Serratus Anterior Fascia Combined Flap“. Journal of Reconstructive Microsurgery 19, Nr. 3 (April 2003): 153–56. https://doi.org/10.1055/s-2003-39827.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Podrecca, S., O. Tomic, P. Salvatori, und E. Riggio. „Free Composite Osseomyocutaneous Flap of Latissimus Dorsi, Serratus Anterior and Rib for Oromandibular Reconstruction“. European Journal of Plastic Surgery 23, Nr. 6 (1. August 2000): 316–20. https://doi.org/10.1007/PL00006054.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Cherukuri, Sai, Shanda Blackmon, Karim Bakri, Samir Mardini, Steven L. Moran, und Waleed Gibreel. „Use of the Intercostal Artery-Based Latissimus Dorsi Muscle for Intrathoracic Reconstruction after Division of the Thoracodorsal Vessels and Latissimus Dorsi Muscle“. Plastic and Reconstructive Surgery. Global Open 11, Nr. 6 (Juni 2023): e5074. https://doi.org/10.1097/GOX.0000000000005074.</term:bibliographicCitation>
+        <term:bibliographicCitation>Ozçelik, Derya, Kemal Uğurlu, und Tuğrul Turan. „Reconstruction of the Replanted Hand with Latissimus Dorsi Muscle and Serratus Anterior Fascia Combined Flap“. Journal of Reconstructive Microsurgery 19, Nr. 3 (April 2003): 153–56. https://doi.org/10.1055/s-2003-39827.</term:bibliographicCitation>
+        <term:bibliographicCitation>Podrecca, S., O. Tomic, P. Salvatori, und E. Riggio. „Free Composite Osseomyocutaneous Flap of Latissimus Dorsi, Serratus Anterior and Rib for Oromandibular Reconstruction“. European Journal of Plastic Surgery 23, Nr. 6 (1. August 2000): 316–20. https://doi.org/10.1007/PL00006054.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Latissimus dorsi flap</rdfs:label>
     </owl:Class>
     
@@ -10850,9 +10842,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_74845"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Quintero, Jorge I, Dylan Childs, und Rodrigo Moreno. „The medial femoral condyle free flap: An excellent option for difficult cases: case series“. SAGE Open Medical Case Reports 8 (29. Juni 2020): 2050313X20933763. https://doi.org/10.1177/2050313X20933763.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Silva, Gustavo Bersani, Matheus Teotonio Vellosa, Alvaro Baik Cho, Raquel Bernardelli Iamaguchi Da Costa, Olavo Pires De Camargo, und Rames Mattar Júnior. „MEDIAL FEMORAL CONDYLE CORTICOPERIOSTEAL FLAP: ANATOMIC STUDY“. Acta Ortopédica Brasileira 26 (Juni 2018): 179–82. https://doi.org/10.1590/1413-785220182603190661.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Wong, Victor W., und James P. Higgins. „Medial Femoral Condyle Flap“. Plastic and Reconstructive Surgery Global Open 4, Nr. 8 (10. August 2016): e834. https://doi.org/10.1097/GOX.0000000000000815.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Quintero, Jorge I, Dylan Childs, und Rodrigo Moreno. „The medial femoral condyle free flap: An excellent option for difficult cases: case series“. SAGE Open Medical Case Reports 8 (29. Juni 2020): 2050313X20933763. https://doi.org/10.1177/2050313X20933763.</term:bibliographicCitation>
+        <term:bibliographicCitation>Silva, Gustavo Bersani, Matheus Teotonio Vellosa, Alvaro Baik Cho, Raquel Bernardelli Iamaguchi Da Costa, Olavo Pires De Camargo, und Rames Mattar Júnior. „MEDIAL FEMORAL CONDYLE CORTICOPERIOSTEAL FLAP: ANATOMIC STUDY“. Acta Ortopédica Brasileira 26 (Juni 2018): 179–82. https://doi.org/10.1590/1413-785220182603190661.</term:bibliographicCitation>
+        <term:bibliographicCitation>Wong, Victor W., und James P. Higgins. „Medial Femoral Condyle Flap“. Plastic and Reconstructive Surgery Global Open 4, Nr. 8 (10. August 2016): e834. https://doi.org/10.1097/GOX.0000000000000815.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Medial femoral condyle flap</rdfs:label>
     </owl:Class>
     
@@ -10935,9 +10927,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_46472"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Patel, Ashish A., und Allen Cheng. „The Nasolabial Flap“. Atlas of the Oral and Maxillofacial Surgery Clinics of North America 28, Nr. 1 (1. März 2020): 7–12. https://doi.org/10.1016/j.cxom.2019.10.002.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Singh, Seema, Rajesh Kumar Singh, und Manoj Pandey. „Nasolabial flap reconstruction in oral cancer“. World Journal of Surgical Oncology 10 (30. Oktober 2012): 227. https://doi.org/10.1186/1477-7819-10-227.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Wright, Harry, Scott Stephan, und James Netterville. „Nasolabial Flap for Oral Cavity Reconstruction“, o. J.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Patel, Ashish A., und Allen Cheng. „The Nasolabial Flap“. Atlas of the Oral and Maxillofacial Surgery Clinics of North America 28, Nr. 1 (1. März 2020): 7–12. https://doi.org/10.1016/j.cxom.2019.10.002.</term:bibliographicCitation>
+        <term:bibliographicCitation>Singh, Seema, Rajesh Kumar Singh, und Manoj Pandey. „Nasolabial flap reconstruction in oral cancer“. World Journal of Surgical Oncology 10 (30. Oktober 2012): 227. https://doi.org/10.1186/1477-7819-10-227.</term:bibliographicCitation>
+        <term:bibliographicCitation>Wright, Harry, Scott Stephan, und James Netterville. „Nasolabial Flap for Oral Cavity Reconstruction“, o. J.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Nasolabial flap</rdfs:label>
     </owl:Class>
     
@@ -11002,9 +10994,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9577"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>31 Pedicled Omental Flaps for Sternal Reconstruction. Flaps. 2017. Aufl. Thieme Verlag, 2017. https://doi.org/10.1055/b-0037-142105.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Mazzaferro, Daniel, Ping Song, Sameer Massand, Michael Mirmanesh, Rohit Jaiswal, und Lee L. Q. Pu. „The Omental Free Flap—A Review of Usage and Physiology“. Journal of Reconstructive Microsurgery 34, Nr. 3 (März 2018): 151–69. https://doi.org/10.1055/s-0037-1608008.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Salameh, Jihad R., Deborah A. Chock, John J. Gonzalez, Suresh Koneru, Jeffrey L. Glass, und Morris E. Franklin. „Laparoscopic Harvest of Omental Flaps for Reconstruction of Complex Mediastinal Wounds“. JSLS : Journal of the Society of Laparoendoscopic Surgeons 7, Nr. 4 (2003): 317–22.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>31 Pedicled Omental Flaps for Sternal Reconstruction. Flaps. 2017. Aufl. Thieme Verlag, 2017. https://doi.org/10.1055/b-0037-142105.</term:bibliographicCitation>
+        <term:bibliographicCitation>Mazzaferro, Daniel, Ping Song, Sameer Massand, Michael Mirmanesh, Rohit Jaiswal, und Lee L. Q. Pu. „The Omental Free Flap—A Review of Usage and Physiology“. Journal of Reconstructive Microsurgery 34, Nr. 3 (März 2018): 151–69. https://doi.org/10.1055/s-0037-1608008.</term:bibliographicCitation>
+        <term:bibliographicCitation>Salameh, Jihad R., Deborah A. Chock, John J. Gonzalez, Suresh Koneru, Jeffrey L. Glass, und Morris E. Franklin. „Laparoscopic Harvest of Omental Flaps for Reconstruction of Complex Mediastinal Wounds“. JSLS : Journal of the Society of Laparoendoscopic Surgeons 7, Nr. 4 (2003): 317–22.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Omental flap</rdfs:label>
     </owl:Class>
     
@@ -11032,8 +11024,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24223"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Calcaterra, T. C. „Bilateral Omohyoid Muscle Flap Reconstruction for Anterior Commissure Cancer“. The Laryngoscope 97, Nr. 7 Pt 1 (Juli 1987): 810–13.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Muñoz-Jimenez, Gerado, Jose E. Telich-Tarriba, Damian Palafox-Vidal, und Alexander Cardenas-Mejia. „A Novel Highly Specialized Functional Flap: Omohyoid Inferior Belly Muscle“. Plastic and Aesthetic Research 5, Nr. 0 (23. April 2018): N/A-N/A. https://doi.org/10.20517/2347-9264.2018.04.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Calcaterra, T. C. „Bilateral Omohyoid Muscle Flap Reconstruction for Anterior Commissure Cancer“. The Laryngoscope 97, Nr. 7 Pt 1 (Juli 1987): 810–13.</term:bibliographicCitation>
+        <term:bibliographicCitation>Muñoz-Jimenez, Gerado, Jose E. Telich-Tarriba, Damian Palafox-Vidal, und Alexander Cardenas-Mejia. „A Novel Highly Specialized Functional Flap: Omohyoid Inferior Belly Muscle“. Plastic and Aesthetic Research 5, Nr. 0 (23. April 2018): N/A-N/A. https://doi.org/10.20517/2347-9264.2018.04.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Omohyoid flap</rdfs:label>
     </owl:Class>
     
@@ -11102,8 +11094,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_63864"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Ramsey ML, Brooks J, Zito PM. Forehead Flaps. [Updated 2023 Jun 26]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from: https://www.ncbi.nlm.nih.gov/sites/books/NBK499907/</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Zito PM, Hohman MH, Mazzoni T. Paramedian Forehead Flaps. [Updated 2024 Apr 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from: https://www.ncbi.nlm.nih.gov/sites/books/NBK499932/</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Ramsey ML, Brooks J, Zito PM. Forehead Flaps. [Updated 2023 Jun 26]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from: https://www.ncbi.nlm.nih.gov/sites/books/NBK499907/</term:bibliographicCitation>
+        <term:bibliographicCitation>Zito PM, Hohman MH, Mazzoni T. Paramedian Forehead Flaps. [Updated 2024 Apr 19]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from: https://www.ncbi.nlm.nih.gov/sites/books/NBK499932/</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Paramedian forehead flap</rdfs:label>
     </owl:Class>
     
@@ -11141,8 +11133,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Chen, Ding, Jesse B. Jupiter, Howard A. Lipton, und Shiqi Li. „The Parascapular Flap for Treatment of Lower Extremity Disorders“. Plastic and Reconstructive Surgery 84, Nr. 1 (Juli 1989): 108.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Mitsimponas, Konstantinos T., Christos Iliopoulos, Philipp Stockmann, Lars Bumiller, Emeka Nkenke, Friedrich W. Neukam, und Karl-Andreas Schlegel. „The free scapular/parascapular flap as a reliable method of reconstruction in the head and neck region: A retrospective analysis of 130 reconstructions performed over a period of 5 years in a single Department“. Journal of Cranio-Maxillofacial Surgery 42, Nr. 5 (1. Juli 2014): 536–43. https://doi.org/10.1016/j.jcms.2013.07.023.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Chen, Ding, Jesse B. Jupiter, Howard A. Lipton, und Shiqi Li. „The Parascapular Flap for Treatment of Lower Extremity Disorders“. Plastic and Reconstructive Surgery 84, Nr. 1 (Juli 1989): 108.</term:bibliographicCitation>
+        <term:bibliographicCitation>Mitsimponas, Konstantinos T., Christos Iliopoulos, Philipp Stockmann, Lars Bumiller, Emeka Nkenke, Friedrich W. Neukam, und Karl-Andreas Schlegel. „The free scapular/parascapular flap as a reliable method of reconstruction in the head and neck region: A retrospective analysis of 130 reconstructions performed over a period of 5 years in a single Department“. Journal of Cranio-Maxillofacial Surgery 42, Nr. 5 (1. Juli 2014): 536–43. https://doi.org/10.1016/j.jcms.2013.07.023.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Parascapular flap</rdfs:label>
     </owl:Class>
     
@@ -11194,9 +11186,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Judd, Ryan T., Hilary C. McCrary, Janice L. Farlow, Michael Li, Jeremy Godsell, Peter J. Kneuertz, und Enver Ozer. „Pedicled Osteomyocutaneous Pectoralis Major Flap with Osseous Rib Harvest for Salvage Mandibular Reconstruction: Case and Technique“. Head &amp; Neck 46, Nr. 2 (Februar 2024): 447–51. https://doi.org/10.1002/hed.27586.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Patel, Ketan, Diana Jee-Hyun Lyu, und Deepak Kademani. „Pectoralis Major Myocutaneous Flap“. Oral and Maxillofacial Surgery Clinics of North America 26, Nr. 3 (August 2014): 421–26. https://doi.org/10.1016/j.coms.2014.05.010.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Trainotti, Susanne, Thomas K. Hoffmann, Nicole Rotter, Jens Greve, Johannes A. Veit, Patrick Schuler, und Marc Scheithauer. „Pectoralis Major Muscle Free Flap: Anatomical Studies on Pedicle Length and Vessel Diameter“. Ear, Nose &amp; Throat Journal 98, Nr. 7 (1. August 2019): 431–34. https://doi.org/10.1177/0145561319840821.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Judd, Ryan T., Hilary C. McCrary, Janice L. Farlow, Michael Li, Jeremy Godsell, Peter J. Kneuertz, und Enver Ozer. „Pedicled Osteomyocutaneous Pectoralis Major Flap with Osseous Rib Harvest for Salvage Mandibular Reconstruction: Case and Technique“. Head &amp; Neck 46, Nr. 2 (Februar 2024): 447–51. https://doi.org/10.1002/hed.27586.</term:bibliographicCitation>
+        <term:bibliographicCitation>Patel, Ketan, Diana Jee-Hyun Lyu, und Deepak Kademani. „Pectoralis Major Myocutaneous Flap“. Oral and Maxillofacial Surgery Clinics of North America 26, Nr. 3 (August 2014): 421–26. https://doi.org/10.1016/j.coms.2014.05.010.</term:bibliographicCitation>
+        <term:bibliographicCitation>Trainotti, Susanne, Thomas K. Hoffmann, Nicole Rotter, Jens Greve, Johannes A. Veit, Patrick Schuler, und Marc Scheithauer. „Pectoralis Major Muscle Free Flap: Anatomical Studies on Pedicle Length and Vessel Diameter“. Ear, Nose &amp; Throat Journal 98, Nr. 7 (1. August 2019): 431–34. https://doi.org/10.1177/0145561319840821.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Pectoralis major flap</rdfs:label>
     </owl:Class>
     
@@ -11269,8 +11261,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24911"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Chen, H. C., M. H. Cheng, A. G. Schneeberger, T. J. Cheng, F. C. Wei, und Y. B. Tang. „Posterior Interosseous Flap and Its Variations for Coverage of Hand Wounds“. The Journal of Trauma 45, Nr. 3 (September 1998): 570–74. https://doi.org/10.1097/00005373-199809000-00027.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Dogra, BB, Manmohan Singh, B Chakravarty, und S Basu. „Posterior Interosseous Artery Flap for Hand Defects“. Medical Journal, Armed Forces India 62, Nr. 1 (Januar 2006): 33–35. https://doi.org/10.1016/S0377-1237(06)80150-4.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Chen, H. C., M. H. Cheng, A. G. Schneeberger, T. J. Cheng, F. C. Wei, und Y. B. Tang. „Posterior Interosseous Flap and Its Variations for Coverage of Hand Wounds“. The Journal of Trauma 45, Nr. 3 (September 1998): 570–74. https://doi.org/10.1097/00005373-199809000-00027.</term:bibliographicCitation>
+        <term:bibliographicCitation>Dogra, BB, Manmohan Singh, B Chakravarty, und S Basu. „Posterior Interosseous Artery Flap for Hand Defects“. Medical Journal, Armed Forces India 62, Nr. 1 (Januar 2006): 33–35. https://doi.org/10.1016/S0377-1237(06)80150-4.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Posterior interosseous artery flap</rdfs:label>
     </owl:Class>
     
@@ -11340,9 +11332,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24910"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Farlow, Janice L., Hilary C. McCrary, Molly Meeker, John Alexander, Catherine T. Haring, Matthew O. Old, Stephen Y. Kang, Sarah L. Rohde, und Nolan B. Seim. „The osteocutaneous radial forearm free flap: A multidisciplinary review of the evidence“. Oral Oncology 157 (1. Oktober 2024): 106925. https://doi.org/10.1016/j.oraloncology.2024.106925.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Moscoso, Juan F., und Mark L. Urken. „Radial Forearm Flaps“. Otolaryngologic Clinics of North America 27, Nr. 6 (1. Dezember 1994): 1119–40. https://doi.org/10.1016/S0030-6665(20)30589-2.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Timmons, M. J. „The Vascular Basis of the Radial Forearm Flap“. Plastic and Reconstructive Surgery 77, Nr. 1 (Januar 1986): 80.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Farlow, Janice L., Hilary C. McCrary, Molly Meeker, John Alexander, Catherine T. Haring, Matthew O. Old, Stephen Y. Kang, Sarah L. Rohde, und Nolan B. Seim. „The osteocutaneous radial forearm free flap: A multidisciplinary review of the evidence“. Oral Oncology 157 (1. Oktober 2024): 106925. https://doi.org/10.1016/j.oraloncology.2024.106925.</term:bibliographicCitation>
+        <term:bibliographicCitation>Moscoso, Juan F., und Mark L. Urken. „Radial Forearm Flaps“. Otolaryngologic Clinics of North America 27, Nr. 6 (1. Dezember 1994): 1119–40. https://doi.org/10.1016/S0030-6665(20)30589-2.</term:bibliographicCitation>
+        <term:bibliographicCitation>Timmons, M. J. „The Vascular Basis of the Radial Forearm Flap“. Plastic and Reconstructive Surgery 77, Nr. 1 (Januar 1986): 80.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Radial forearm flap</rdfs:label>
     </owl:Class>
     
@@ -11436,8 +11428,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9577"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Campbell, Chris A., und Charles E. Butler. „Use of Adjuvant Techniques Improves Surgical Outcomes of Complex Vertical Rectus Abdominis Myocutaneous Flap Reconstructions of Pelvic Cancer Defects“. Plastic and Reconstructive Surgery 128, Nr. 2 (August 2011): 447–58. https://doi.org/10.1097/PRS.0b013e31821e6fd2.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Yamamoto, Yuhei, Kunihiko Nohira, Yoshihisa Shintomi, Tsuneki Sugihara, und Takehiko Ohura. „“Turbo Charging” the Vertical Rectus Abdominis Myocutaneous (Turbo-VRAM) Flap for Reconstruction of Extensive Chest Wall Defects“. British Journal of Plastic Surgery 47, Nr. 2 (1994): 103–7. https://doi.org/10.1016/0007-1226(94)90167-8.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Campbell, Chris A., und Charles E. Butler. „Use of Adjuvant Techniques Improves Surgical Outcomes of Complex Vertical Rectus Abdominis Myocutaneous Flap Reconstructions of Pelvic Cancer Defects“. Plastic and Reconstructive Surgery 128, Nr. 2 (August 2011): 447–58. https://doi.org/10.1097/PRS.0b013e31821e6fd2.</term:bibliographicCitation>
+        <term:bibliographicCitation>Yamamoto, Yuhei, Kunihiko Nohira, Yoshihisa Shintomi, Tsuneki Sugihara, und Takehiko Ohura. „“Turbo Charging” the Vertical Rectus Abdominis Myocutaneous (Turbo-VRAM) Flap for Reconstruction of Extensive Chest Wall Defects“. British Journal of Plastic Surgery 47, Nr. 2 (1994): 103–7. https://doi.org/10.1016/0007-1226(94)90167-8.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Rectus abdominis flap</rdfs:label>
     </owl:Class>
     
@@ -11525,9 +11517,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Coleman, John J. III, und Mark R. Sultan. „The Bipedicled Osteocutaneous Scapula Flap: A New Subscapular System Free Flap“. Plastic and Reconstructive Surgery 87, Nr. 4 (April 1991): 682.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Gilbert, A., und L. Teot. „The Free Scapular Flap“. Plastic and Reconstructive Surgery 69, Nr. 4 (April 1982): 601.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Swartz, William M., Joseph C. Banis, E. Douglas Newton, Sai S. Ramasastry, Neil F. Jones, und Robert Acland. „The Osteocutaneous Scapular Flap for Mandibular and Maxillary Reconstruction“. Plastic and Reconstructive Surgery 77, Nr. 4 (April 1986): 530.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Coleman, John J. III, und Mark R. Sultan. „The Bipedicled Osteocutaneous Scapula Flap: A New Subscapular System Free Flap“. Plastic and Reconstructive Surgery 87, Nr. 4 (April 1991): 682.</term:bibliographicCitation>
+        <term:bibliographicCitation>Gilbert, A., und L. Teot. „The Free Scapular Flap“. Plastic and Reconstructive Surgery 69, Nr. 4 (April 1982): 601.</term:bibliographicCitation>
+        <term:bibliographicCitation>Swartz, William M., Joseph C. Banis, E. Douglas Newton, Sai S. Ramasastry, Neil F. Jones, und Robert Acland. „The Osteocutaneous Scapular Flap for Mandibular and Maxillary Reconstruction“. Plastic and Reconstructive Surgery 77, Nr. 4 (April 1986): 530.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Scapular flap</rdfs:label>
     </owl:Class>
     
@@ -11549,9 +11541,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10008"/>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10102"/>
-        <dcterms:bibliographicCitation>Fathi, Mahdi, Ebrahim Hatamipour, Hamid Reza Fathi, und Ali Abbasi. „The Anatomy of Superficial Inferior Epigastric Artery Flap“. Acta Cirúrgica Brasileira 23 (Oktober 2008): 429–34. https://doi.org/10.1590/S0102-86502008000500007.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Hamdi, Moustapha, Barbara Craggs, Anne-Marie Stoel, Benoit Hendrickx, und Assaf Zeltzer. „Superior Epigastric Artery Perforator Flap: Anatomy, Clinical Applications, and Review of Literature“. Journal of Reconstructive Microsurgery 30, Nr. 7 (September 2014): 475–82. https://doi.org/10.1055/s-0034-1376399.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Holm, Charlotte, Martina Mayr, Eugen Höfter, und Milomir Ninkovic. „The versatility of the SIEA flap: a clinical assessment of the vascular territory of the superficial epigastric inferior artery“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 60, Nr. 8 (1. August 2007): 946–51. https://doi.org/10.1016/j.bjps.2005.12.066.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Fathi, Mahdi, Ebrahim Hatamipour, Hamid Reza Fathi, und Ali Abbasi. „The Anatomy of Superficial Inferior Epigastric Artery Flap“. Acta Cirúrgica Brasileira 23 (Oktober 2008): 429–34. https://doi.org/10.1590/S0102-86502008000500007.</term:bibliographicCitation>
+        <term:bibliographicCitation>Hamdi, Moustapha, Barbara Craggs, Anne-Marie Stoel, Benoit Hendrickx, und Assaf Zeltzer. „Superior Epigastric Artery Perforator Flap: Anatomy, Clinical Applications, and Review of Literature“. Journal of Reconstructive Microsurgery 30, Nr. 7 (September 2014): 475–82. https://doi.org/10.1055/s-0034-1376399.</term:bibliographicCitation>
+        <term:bibliographicCitation>Holm, Charlotte, Martina Mayr, Eugen Höfter, und Milomir Ninkovic. „The versatility of the SIEA flap: a clinical assessment of the vascular territory of the superficial epigastric inferior artery“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 60, Nr. 8 (1. August 2007): 946–51. https://doi.org/10.1016/j.bjps.2005.12.066.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Superficial inferior epigastric artery flap</rdfs:label>
     </owl:Class>
     
@@ -11595,8 +11587,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_7155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Herr, Marc W., Kevin S. Emerick, und Daniel G. Deschler. „The Supraclavicular Artery Flap for Head and Neck Reconstruction“. JAMA Facial Plastic Surgery, 20. März 2014. https://doi.org/10.1001/jamafacial.2013.2170.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Sands, Thomas T., Jenna B. Martin, Eric Simms, Megan M. Henderson, Paul L. Friedlander, und Ernest S. Chiu. „Supraclavicular artery island flap innervation: Anatomical studies and clinical implications“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 65, Nr. 1 (1. Januar 2012): 68–71. https://doi.org/10.1016/j.bjps.2011.08.026.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Herr, Marc W., Kevin S. Emerick, und Daniel G. Deschler. „The Supraclavicular Artery Flap for Head and Neck Reconstruction“. JAMA Facial Plastic Surgery, 20. März 2014. https://doi.org/10.1001/jamafacial.2013.2170.</term:bibliographicCitation>
+        <term:bibliographicCitation>Sands, Thomas T., Jenna B. Martin, Eric Simms, Megan M. Henderson, Paul L. Friedlander, und Ernest S. Chiu. „Supraclavicular artery island flap innervation: Anatomical studies and clinical implications“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 65, Nr. 1 (1. Januar 2012): 68–71. https://doi.org/10.1016/j.bjps.2011.08.026.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Supraclavicular artery flap</rdfs:label>
     </owl:Class>
     
@@ -11665,8 +11657,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_63867"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Fagan, J. J. “Temporalis Muscle Flap.” Open Access Atlas of Otolaryngology, Head &amp; Neck Operative Surgery, o. J.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Shanmugam, Subbiah, Gopu Govindasamy, Syed Afroze Hussain, und Satishkumar Maheswaran. „Temporalis Muscle Flap in Head and Neck Reconstructions Is That Forgotten or Forbidden? Our Case Series and Review of Literature“. Indian Journal of Surgical Oncology 8, Nr. 3 (September 2017): 321–25. https://doi.org/10.1007/s13193-017-0656-z.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Fagan, J. J. “Temporalis Muscle Flap.” Open Access Atlas of Otolaryngology, Head &amp; Neck Operative Surgery, o. J.</term:bibliographicCitation>
+        <term:bibliographicCitation>Shanmugam, Subbiah, Gopu Govindasamy, Syed Afroze Hussain, und Satishkumar Maheswaran. „Temporalis Muscle Flap in Head and Neck Reconstructions Is That Forgotten or Forbidden? Our Case Series and Review of Literature“. Indian Journal of Surgical Oncology 8, Nr. 3 (September 2017): 321–25. https://doi.org/10.1007/s13193-017-0656-z.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Temporalis flap</rdfs:label>
     </owl:Class>
     
@@ -11694,7 +11686,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_63867"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Jawad BA, Raggio BS. Temporoparietal Fascia Flaps. [Updated 2023 Feb 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK555905/</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Jawad BA, Raggio BS. Temporoparietal Fascia Flaps. [Updated 2023 Feb 14]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2025 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK555905/</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Temporoparietal fascia flap</rdfs:label>
     </owl:Class>
     
@@ -11722,9 +11714,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24964"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Akhtar, Md. Sohaib, Mohd Fahud Khurram, und Arshad Hafeez Khan. „Versatility of Pedicled Tensor Fascia Lata Flap: A Useful and Reliable Technique for Reconstruction of Different Anatomical Districts“. Plastic Surgery International 2014, Nr. 1 (2014): 846082. https://doi.org/10.1155/2014/846082.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Brenner, Peter, und Constanze Krebs. „Brachial Plexus Innervated, Functional Tensor Fasciae Latae Muscle Transfer for Controlling a Utah Arm after Dislocation of the Shoulder Caused by an Electrical Burn“. Journal of Trauma and Acute Care Surgery 50, Nr. 3 (März 2001): 562.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Nahai, Foad, Hill, Louis &amp; Hester, Roderick. (1979). Experiences with the Tensor Fascia Lata Flap. Plastic &amp; Reconstructive Surgery, 63(6), 788-799. Retrieved from http://ovidsp.ovid.com/ovidweb.cgi?T=JS&amp;PAGE=reference&amp;D=ovfta&amp;NEWS=N&amp;AN=00006534-197906000-00004.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Akhtar, Md. Sohaib, Mohd Fahud Khurram, und Arshad Hafeez Khan. „Versatility of Pedicled Tensor Fascia Lata Flap: A Useful and Reliable Technique for Reconstruction of Different Anatomical Districts“. Plastic Surgery International 2014, Nr. 1 (2014): 846082. https://doi.org/10.1155/2014/846082.</term:bibliographicCitation>
+        <term:bibliographicCitation>Brenner, Peter, und Constanze Krebs. „Brachial Plexus Innervated, Functional Tensor Fasciae Latae Muscle Transfer for Controlling a Utah Arm after Dislocation of the Shoulder Caused by an Electrical Burn“. Journal of Trauma and Acute Care Surgery 50, Nr. 3 (März 2001): 562.</term:bibliographicCitation>
+        <term:bibliographicCitation>Nahai, Foad, Hill, Louis &amp; Hester, Roderick. (1979). Experiences with the Tensor Fascia Lata Flap. Plastic &amp; Reconstructive Surgery, 63(6), 788-799. Retrieved from http://ovidsp.ovid.com/ovidweb.cgi?T=JS&amp;PAGE=reference&amp;D=ovfta&amp;NEWS=N&amp;AN=00006534-197906000-00004.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Tensor fasciae latae flap</rdfs:label>
     </owl:Class>
     
@@ -11780,7 +11772,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10067">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10068"/>
-        <dc:description>Flaps with rotational movement respective to the flap origin into the defect across intact skin.</dc:description>
+        <x_1.1:description>Flaps with rotational movement respective to the flap origin into the defect across intact skin.</x_1.1:description>
         <rdfs:label xml:lang="en">Transposition flaps</rdfs:label>
     </owl:Class>
     
@@ -11808,7 +11800,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10070">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10068"/>
-        <dc:description>Flaps with longitudinal movement respective to the flap origin into the defect.</dc:description>
+        <x_1.1:description>Flaps with longitudinal movement respective to the flap origin into the defect.</x_1.1:description>
         <rdfs:label xml:lang="en">Advancement flaps</rdfs:label>
     </owl:Class>
     
@@ -11818,9 +11810,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10071">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10072"/>
-        <dcterms:bibliographicCitation>Atasoy, Erdoğan. „The Reverse Cross Finger Flap“. The Journal of Hand Surgery 41, Nr. 1 (1. Januar 2016): 122–28. https://doi.org/10.1016/j.jhsa.2015.10.008.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Chakraborty, Sourabh Shankar, Prakash Chandra Kala, Ranjit Kumar Sahu, Pawan Kumar Dixit, Deepti Katrolia, und Suresh Kotu. „Fingertip Amputation Reconstruction with VY Advancement Flap: Literature Review and Comparative Analysis of Atasoy and Kutler Flaps“. World Journal of Plastic Surgery 10, Nr. 3 (September 2021): 8–17. https://doi.org/10.29252/wjps.10.3.8.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Viciana, Enrique J., und Anne-Sophie Lessard. „Expanded Utilization of the Digital Atasoy Flap“. Plastic and Reconstructive Surgery – Global Open 6, Nr. 12 (Dezember 2018): e2049. https://doi.org/10.1097/GOX.0000000000002049.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Atasoy, Erdoğan. „The Reverse Cross Finger Flap“. The Journal of Hand Surgery 41, Nr. 1 (1. Januar 2016): 122–28. https://doi.org/10.1016/j.jhsa.2015.10.008.</term:bibliographicCitation>
+        <term:bibliographicCitation>Chakraborty, Sourabh Shankar, Prakash Chandra Kala, Ranjit Kumar Sahu, Pawan Kumar Dixit, Deepti Katrolia, und Suresh Kotu. „Fingertip Amputation Reconstruction with VY Advancement Flap: Literature Review and Comparative Analysis of Atasoy and Kutler Flaps“. World Journal of Plastic Surgery 10, Nr. 3 (September 2021): 8–17. https://doi.org/10.29252/wjps.10.3.8.</term:bibliographicCitation>
+        <term:bibliographicCitation>Viciana, Enrique J., und Anne-Sophie Lessard. „Expanded Utilization of the Digital Atasoy Flap“. Plastic and Reconstructive Surgery – Global Open 6, Nr. 12 (Dezember 2018): e2049. https://doi.org/10.1097/GOX.0000000000002049.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Atasoy flap</rdfs:label>
     </owl:Class>
     
@@ -11880,8 +11872,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10005"/>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10074"/>
-        <dcterms:bibliographicCitation>Arpaci, E., R. E. Unlu, S. Altun, und N. M. Ertas. „Super Kutler Flap: An Alternative Technique for Reconstruction of Fingertip Defects“. Journal of Hand Surgery (European Volume) 42, Nr. 6 (1. Juli 2017): 626–32. https://doi.org/10.1177/1753193416686884.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Chakraborty, Sourabh Shankar, Prakash Chandra Kala, Ranjit Kumar Sahu, Pawan Kumar Dixit, Deepti Katrolia, und Suresh Kotu. „Fingertip Amputation Reconstruction with VY Advancement Flap: Literature Review and Comparative Analysis of Atasoy and Kutler Flaps“. World Journal of Plastic Surgery 10, Nr. 3 (September 2021): 8–17. https://doi.org/10.29252/wjps.10.3.8.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Arpaci, E., R. E. Unlu, S. Altun, und N. M. Ertas. „Super Kutler Flap: An Alternative Technique for Reconstruction of Fingertip Defects“. Journal of Hand Surgery (European Volume) 42, Nr. 6 (1. Juli 2017): 626–32. https://doi.org/10.1177/1753193416686884.</term:bibliographicCitation>
+        <term:bibliographicCitation>Chakraborty, Sourabh Shankar, Prakash Chandra Kala, Ranjit Kumar Sahu, Pawan Kumar Dixit, Deepti Katrolia, und Suresh Kotu. „Fingertip Amputation Reconstruction with VY Advancement Flap: Literature Review and Comparative Analysis of Atasoy and Kutler Flaps“. World Journal of Plastic Surgery 10, Nr. 3 (September 2021): 8–17. https://doi.org/10.29252/wjps.10.3.8.</term:bibliographicCitation>
         <oboI:hasNarrowSynonym>Kutler flap</oboI:hasNarrowSynonym>
         <rdfs:label xml:lang="en">Bilateral vy fingertip flap</rdfs:label>
     </owl:Class>
@@ -12241,8 +12233,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Alexander, Leon. „Dorsal Metacarpal Artery Flap: An Underrated Workhorse Flap for Reconstruction of Dorsal Finger Defects“. Cureus 12, Nr. 10 (29. Oktober 2020): e11251. https://doi.org/10.7759/cureus.11251.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Wagner, Till, Oliver Kloeters, und Dietmar Ulrich. „The Double-Pedicled Dorsal-Metacarpal-Artery (dpDMCA) Flap of the Hand: A Novel DMCA-Derived Flap“. European Journal of Plastic Surgery 41, Nr. 2 (1. April 2018): 245–48. https://doi.org/10.1007/s00238-017-1357-0.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Alexander, Leon. „Dorsal Metacarpal Artery Flap: An Underrated Workhorse Flap for Reconstruction of Dorsal Finger Defects“. Cureus 12, Nr. 10 (29. Oktober 2020): e11251. https://doi.org/10.7759/cureus.11251.</term:bibliographicCitation>
+        <term:bibliographicCitation>Wagner, Till, Oliver Kloeters, und Dietmar Ulrich. „The Double-Pedicled Dorsal-Metacarpal-Artery (dpDMCA) Flap of the Hand: A Novel DMCA-Derived Flap“. European Journal of Plastic Surgery 41, Nr. 2 (1. April 2018): 245–48. https://doi.org/10.1007/s00238-017-1357-0.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Dorsal metacarpal artery flap</rdfs:label>
     </owl:Class>
     
@@ -12460,8 +12452,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10095"/>
-        <dcterms:bibliographicCitation>Taylor GI, Gianoutsos MP, Morris SF. The neurovascular territories of the skin and muscles: anatomic study and clinical implications. Plast Reconstr Surg. 1994 Jul;94(1):1-36. doi: 10.1097/00006534-199407000-00001. PMID: 8016221.</dcterms:bibliographicCitation>
-        <dcterms:source>doi: 10.1097/00006534-199407000-00001</dcterms:source>
+        <term:bibliographicCitation>Taylor GI, Gianoutsos MP, Morris SF. The neurovascular territories of the skin and muscles: anatomic study and clinical implications. Plast Reconstr Surg. 1994 Jul;94(1):1-36. doi: 10.1097/00006534-199407000-00001. PMID: 8016221.</term:bibliographicCitation>
+        <term:source>doi: 10.1097/00006534-199407000-00001</term:source>
         <rdfs:label xml:lang="en">Flaps classified by motor innervation</rdfs:label>
     </owl:Class>
     
@@ -13209,7 +13201,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10135">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10106"/>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10136"/>
-        <dcterms:bibliographicCitation>Mathes SJ, Nahai F. Classification of the vascular anatomy of muscles: experimental and clinical correlation. Plast Reconstr Surg. 1981 Feb;67(2):177-87. PMID: 7465666.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Mathes SJ, Nahai F. Classification of the vascular anatomy of muscles: experimental and clinical correlation. Plast Reconstr Surg. 1981 Feb;67(2):177-87. PMID: 7465666.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Muscle flaps classified by mathes and nahai</rdfs:label>
         <medl:pmid rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7465666.0</medl:pmid>
     </owl:Class>
@@ -13306,7 +13298,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10143">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10072"/>
-        <dcterms:bibliographicCitation>Elliot, D., N. S. Moiemen, und V. S. Jigjinni. „The Neurovascular Tranquilli-Leali Flap“. Journal of Hand Surgery 20, Nr. 6 (Dezember 1995): 815–23. https://doi.org/10.1016/S0266-7681(95)80055-7.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Elliot, D., N. S. Moiemen, und V. S. Jigjinni. „The Neurovascular Tranquilli-Leali Flap“. Journal of Hand Surgery 20, Nr. 6 (Dezember 1995): 815–23. https://doi.org/10.1016/S0266-7681(95)80055-7.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Tranquilli-leali flap</rdfs:label>
     </owl:Class>
     
@@ -13353,7 +13345,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_10461"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Carrasco-López, Cristian, Juan Francisco Julian Ibañez, Jordi Vilà, Alfonso Rodriguez-Baeza, Anna Carrera-Burgaya, Francisco Reina-de-la-Torre, Victor Damaso-Margelí-Cervera, Jaime Fernandez-Llamazares-Rodriguez, und Carmen Higueras-Suñe. „The Anterior Intercostal Artery Flap: Anatomical and Radiologic Study“. Plastic and Reconstructive Surgery 139, Nr. 3 (März 2017): 613e. https://doi.org/10.1097/PRS.0000000000003058.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Carrasco-López, Cristian, Juan Francisco Julian Ibañez, Jordi Vilà, Alfonso Rodriguez-Baeza, Anna Carrera-Burgaya, Francisco Reina-de-la-Torre, Victor Damaso-Margelí-Cervera, Jaime Fernandez-Llamazares-Rodriguez, und Carmen Higueras-Suñe. „The Anterior Intercostal Artery Flap: Anatomical and Radiologic Study“. Plastic and Reconstructive Surgery 139, Nr. 3 (März 2017): 613e. https://doi.org/10.1097/PRS.0000000000003058.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Anterior intercostal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -13378,7 +13370,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <dcterms:bibliographicCitation>Hamdi, Moustapha, Koenraad Van Landuyt, Bob de Frene, Nathalie Roche, Phillip Blondeel, und Stan Monstrey. „The versatility of the inter-costal artery perforator (ICAP) flaps“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 59, Nr. 6 (1. Juni 2006): 644–52. https://doi.org/10.1016/j.bjps.2006.01.006.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Hamdi, Moustapha, Koenraad Van Landuyt, Bob de Frene, Nathalie Roche, Phillip Blondeel, und Stan Monstrey. „The versatility of the inter-costal artery perforator (ICAP) flaps“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 59, Nr. 6 (1. Juni 2006): 644–52. https://doi.org/10.1016/j.bjps.2006.01.006.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Intercostal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -13406,9 +13398,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_61707"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Banda, Chihena H., Mitsunaga Narushima, Kohei Mitsui, Kanako Danno, Minami Fujita, Megumi Furuya, Ryo Karakawa, Shinya Ogishima, und Ryohei Ishiura. „Posterior Auricular Artery Free Flap Reconstruction of the Retroauricular Sulcus in Microtia Repair“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery: JPRAS 74, Nr. 9 (September 2021): 2349–57. https://doi.org/10.1016/j.bjps.2020.12.047.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Kolhe, P S, und A G Leonard. „The Posterior Auricular Flap: Anatomical Studies“, o. J.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Krespi, Y. P., W. R. Ries, J. M. Shugar, und G. A. Sisson. „Auricular Reconstruction with Postauricular Myocutaneous Flap“. Otolaryngology--Head and Neck Surgery: Official Journal of American Academy of Otolaryngology-Head and Neck Surgery 91, Nr. 2 (April 1983): 193–96. https://doi.org/10.1177/019459988309100215.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Banda, Chihena H., Mitsunaga Narushima, Kohei Mitsui, Kanako Danno, Minami Fujita, Megumi Furuya, Ryo Karakawa, Shinya Ogishima, und Ryohei Ishiura. „Posterior Auricular Artery Free Flap Reconstruction of the Retroauricular Sulcus in Microtia Repair“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery: JPRAS 74, Nr. 9 (September 2021): 2349–57. https://doi.org/10.1016/j.bjps.2020.12.047.</term:bibliographicCitation>
+        <term:bibliographicCitation>Kolhe, P S, und A G Leonard. „The Posterior Auricular Flap: Anatomical Studies“, o. J.</term:bibliographicCitation>
+        <term:bibliographicCitation>Krespi, Y. P., W. R. Ries, J. M. Shugar, und G. A. Sisson. „Auricular Reconstruction with Postauricular Myocutaneous Flap“. Otolaryngology--Head and Neck Surgery: Official Journal of American Academy of Otolaryngology-Head and Neck Surgery 91, Nr. 2 (April 1983): 193–96. https://doi.org/10.1177/019459988309100215.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Auricularis posterior flap</rdfs:label>
     </owl:Class>
     
@@ -13454,8 +13446,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>McCraw, J. B., D. G. Dibbell, und J. H. Carraway. „Clinical Definition of Independent Myocutaneous Vascular Territories“. Plastic and Reconstructive Surgery 60, Nr. 3 (September 1977): 341–52.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Yang, Hee Jun, Dong Hun Lee, Yang Woo Kim, Sang Gu Lee, und Young Woo Cheon. „The Trapezius Muscle Flap: A Viable Alternative for Posterior Scalp and Neck Reconstruction“. Archives of Plastic Surgery 43, Nr. 6 (18. November 2016): 529. https://doi.org/10.5999/aps.2016.43.6.529.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>McCraw, J. B., D. G. Dibbell, und J. H. Carraway. „Clinical Definition of Independent Myocutaneous Vascular Territories“. Plastic and Reconstructive Surgery 60, Nr. 3 (September 1977): 341–52.</term:bibliographicCitation>
+        <term:bibliographicCitation>Yang, Hee Jun, Dong Hun Lee, Yang Woo Kim, Sang Gu Lee, und Young Woo Cheon. „The Trapezius Muscle Flap: A Viable Alternative for Posterior Scalp and Neck Reconstruction“. Archives of Plastic Surgery 43, Nr. 6 (18. November 2016): 529. https://doi.org/10.5999/aps.2016.43.6.529.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Trapezius flap</rdfs:label>
     </owl:Class>
     
@@ -13483,8 +13475,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_23217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Chan, R. C. L., und J. Y. W. Chan. „Deltopectoral Flap in the Era of Microsurgery“. Surgery Research and Practice 2014, Nr. 1 (2014): 420892. https://doi.org/10.1155/2014/420892.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Daniel, Rollin K., David M. Cunningham, und G. Ian Taylor. „THE DELTOPECTORAL FLAP: AN ANATOMICAL AND HEMODYNAMIC APPROACH“. Plastic and Reconstructive Surgery 55, Nr. 3 (März 1975): 275.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Chan, R. C. L., und J. Y. W. Chan. „Deltopectoral Flap in the Era of Microsurgery“. Surgery Research and Practice 2014, Nr. 1 (2014): 420892. https://doi.org/10.1155/2014/420892.</term:bibliographicCitation>
+        <term:bibliographicCitation>Daniel, Rollin K., David M. Cunningham, und G. Ian Taylor. „THE DELTOPECTORAL FLAP: AN ANATOMICAL AND HEMODYNAMIC APPROACH“. Plastic and Reconstructive Surgery 55, Nr. 3 (März 1975): 275.</term:bibliographicCitation>
         <om-2:alternativeLabel>Bakamjian flap</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">Deltopectoral flap</rdfs:label>
     </owl:Class>
@@ -13510,7 +13502,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <dcterms:bibliographicCitation>Minabe, Toshiharu, und Kiyonori Harii. „Dorsal Intercostal Artery Perforator Flap: Anatomical Study and Clinical Applications“. Plastic and Reconstructive Surgery 120, Nr. 3 (1. September 2007): 681. https://doi.org/10.1097/01.prs.0000270309.33069.e5.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Minabe, Toshiharu, und Kiyonori Harii. „Dorsal Intercostal Artery Perforator Flap: Anatomical Study and Clinical Applications“. Plastic and Reconstructive Surgery 120, Nr. 3 (1. September 2007): 681. https://doi.org/10.1097/01.prs.0000270309.33069.e5.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Dorsal intercostal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -13575,7 +13567,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_46757"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Montgomery, J., A. T. M. Mace, C. Cotter, und S. Sheikh. „Frontalis Muscle Flap: A Novel Method for Donor Site Closure of an Interpolated Paramedian Forehead Flap“. The Journal of Laryngology and Otology 124, Nr. 4 (April 2010): 453–55. https://doi.org/10.1017/S0022215109991897.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Montgomery, J., A. T. M. Mace, C. Cotter, und S. Sheikh. „Frontalis Muscle Flap: A Novel Method for Donor Site Closure of an Interpolated Paramedian Forehead Flap“. The Journal of Laryngology and Otology 124, Nr. 4 (April 2010): 453–55. https://doi.org/10.1017/S0022215109991897.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Frontalis muscle flap</rdfs:label>
     </owl:Class>
     
@@ -13630,8 +13622,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Crosio, Alessandro, Mauro Magnani, Simona Odella, Matilde Cacianti, Francesco Maria Locatelli, und Pierluigi Tos. „The Use of the Great Toe Pulp Free Flap in Dystrophic Fingertips“. Journal of Personalized Medicine 15, Nr. 2 (Februar 2025): 44. https://doi.org/10.3390/jpm15020044.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Zheng, Huaiyuan, Juan Liu, Xinyi Dai, Hans-Günther Machens, und Arndt F. Schilling. „Free Lateral Great Toe Flap for the Reconstruction of Finger Pulp Defects“. Journal of Reconstructive Microsurgery 31, Nr. 4 (Mai 2015): 277–82. https://doi.org/10.1055/s-0034-1396754.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Crosio, Alessandro, Mauro Magnani, Simona Odella, Matilde Cacianti, Francesco Maria Locatelli, und Pierluigi Tos. „The Use of the Great Toe Pulp Free Flap in Dystrophic Fingertips“. Journal of Personalized Medicine 15, Nr. 2 (Februar 2025): 44. https://doi.org/10.3390/jpm15020044.</term:bibliographicCitation>
+        <term:bibliographicCitation>Zheng, Huaiyuan, Juan Liu, Xinyi Dai, Hans-Günther Machens, und Arndt F. Schilling. „Free Lateral Great Toe Flap for the Reconstruction of Finger Pulp Defects“. Journal of Reconstructive Microsurgery 31, Nr. 4 (Mai 2015): 277–82. https://doi.org/10.1055/s-0034-1396754.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Great toe pulp flap</rdfs:label>
     </owl:Class>
     
@@ -13658,8 +13650,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Buncke, Gregory M., Harry J. Buncke, und Charles K. Lee. „Great Toe-to-Thumb Microvascular Transplantation After Traumatic Amputation“. Hand Clinics, Microsurgical Reconstruction of the Upper Extremity: State of the Art, 23, Nr. 1 (1. Februar 2007): 105–15. https://doi.org/10.1016/j.hcl.2007.01.007.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Henry, Steven L., und Fu-Chan Wei. „Thumb Reconstruction with Toe Transfer“. Journal of Hand and Microsurgery 2, Nr. 2 (Dezember 2010): 72–78. https://doi.org/10.1007/s12593-010-0017-4.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Buncke, Gregory M., Harry J. Buncke, und Charles K. Lee. „Great Toe-to-Thumb Microvascular Transplantation After Traumatic Amputation“. Hand Clinics, Microsurgical Reconstruction of the Upper Extremity: State of the Art, 23, Nr. 1 (1. Februar 2007): 105–15. https://doi.org/10.1016/j.hcl.2007.01.007.</term:bibliographicCitation>
+        <term:bibliographicCitation>Henry, Steven L., und Fu-Chan Wei. „Thumb Reconstruction with Toe Transfer“. Journal of Hand and Microsurgery 2, Nr. 2 (Dezember 2010): 72–78. https://doi.org/10.1007/s12593-010-0017-4.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Great toe transfer</rdfs:label>
     </owl:Class>
     
@@ -13701,8 +13693,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_34828"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Hamdi, Moustapha, Andrea Spano, Koenraad Van Landuyt, Katharina D’Herde, Phillip Blondeel, und Stan Monstrey. „The Lateral Intercostal Artery Perforators: Anatomical Study and Clinical Application in Breast Surgery“. Plastic and Reconstructive Surgery 121, Nr. 2 (Februar 2008): 389. https://doi.org/10.1097/01.prs.0000298317.65296.cf.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Meybodi, Farid, Annelise M. Cocco, David Messer, Alexander Brown, Kavitha Kanesalingam, Elisabeth Elder, Jeremy Hsu, und James French. „The Modified Lateral Intercostal Artery Perforator Flap“. Plastic and Reconstructive Surgery – Global Open 7, Nr. 2 (Februar 2019): e2066. https://doi.org/10.1097/GOX.0000000000002066.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Hamdi, Moustapha, Andrea Spano, Koenraad Van Landuyt, Katharina D’Herde, Phillip Blondeel, und Stan Monstrey. „The Lateral Intercostal Artery Perforators: Anatomical Study and Clinical Application in Breast Surgery“. Plastic and Reconstructive Surgery 121, Nr. 2 (Februar 2008): 389. https://doi.org/10.1097/01.prs.0000298317.65296.cf.</term:bibliographicCitation>
+        <term:bibliographicCitation>Meybodi, Farid, Annelise M. Cocco, David Messer, Alexander Brown, Kavitha Kanesalingam, Elisabeth Elder, Jeremy Hsu, und James French. „The Modified Lateral Intercostal Artery Perforator Flap“. Plastic and Reconstructive Surgery – Global Open 7, Nr. 2 (Februar 2019): e2066. https://doi.org/10.1097/GOX.0000000000002066.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Lateral intercostal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -13724,7 +13716,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_43925"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Jyoshid, R. B., Harsha Vardhan, und Francis Anto. „Free Medial Plantar Artery Flap for the Reconstruction of Great Toe Pulp“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 67, Nr. 6 (1. Juni 2014): 863–65. https://doi.org/10.1016/j.bjps.2013.12.038.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Jyoshid, R. B., Harsha Vardhan, und Francis Anto. „Free Medial Plantar Artery Flap for the Reconstruction of Great Toe Pulp“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 67, Nr. 6 (1. Juni 2014): 863–65. https://doi.org/10.1016/j.bjps.2013.12.038.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Medial plantar flap</rdfs:label>
     </owl:Class>
     
@@ -13769,8 +13761,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Henry, Steven L., und Fu-Chan Wei. „Thumb Reconstruction with Toe Transfer“. Journal of Hand and Microsurgery 2, Nr. 2 (Dezember 2010): 72–78. https://doi.org/10.1007/s12593-010-0017-4.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Vergara-Amador E. Second toe-to-hand transplantation: A surgical option for hand amputations. Colomb Med (Cali). 2015 Jun 30;46(2):71-4. PMID: 26309342; PMCID: PMC4536818.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Henry, Steven L., und Fu-Chan Wei. „Thumb Reconstruction with Toe Transfer“. Journal of Hand and Microsurgery 2, Nr. 2 (Dezember 2010): 72–78. https://doi.org/10.1007/s12593-010-0017-4.</term:bibliographicCitation>
+        <term:bibliographicCitation>Vergara-Amador E. Second toe-to-hand transplantation: A surgical option for hand amputations. Colomb Med (Cali). 2015 Jun 30;46(2):71-4. PMID: 26309342; PMCID: PMC4536818.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Second toe transfer</rdfs:label>
     </owl:Class>
     
@@ -13810,8 +13802,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Hamdi, Moustapha, Andrea Spano, Koenraad Van Landuyt, Katharina D’Herde, Phillip Blondeel, und Stan Monstrey. „The Lateral Intercostal Artery Perforators: Anatomical Study and Clinical Application in Breast Surgery“. Plastic and Reconstructive Surgery 121, Nr. 2 (Februar 2008): 389. https://doi.org/10.1097/01.prs.0000298317.65296.cf.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Park, Seong Oh, Hak Chang, und Nobuaki Imanishi. „The Free Serratus Anterior Artery Perforator Flap—A Case Report and Anatomic Study“. Microsurgery 36, Nr. 4 (2016): 339–44. https://doi.org/10.1002/micr.30038.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Hamdi, Moustapha, Andrea Spano, Koenraad Van Landuyt, Katharina D’Herde, Phillip Blondeel, und Stan Monstrey. „The Lateral Intercostal Artery Perforators: Anatomical Study and Clinical Application in Breast Surgery“. Plastic and Reconstructive Surgery 121, Nr. 2 (Februar 2008): 389. https://doi.org/10.1097/01.prs.0000298317.65296.cf.</term:bibliographicCitation>
+        <term:bibliographicCitation>Park, Seong Oh, Hak Chang, und Nobuaki Imanishi. „The Free Serratus Anterior Artery Perforator Flap—A Case Report and Anatomic Study“. Microsurgery 36, Nr. 4 (2016): 339–44. https://doi.org/10.1002/micr.30038.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Serratus anterior perforator flap</rdfs:label>
     </owl:Class>
     
@@ -13853,8 +13845,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Jain, Leena, Samir M. Kumta, Shrirang K. Purohit, und Rashmi Raut. „Thoracodorsal Artery Perforator Flap: Indeed a Versatile Flap“. Indian Journal of Plastic Surgery : Official Publication of the Association of Plastic Surgeons of India 48, Nr. 2 (August 2015): 153. https://doi.org/10.4103/0970-0358.163051.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Thomsen, Jørn Bo, Mikkel Børsen-Rindom, Alberto Rancati, und Claudio Angrigiani. „The Propeller Thoracodorsal Artery Perforator Flap—Designs for Breast Reconstruction and Perspectives“. Annals of Breast Surgery 6, Nr. 0 (30. September 2022). https://doi.org/10.21037/abs-21-14.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Jain, Leena, Samir M. Kumta, Shrirang K. Purohit, und Rashmi Raut. „Thoracodorsal Artery Perforator Flap: Indeed a Versatile Flap“. Indian Journal of Plastic Surgery : Official Publication of the Association of Plastic Surgeons of India 48, Nr. 2 (August 2015): 153. https://doi.org/10.4103/0970-0358.163051.</term:bibliographicCitation>
+        <term:bibliographicCitation>Thomsen, Jørn Bo, Mikkel Børsen-Rindom, Alberto Rancati, und Claudio Angrigiani. „The Propeller Thoracodorsal Artery Perforator Flap—Designs for Breast Reconstruction and Perspectives“. Annals of Breast Surgery 6, Nr. 0 (30. September 2022). https://doi.org/10.21037/abs-21-14.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Thoracodorsal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -13883,9 +13875,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Lee, K. S., I. J. Chae, und S. B. Hahn. „Thumb Reconstruction with a Free Neurovascular Wrap-around Flap from the Big Toe: Long-Term Follow-up of Thirty Cases“. Microsurgery 16, Nr. 10 (1995): 692–97. https://doi.org/10.1002/micr.1920161007.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Morrison, W. A., B. M. O’Brien, und A. M. MacLeod. „Thumb Reconstruction with a Free Neurovascular Wrap-around Flap from the Big Toe“. The Journal of Hand Surgery 5, Nr. 6 (November 1980): 575–83. https://doi.org/10.1016/s0363-5023(80)80110-9.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Shen, Xiao Fang, Jing Yi Mi, Ming Yu Xue, Gang Zhao, Li Qiang, Xiao Zhou, Yong Jun Rui, und Harvey Chim. „Modified Great Toe Wraparound Flap with Preservation of Plantar Triangular Flap for Reconstruction of Degloving Injuries of the Thumb and Fingers: Long-Term Follow-Up“. Plastic and Reconstructive Surgery 138, Nr. 1 (Juli 2016): 155–63. https://doi.org/10.1097/PRS.0000000000002301.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Lee, K. S., I. J. Chae, und S. B. Hahn. „Thumb Reconstruction with a Free Neurovascular Wrap-around Flap from the Big Toe: Long-Term Follow-up of Thirty Cases“. Microsurgery 16, Nr. 10 (1995): 692–97. https://doi.org/10.1002/micr.1920161007.</term:bibliographicCitation>
+        <term:bibliographicCitation>Morrison, W. A., B. M. O’Brien, und A. M. MacLeod. „Thumb Reconstruction with a Free Neurovascular Wrap-around Flap from the Big Toe“. The Journal of Hand Surgery 5, Nr. 6 (November 1980): 575–83. https://doi.org/10.1016/s0363-5023(80)80110-9.</term:bibliographicCitation>
+        <term:bibliographicCitation>Shen, Xiao Fang, Jing Yi Mi, Ming Yu Xue, Gang Zhao, Li Qiang, Xiao Zhou, Yong Jun Rui, und Harvey Chim. „Modified Great Toe Wraparound Flap with Preservation of Plantar Triangular Flap for Reconstruction of Degloving Injuries of the Thumb and Fingers: Long-Term Follow-Up“. Plastic and Reconstructive Surgery 138, Nr. 1 (Juli 2016): 155–63. https://doi.org/10.1097/PRS.0000000000002301.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Wrap around flap</rdfs:label>
     </owl:Class>
     
@@ -13935,7 +13927,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_10641"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the anterior intercostal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -13981,7 +13972,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the auricularis posterior flap</rdfs:label>
     </owl:Class>
     
@@ -14029,7 +14019,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the deep inferior epigastric perforator flap</rdfs:label>
     </owl:Class>
     
@@ -14208,7 +14197,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_4176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the dorsal intercostal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -14255,7 +14243,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the free groin flap</rdfs:label>
     </owl:Class>
     
@@ -14301,7 +14288,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the free iliac crest flap</rdfs:label>
     </owl:Class>
     
@@ -14341,7 +14327,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10105"/>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10194"/>
-        <dcterms:bibliographicCitation>Hurwitz, Dennis J., William M. Swartz, Stephen J. Mathes, und Dennis J. Hurwitz. „The Gluteal Thigh Flap: A Reliable, Sensate Flap for the Closure of Buttock and Perineal Wounds“. Plastic and Reconstructive Surgery 68, Nr. 4 (Oktober 1981): 521.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Hurwitz, Dennis J., William M. Swartz, Stephen J. Mathes, und Dennis J. Hurwitz. „The Gluteal Thigh Flap: A Reliable, Sensate Flap for the Closure of Buttock and Perineal Wounds“. Plastic and Reconstructive Surgery 68, Nr. 4 (Oktober 1981): 521.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Gluteal thigh flap</rdfs:label>
     </owl:Class>
     
@@ -14369,8 +14355,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_9578"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Gould, Warren L., Nestor Montero, Juliana Cukic, Richard C. Hagerty, und T. Roderick Hester. „The “Split” Gluteus Maximus Musculocutaneous Flap“. Plastic and Reconstructive Surgery 93, Nr. 2 (Februar 1994): 330.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Ramirez, Oscar M., Joseph C. Orlando, und Dennis J. Hurwitz. „The Sliding Gluteus Maximus Myocutaneous Flap: Its Relevance in Ambulatory Patients“. Plastic and Reconstructive Surgery 74, Nr. 1 (Juli 1984): 68.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Gould, Warren L., Nestor Montero, Juliana Cukic, Richard C. Hagerty, und T. Roderick Hester. „The “Split” Gluteus Maximus Musculocutaneous Flap“. Plastic and Reconstructive Surgery 93, Nr. 2 (Februar 1994): 330.</term:bibliographicCitation>
+        <term:bibliographicCitation>Ramirez, Oscar M., Joseph C. Orlando, und Dennis J. Hurwitz. „The Sliding Gluteus Maximus Myocutaneous Flap: Its Relevance in Ambulatory Patients“. Plastic and Reconstructive Surgery 74, Nr. 1 (Juli 1984): 68.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Gluteus flap</rdfs:label>
     </owl:Class>
     
@@ -14452,7 +14438,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the frontalis muscle flap</rdfs:label>
     </owl:Class>
     
@@ -14506,7 +14491,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_16511"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the gluteal thigh flap</rdfs:label>
     </owl:Class>
     
@@ -14534,8 +14518,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Saint-Cyr, Michel, Phillip Dauwe, Corrine Wong, Hema Thakar, Purushottam Nagarkar, und Rod J. Rohrich. „Use of the Serratus Anterior Fascia Flap for Expander Coverage in Breast Reconstruction“. Plastic and Reconstructive Surgery 125, Nr. 4 (April 2010): 1057. https://doi.org/10.1097/PRS.0b013e3181d17f61.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Ulrich, Dietmar, Paul Fuchs, Ahmed Bozkurt, und Norbert Pallua. „Free Serratus Anterior Fascia Flap for Reconstruction of Hand and Finger Defects“. Archives of Orthopaedic and Trauma Surgery 130, Nr. 2 (1. Februar 2010): 217–22. https://doi.org/10.1007/s00402-009-0845-5.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Saint-Cyr, Michel, Phillip Dauwe, Corrine Wong, Hema Thakar, Purushottam Nagarkar, und Rod J. Rohrich. „Use of the Serratus Anterior Fascia Flap for Expander Coverage in Breast Reconstruction“. Plastic and Reconstructive Surgery 125, Nr. 4 (April 2010): 1057. https://doi.org/10.1097/PRS.0b013e3181d17f61.</term:bibliographicCitation>
+        <term:bibliographicCitation>Ulrich, Dietmar, Paul Fuchs, Ahmed Bozkurt, und Norbert Pallua. „Free Serratus Anterior Fascia Flap for Reconstruction of Hand and Finger Defects“. Archives of Orthopaedic and Trauma Surgery 130, Nr. 2 (1. Februar 2010): 217–22. https://doi.org/10.1007/s00402-009-0845-5.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Serratus anterior fascia flap</rdfs:label>
     </owl:Class>
     
@@ -14563,8 +14547,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24217"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Godat, David M., James R. Sanger, Scott D. Lifchez, René F. Recinos, Ji-Geng Yan, Monica R. Godat, Carlos E. Ramirez, und Hani S. Matloub. „Detailed Neurovascular Anatomy of the Serratus Anterior Muscle: Implications for a Functional Muscle Flap with Multiple Independent Force Vectors“. Plastic and Reconstructive Surgery 114, Nr. 1 (Juli 2004): 21. https://doi.org/10.1097/01.PRS.0000129072.11466.C3.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Tavassol, Frank, Martin Rücker, Enno-Ludwig Barth, Horst Kokemüller, Kai-Hendrik Bormann, Constantin von See, und Nils-Claudius Gellrich. „Serratus Anterior Free Flap in Oral Reconstruction“. Journal of Oral and Maxillofacial Surgery 67, Nr. 12 (1. Dezember 2009): 2577–82. https://doi.org/10.1016/j.joms.2009.07.045.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Godat, David M., James R. Sanger, Scott D. Lifchez, René F. Recinos, Ji-Geng Yan, Monica R. Godat, Carlos E. Ramirez, und Hani S. Matloub. „Detailed Neurovascular Anatomy of the Serratus Anterior Muscle: Implications for a Functional Muscle Flap with Multiple Independent Force Vectors“. Plastic and Reconstructive Surgery 114, Nr. 1 (Juli 2004): 21. https://doi.org/10.1097/01.PRS.0000129072.11466.C3.</term:bibliographicCitation>
+        <term:bibliographicCitation>Tavassol, Frank, Martin Rücker, Enno-Ludwig Barth, Horst Kokemüller, Kai-Hendrik Bormann, Constantin von See, und Nils-Claudius Gellrich. „Serratus Anterior Free Flap in Oral Reconstruction“. Journal of Oral and Maxillofacial Surgery 67, Nr. 12 (1. Dezember 2009): 2577–82. https://doi.org/10.1016/j.joms.2009.07.045.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Serratus anterior muscle flap</rdfs:label>
     </owl:Class>
     
@@ -14618,7 +14602,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_16511"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the gluteus flap</rdfs:label>
     </owl:Class>
     
@@ -14677,7 +14660,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_75468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the inferior gluteal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -14710,8 +14692,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Kim, Jeong Tae, Siew-Weng Ng, Shenthilkumar Naidu, Jong Do Kim, und Youn Hwan Kim. „Lateral thoracic perforator flap: Additional perforator flap option from the lateral thoracic region“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 64, Nr. 12 (1. Dezember 2011): 1596–1602. https://doi.org/10.1016/j.bjps.2011.06.048.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>McCulley, Stephen J., Mark V. Schaverien, Veronique K. M. Tan, und R. Douglas Macmillan. „Lateral thoracic artery perforator (LTAP) flap in partial breast reconstruction“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 68, Nr. 5 (1. Mai 2015): 686–91. https://doi.org/10.1016/j.bjps.2015.01.008.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Kim, Jeong Tae, Siew-Weng Ng, Shenthilkumar Naidu, Jong Do Kim, und Youn Hwan Kim. „Lateral thoracic perforator flap: Additional perforator flap option from the lateral thoracic region“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 64, Nr. 12 (1. Dezember 2011): 1596–1602. https://doi.org/10.1016/j.bjps.2011.06.048.</term:bibliographicCitation>
+        <term:bibliographicCitation>McCulley, Stephen J., Mark V. Schaverien, Veronique K. M. Tan, und R. Douglas Macmillan. „Lateral thoracic artery perforator (LTAP) flap in partial breast reconstruction“. Journal of Plastic, Reconstructive &amp; Aesthetic Surgery 68, Nr. 5 (1. Mai 2015): 686–91. https://doi.org/10.1016/j.bjps.2015.01.008.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Lateral thoracic perforator flap</rdfs:label>
     </owl:Class>
     
@@ -14744,8 +14726,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24984"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Fritz, Caroline, Matteo Meroni, Elmar Fritsche, Gunesh Rajan, und Mario F. Scaglioni. „Free Double-Paddle Posterior Tibial Artery Perforator Flap for Hypopharynx Reconstruction: A Case Report and Literature Review“. Microsurgery 41, Nr. 7 (2021): 660–65. https://doi.org/10.1002/micr.30790.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Yu, Dazhi, Qiang Hou, Antang Liu, Haiping Tang, Guangrong Fang, Xiaodong Zhai, Hua Jiang, und Xuecheng Cao. „Delineation the Anatomy of Posterior Tibial Artery Perforator Flaps Using Human Cadavers with a Modified Technique“. Surgical and Radiologic Anatomy 38, Nr. 9 (1. November 2016): 1075–81. https://doi.org/10.1007/s00276-016-1671-4.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Fritz, Caroline, Matteo Meroni, Elmar Fritsche, Gunesh Rajan, und Mario F. Scaglioni. „Free Double-Paddle Posterior Tibial Artery Perforator Flap for Hypopharynx Reconstruction: A Case Report and Literature Review“. Microsurgery 41, Nr. 7 (2021): 660–65. https://doi.org/10.1002/micr.30790.</term:bibliographicCitation>
+        <term:bibliographicCitation>Yu, Dazhi, Qiang Hou, Antang Liu, Haiping Tang, Guangrong Fang, Xiaodong Zhai, Hua Jiang, und Xuecheng Cao. „Delineation the Anatomy of Posterior Tibial Artery Perforator Flaps Using Human Cadavers with a Modified Technique“. Surgical and Radiologic Anatomy 38, Nr. 9 (1. November 2016): 1075–81. https://doi.org/10.1007/s00276-016-1671-4.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Posterior tibial artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -14773,9 +14755,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24984"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Gruber, Sabine, Wolfgang Michlits, und Christoph Papp. „The New Distal Soleus Adiposal Pull-through Composite Flap for Reconstruction of Defects Overlying the Achilles Tendon: The Anatomy and Clinical Experience“. Surgery 143, Nr. 3 (März 2008): 441–46. https://doi.org/10.1016/j.surg.2007.10.018.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Ong, Sean Weiren, Lee Ping Gan, und Dawn Sinn Yii Chia. „The double muscle gastrocnemius-soleus flap in resurfacing large lower limb defects: Modifications and outcomes“. Journal of Orthopaedics 17 (1. Januar 2020): 13–16. https://doi.org/10.1016/j.jor.2019.06.029.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Prathapamchandra, Vani, Latha V. Prabhu, Mangala M. Pai, B. V. Murlimanju, und Rajanigandha Vadgaonkar. „Arterial Supply to the Soleus Muscle: An Anatomical Study with Emphasis on Its Application in the Pedicle Flap Surgery“. Surgical and Radiologic Anatomy 37, Nr. 9 (1. November 2015): 1055–61. https://doi.org/10.1007/s00276-015-1485-9.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Gruber, Sabine, Wolfgang Michlits, und Christoph Papp. „The New Distal Soleus Adiposal Pull-through Composite Flap for Reconstruction of Defects Overlying the Achilles Tendon: The Anatomy and Clinical Experience“. Surgery 143, Nr. 3 (März 2008): 441–46. https://doi.org/10.1016/j.surg.2007.10.018.</term:bibliographicCitation>
+        <term:bibliographicCitation>Ong, Sean Weiren, Lee Ping Gan, und Dawn Sinn Yii Chia. „The double muscle gastrocnemius-soleus flap in resurfacing large lower limb defects: Modifications and outcomes“. Journal of Orthopaedics 17 (1. Januar 2020): 13–16. https://doi.org/10.1016/j.jor.2019.06.029.</term:bibliographicCitation>
+        <term:bibliographicCitation>Prathapamchandra, Vani, Latha V. Prabhu, Mangala M. Pai, B. V. Murlimanju, und Rajanigandha Vadgaonkar. „Arterial Supply to the Soleus Muscle: An Anatomical Study with Emphasis on Its Application in the Pedicle Flap Surgery“. Surgical and Radiologic Anatomy 37, Nr. 9 (1. November 2015): 1055–61. https://doi.org/10.1007/s00276-015-1485-9.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Soleus flap</rdfs:label>
     </owl:Class>
     
@@ -14807,7 +14789,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_15402"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the jejunum flap</rdfs:label>
     </owl:Class>
     
@@ -14844,7 +14825,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_10561"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the lateral intercostal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -14883,7 +14863,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the lateral thoracic perforator flap</rdfs:label>
     </owl:Class>
     
@@ -14937,7 +14916,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_65290"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the latissimus dorsi flap</rdfs:label>
     </owl:Class>
     
@@ -14977,7 +14955,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the nasolabial flap</rdfs:label>
     </owl:Class>
     
@@ -15023,7 +15000,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the omental flap</rdfs:label>
     </owl:Class>
     
@@ -15055,7 +15031,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_50898"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the paramedian forehead flap</rdfs:label>
     </owl:Class>
     
@@ -15760,9 +15735,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_74845"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dcterms:bibliographicCitation>Lakhiani, Chrisovalantis, Michael R. Lee, und Michel Saint-Cyr. „Vascular Anatomy of the Anterolateral Thigh Flap: A Systematic Review“. Plastic and Reconstructive Surgery 130, Nr. 6 (Dezember 2012): 1254. https://doi.org/10.1097/PRS.0b013e31826d1662.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Rozen, Warren M., Mark W. Ashton, Wei-Ren Pan, Birgitte J. Kiil, Vicki K. McClure, Damien Grinsell, Damien L. Stella, und Russell J. Corlett. „Anatomical Variations in the Harvest of Anterolateral Thigh Flap Perforators: A Cadaveric and Clinical Study“. Microsurgery 29, Nr. 1 (2009): 16–23. https://doi.org/10.1002/micr.20550.</dcterms:bibliographicCitation>
-        <dcterms:bibliographicCitation>Wong, Chin-Ho, und Fu-Chan Wei. „Anterolateral Thigh Flap“. Head &amp; Neck 32, Nr. 4 (2010): 529–40. https://doi.org/10.1002/hed.21204.</dcterms:bibliographicCitation>
+        <term:bibliographicCitation>Lakhiani, Chrisovalantis, Michael R. Lee, und Michel Saint-Cyr. „Vascular Anatomy of the Anterolateral Thigh Flap: A Systematic Review“. Plastic and Reconstructive Surgery 130, Nr. 6 (Dezember 2012): 1254. https://doi.org/10.1097/PRS.0b013e31826d1662.</term:bibliographicCitation>
+        <term:bibliographicCitation>Rozen, Warren M., Mark W. Ashton, Wei-Ren Pan, Birgitte J. Kiil, Vicki K. McClure, Damien Grinsell, Damien L. Stella, und Russell J. Corlett. „Anatomical Variations in the Harvest of Anterolateral Thigh Flap Perforators: A Cadaveric and Clinical Study“. Microsurgery 29, Nr. 1 (2009): 16–23. https://doi.org/10.1002/micr.20550.</term:bibliographicCitation>
+        <term:bibliographicCitation>Wong, Chin-Ho, und Fu-Chan Wei. „Anterolateral Thigh Flap“. Head &amp; Neck 32, Nr. 4 (2010): 529–40. https://doi.org/10.1002/hed.21204.</term:bibliographicCitation>
         <rdfs:label xml:lang="en">Anterolateral thigh flap</rdfs:label>
     </owl:Class>
     
@@ -16048,7 +16023,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the parascapular flap</rdfs:label>
     </owl:Class>
     
@@ -16191,7 +16165,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the pectoralis major flap</rdfs:label>
     </owl:Class>
     
@@ -16256,7 +16229,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the rectus abdominis flap</rdfs:label>
     </owl:Class>
     
@@ -16305,7 +16277,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the scapular flap</rdfs:label>
     </owl:Class>
     
@@ -16353,7 +16324,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the serratus anterior fascia flap</rdfs:label>
     </owl:Class>
     
@@ -16408,7 +16378,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_5860"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the serratus anterior muscle flap</rdfs:label>
     </owl:Class>
     
@@ -16455,7 +16424,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the serratus anterior perforator flap</rdfs:label>
     </owl:Class>
     
@@ -16487,7 +16455,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_44318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the superficial inferior epigastric artery flap</rdfs:label>
     </owl:Class>
     
@@ -16526,7 +16493,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_75468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the superior gluteal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -16558,7 +16524,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_71213"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the thoracodorsal artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -16611,7 +16576,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_5904"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the trapezius flap</rdfs:label>
     </owl:Class>
     
@@ -16644,7 +16608,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_44326"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the anterolateral thigh flap</rdfs:label>
     </owl:Class>
     
@@ -16664,7 +16627,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:comment>Is a object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the atasoy flap</rdfs:label>
     </owl:Class>
     
@@ -16715,7 +16677,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID11155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the dorsal metacarpal artery flap</rdfs:label>
     </owl:Class>
     
@@ -16761,7 +16722,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_44771"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the dorsalis pedis flap</rdfs:label>
     </owl:Class>
     
@@ -16798,7 +16758,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_43921"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the fibula flap</rdfs:label>
     </owl:Class>
     
@@ -16846,7 +16805,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the gastrocnemius flap</rdfs:label>
     </owl:Class>
     
@@ -16893,7 +16851,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_16487"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the gracilis flap</rdfs:label>
     </owl:Class>
     
@@ -16939,7 +16896,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the great toe pulp flap</rdfs:label>
     </owl:Class>
     
@@ -16985,7 +16941,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the great toe transfer flap</rdfs:label>
     </owl:Class>
     
@@ -17038,7 +16993,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_44948"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the lateral arm flap</rdfs:label>
     </owl:Class>
     
@@ -17091,7 +17045,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_45262"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the medial femoral condyle flap</rdfs:label>
     </owl:Class>
     
@@ -17130,7 +17083,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the medial plantar flap</rdfs:label>
     </owl:Class>
     
@@ -17169,7 +17121,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_55142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the omohyoid flap</rdfs:label>
     </owl:Class>
     
@@ -17208,7 +17159,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the posterior interosseous artery flap</rdfs:label>
     </owl:Class>
     
@@ -17248,7 +17198,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is a object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the posterior tibial artery perforator flap</rdfs:label>
     </owl:Class>
     
@@ -17294,7 +17243,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the radial forearm flap</rdfs:label>
     </owl:Class>
     
@@ -17326,7 +17274,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_44448"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the second toe transfer flap</rdfs:label>
     </owl:Class>
     
@@ -17374,7 +17321,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the soleus flap</rdfs:label>
     </owl:Class>
     
@@ -17421,7 +17367,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the supraclavicular artery flap</rdfs:label>
     </owl:Class>
     
@@ -17474,7 +17419,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the temporalis flap</rdfs:label>
     </owl:Class>
     
@@ -17522,7 +17466,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the temporoparietal fascia flap</rdfs:label>
     </owl:Class>
     
@@ -17569,7 +17512,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:onClass>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the tensor fascia lata flap</rdfs:label>
     </owl:Class>
     
@@ -17621,7 +17563,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Flap of toe</rdfs:comment>
-        <rdfs:comment>Is a object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the wrap around flap</rdfs:label>
     </owl:Class>
     
@@ -17667,7 +17608,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>Is an object aggregate of the Fiat object &apos;Flap pedical&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">Flap pedicle of the deltopectoral flap</rdfs:label>
     </owl:Class>
     
@@ -26401,274 +26341,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID010043"/>
         <rdfs:label xml:lang="en">Grafts destined for the buttock</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID106032 -->
-
-    <owl:Thing rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID106032">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdfs:label xml:lang="en">Nicos alt lappen</rdfs:label>
-    </owl:Thing>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13288 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13288">
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10002"/>
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10077"/>
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10105"/>
-        <obo:OBI_0000312 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13300"/>
-        <obo:RO_0000086 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13304"/>
-        <obo:RO_0002488 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13300"/>
-        <obo:RO_0002583 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13298"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13291"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13292"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13293"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13294"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13295"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13307"/>
-        <rdfs:label xml:lang="en">Alt flap of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13289 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13289">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_63949"/>
-        <rdfs:label xml:lang="en">Left anterolateral part of thigh of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13290 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13290">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_38931"/>
-        <rdfs:label xml:lang="en">Left vastus lateralis muscle of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13291 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13291">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_45211"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13288"/>
-        <rdfs:label xml:lang="en">Fascia of thigh of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13292 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13292">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_37792"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13288"/>
-        <rdfs:label xml:lang="en">Skin of left thigh of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13293 -->
-
-    <owl:Thing rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13293">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13288"/>
-        <rdfs:label xml:lang="en">Subcutaneous adipose tissue of anterolateral part of thigh of patient x</rdfs:label>
-    </owl:Thing>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13294 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13294">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_21423"/>
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106019"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13288"/>
-        <rdfs:label xml:lang="en">Descending branch of left lateral circumflex femoral artery of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13295 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13295">
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106008"/>
-        <obo:RO_0000085 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13306"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13294"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13307"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13288"/>
-        <rdfs:label xml:lang="en">Flap pedicle of the alt flap of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13298 -->
-
-    <owl:Thing rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13298">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13300"/>
-        <rdfs:label xml:lang="en">Flap harvest process of alt flap of patient x</rdfs:label>
-    </owl:Thing>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13299 -->
-
-    <owl:Thing rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13299">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13300"/>
-        <rdfs:label xml:lang="en">Flap transfer process of alt flap of patient x</rdfs:label>
-    </owl:Thing>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13300 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13300">
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000128"/>
-        <obo:RO_0000057 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13288"/>
-        <obo:RO_0000057 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13301"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13298"/>
-        <OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13299"/>
-        <rdfs:label xml:lang="en">Complete flap operation process of alt flap of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13301 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13301">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <rdfs:label xml:lang="en">Patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13302 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13302">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        <rdfs:label xml:lang="en">Flap surgery plan for alt flap</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13303 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13303">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
-        <obo:RO_0000059 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13302"/>
-        <rdfs:label xml:lang="en">Concretized flap surgery plan of alt flap of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13304 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13304">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0001679"/>
-        <rdfs:label xml:lang="en">Volume of alt flap of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13305 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13305">
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106000"/>
-        <rdfs:label xml:lang="en">Wound coverage role of alt flap of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13306 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13306">
-        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106029"/>
-        <rdfs:label xml:lang="en">Oxygenated blood supply to alt flap of patient x function</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://purl.bioontology.org/ontology/OFL/OFLID13307 -->
-
-    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID13307">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_44922"/>
-        <OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13288"/>
-        <rdfs:label xml:lang="en">Left lateral circumflex femoral vein of patient x</rdfs:label>
-    </owl:NamedIndividual>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
-    <rdf:Description>
-        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </rdf:Description>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
     </rdf:Description>
@@ -26788,6 +26460,63 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+    </rdf:Description>
+    <rdf:Description>
+        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
         <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
