@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+.venv/
+ontologies/ofl_abox.owl
+ontologies/ofl_abox_inferred.owl
