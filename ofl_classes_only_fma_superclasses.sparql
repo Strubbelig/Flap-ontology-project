@@ -1,0 +1,26 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?class ?classLabel
+       (GROUP_CONCAT(DISTINCT STR(?fmaSuperclass); separator="|") AS ?fmaSuperclasses)
+       (GROUP_CONCAT(DISTINCT STR(?fmaSuperclassLabel); separator="|") AS ?fmaSuperclassLabels)
+WHERE {
+  ?class a owl:Class ;
+         rdfs:subClassOf ?fmaSuperclass .
+
+  FILTER(STRSTARTS(STR(?class), "https://purl.bioontology.org/ontology/OFL/"))
+  FILTER(isIRI(?fmaSuperclass))
+  FILTER(STRSTARTS(STR(?fmaSuperclass), "http://purl.obolibrary.org/obo/FMA_"))
+
+  OPTIONAL { ?class rdfs:label ?classLabel . }
+  OPTIONAL { ?fmaSuperclass rdfs:label ?fmaSuperclassLabel . }
+
+  # Exclude classes that have any OFL named superclass
+  FILTER NOT EXISTS {
+    ?class rdfs:subClassOf ?oflSuperclass .
+    FILTER(isIRI(?oflSuperclass))
+    FILTER(STRSTARTS(STR(?oflSuperclass), "https://purl.bioontology.org/ontology/OFL/"))
+  }
+}
+GROUP BY ?class ?classLabel
+ORDER BY ?class

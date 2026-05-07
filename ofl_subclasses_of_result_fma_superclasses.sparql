@@ -1,0 +1,26 @@
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# "Root" OFL classes: OFL classes whose only named superclasses are FMA classes.
+# Transitive subclass expansion is handled in Python (BFS over direct triples)
+# because rdflib's rdfs:subClassOf+ is too slow for large ontologies.
+SELECT DISTINCT ?root ?rootLabel
+       (GROUP_CONCAT(DISTINCT STR(?fmaSuperclass); separator="|") AS ?fmaSuperclasses)
+WHERE {
+  ?root a owl:Class .
+  FILTER(STRSTARTS(STR(?root), "https://purl.bioontology.org/ontology/OFL/"))
+
+  ?root rdfs:subClassOf ?fmaSuperclass .
+  FILTER(isIRI(?fmaSuperclass))
+  FILTER(STRSTARTS(STR(?fmaSuperclass), "http://purl.obolibrary.org/obo/FMA_"))
+
+  FILTER NOT EXISTS {
+    ?root rdfs:subClassOf ?oflSuperclass .
+    FILTER(isIRI(?oflSuperclass))
+    FILTER(STRSTARTS(STR(?oflSuperclass), "https://purl.bioontology.org/ontology/OFL/"))
+  }
+
+  OPTIONAL { ?root rdfs:label ?rootLabel . }
+}
+GROUP BY ?root ?rootLabel
+ORDER BY ?root
