@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fma/releases/2020-04-13/fma.owl" uri="ontologies/fma_obo.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/bfo/" uri="ontologies/bfo-core.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/fma.owl" uri="ontologies/fma_obo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/obi.owl" uri="ontologies/obi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/ro.owl" uri="ontologies/ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="https://purl.bioontology.org/ontology/OFL/" uri="ofl_2.1.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="https://purl.bioontology.org/ontology/OFL/abox/" uri="ontologies/ofl_abox.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="shadowed:https://purl.bioontology.org/ontology/OFL/" uri="ontologies/ofl_2.1.0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778196883809" name="shadowed:https://purl.bioontology.org/ontology/OFL/" uri="ontologies/ontology_classes_reasoned.owl"/>
+    </group>
+</catalog>
