@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/strubbelig/ontologies/2026/4/untitled-ontology-46/"
+     xml:base="http://www.semanticweb.org/strubbelig/ontologies/2026/4/untitled-ontology-46/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:OFL="https://purl.bioontology.org/ontology/OFL/"
+     xmlns:fma="http://purl.org/sig/ont/fma/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:medlineelements="https://www.nlm.nih.gov/bsd/mms/medlineelements.html#"
+     xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
+    <owl:Ontology rdf:about="https://purl.bioontology.org/ontology/OFL/">
+        <owl:versionIRI rdf:resource="https://purl.bioontology.org/ontology/OFL/abox_add/"/>
+        <owl:imports rdf:resource="https://purl.bioontology.org/ontology/OFL/2.1.0_inferred"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120059 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120059">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+        <rdfs:label xml:lang="en">Cutaneous island flap of the right pectoral region of patient 9999</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120060 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120060">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+        <rdfs:label xml:lang="en">Cutaneous island flap of the left pectoral region of patient 9998</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120061 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120061">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+        <rdfs:label xml:lang="en">Cutaneous island flap of the left pectoral region of patient 9997</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120070 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120070">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+        <rdfs:label xml:lang="en">Cutaneous island flap of the right pectoral region of patient 9996</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120071 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120071">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10113"/>
+        <rdfs:label xml:lang="en">Latissimus flap with reversed flow of patient 9995</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120072 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120072">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000379"/>
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10123"/>
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10236"/>
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID130000"/>
+        <obo:RO_0000056 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120075"/>
+        <OFL:OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120077"/>
+        <OFL:OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120079"/>
+        <rdfs:label xml:lang="en">ALT flap with reversed flow of patient 9994</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120073 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120073">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10113"/>
+        <rdfs:label xml:lang="en">Groin flap with reversed flow of patient 9992</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120074 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120074">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_43897"/>
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120024"/>
+        <rdfs:label xml:lang="en">Left anterior tibial artery of patient 9994</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120075 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120075">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000128"/>
+        <OFL:OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120076"/>
+        <rdfs:label xml:lang="en">Complete flap operation process of alt flap of patient 9994</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120076 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120076">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106031"/>
+        <rdfs:label xml:lang="en">Surgical vessel anastomosis process of alt flap process of patient 9994</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120077 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120077">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/FMA_20798"/>
+        <OFL:OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120079"/>
+        <rdfs:label xml:lang="en">Left lateral circumflex femoral artery of patient 9994</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120078 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120078">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120015"/>
+        <obo:OBI_0000312 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120076"/>
+        <obo:RO_0002176 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120074"/>
+        <obo:RO_0002176 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120077"/>
+        <rdfs:label xml:lang="en">Vessel anastomosis of alt flap of patient 9994</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://purl.bioontology.org/ontology/OFL/OFLID120079 -->
+
+    <owl:NamedIndividual rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID120079">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10304"/>
+        <OFL:OFLID13296 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120077"/>
+        <OFL:OFLID13297 rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120072"/>
+        <rdfs:label xml:lang="en">Flap pedicle of the alt of patient 9994</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

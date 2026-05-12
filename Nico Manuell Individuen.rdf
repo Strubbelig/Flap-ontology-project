@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/"
+     xml:base="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:fma="http://purl.org/sig/ont/fma/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:medlineelements="https://www.nlm.nih.gov/bsd/mms/medlineelements.html#"
+     xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL">
+        <owl:imports rdf:resource="https://purl.bioontology.org/ontology/OFL/2.1.0_inferred"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130051 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130051">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID12002"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Island Flap of Patient 9999</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130052 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130052">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000017"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
+                        <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Island Flap of Patient 9998</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130053 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130053">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000176"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID12001"/>
+                        <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120067"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10031"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Latissimus dorsi Flap of Patient of 9999</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130054 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130054">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000177"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID12002"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120068"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10257"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">ALT FLap of Patient 9998</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130055 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130055">
+        <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000178"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID12002"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120069"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000340"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Deltopectoral Flap of Patient 9997</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130056 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130056">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID12002"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10051"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Forearm Island Flap of Patient 9996</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130057 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130057">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID12002"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106022"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10024"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106021"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Gracilis Flap of Patient 9996</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130058 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/OFLID130058">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002552"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10176"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID12006"/>
+                <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10044"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label xml:lang="en">Pectoralis Major Flap of Patient 9995</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

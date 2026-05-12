@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq13_insertion_site_preparation_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID130001"/>
+    <rdfs:label xml:lang="en">CQ13 flap classified by insertion site preparation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq14_without_preharvest_modification_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10130"/>
+    <rdfs:label xml:lang="en">CQ14 flap without preharvest modification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq08_non_random_pattern_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10077"/>
+    <rdfs:label xml:lang="en">CQ08 non-random pattern flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq07_pedicled_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10053"/>
+    <rdfs:label xml:lang="en">CQ07 pedicled flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq11_advancement_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10070"/>
+    <rdfs:label xml:lang="en">CQ11 advancement flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq08_branch_recognized_perforator_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10075"/>
+    <rdfs:label xml:lang="en">CQ08 branch-based flap with recognized perforator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq17_without_tissue_loss_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10184"/>
+    <rdfs:label xml:lang="en">CQ17 flap without tissue loss</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq06_distant_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10085"/>
+    <rdfs:label xml:lang="en">CQ06 distant flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq06_local_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10134"/>
+    <rdfs:label xml:lang="en">CQ06 local flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq02_volume_measurement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    <rdfs:label xml:lang="en">CQ02 volume measurement datum</rdfs:label>
+    <obo:OBI_0001938 rdf:resource="https://example.org/ofl/cq-abox/cq02_volume_quality"/>
+    <obo:IAO_0000004 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42.0</obo:IAO_0000004>
+    <obo:IAO_0000039 rdf:resource="http://purl.obolibrary.org/obo/UO_0000095"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq01_tissue_composition_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10102"/>
+    <rdfs:label xml:lang="en">CQ01 minimal flap classified by tissue composition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq02_volume_quality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PATO_0001679"/>
+    <rdfs:label xml:lang="en">CQ02 volume quality</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq16_coupled_anastomosis_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10235"/>
+    <rdfs:label xml:lang="en">CQ16 flap with coupled vessel anastomosis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq14_with_preharvest_modification_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10131"/>
+    <rdfs:label xml:lang="en">CQ14 flap with preharvest modification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq11_rotation_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10014"/>
+    <rdfs:label xml:lang="en">CQ11 rotation flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq11_transposition_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10067"/>
+    <rdfs:label xml:lang="en">CQ11 transposition flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq08_random_pattern_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10004"/>
+    <rdfs:label xml:lang="en">CQ08 random pattern flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq04_mathes_nahai_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10135"/>
+    <rdfs:label xml:lang="en">CQ04 minimal Mathes and Nahai muscle flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq17_total_loss_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10183"/>
+    <rdfs:label xml:lang="en">CQ17 flap with total loss</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq08_perforator_based_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10078"/>
+    <rdfs:label xml:lang="en">CQ08 perforator based flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq09_chimeric_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000092"/>
+    <rdfs:label xml:lang="en">CQ09 chimeric flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq10_anterograde_flow_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10113"/>
+    <rdfs:label xml:lang="en">CQ10 flap with anterograde blood flow</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq10_retrograde_flow_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10123"/>
+    <rdfs:label xml:lang="en">CQ10 flap with retrograde blood flow</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq02_sized_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10002"/>
+    <rdfs:label xml:lang="en">CQ02 flap with volume measurement</rdfs:label>
+    <obo:RO_0000086 rdf:resource="https://example.org/ofl/cq-abox/cq02_volume_quality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq15_skin_graft_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID120066"/>
+    <rdfs:label xml:lang="en">CQ15 flap with skin graft</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq06_regional_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10140"/>
+    <rdfs:label xml:lang="en">CQ06 regional flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq17_loss_at_apex_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10179"/>
+    <rdfs:label xml:lang="en">CQ17 flap with loss at the apex</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq07_free_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10054"/>
+    <rdfs:label xml:lang="en">CQ07 free flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq05_branch_recognized_perforator_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10075"/>
+    <rdfs:label xml:lang="en">CQ05 branch-based flap with recognized perforator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq08_branch_based_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10076"/>
+    <rdfs:label xml:lang="en">CQ08 branch-based flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq05_branch_based_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10076"/>
+    <rdfs:label xml:lang="en">CQ05 branch-based flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq12_cutaneous_island_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10115"/>
+    <rdfs:label xml:lang="en">CQ12 cutaneous island flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq17_arterial_obstruction_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10180"/>
+    <rdfs:label xml:lang="en">CQ17 flap with arterial obstruction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq05_perforator_based_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10078"/>
+    <rdfs:label xml:lang="en">CQ05 perforator based flap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq17_venous_obstruction_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10181"/>
+    <rdfs:label xml:lang="en">CQ17 flap with venous obstruction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq03_recipient_vessel_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID130000"/>
+    <rdfs:label xml:lang="en">CQ03 minimal flap classified by recipient vessel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/ofl/cq-abox/cq16_sutured_anastomosis_flap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10233"/>
+    <rdfs:label xml:lang="en">CQ16 flap with sutured vessel anastomosis</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>

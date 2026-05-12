@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../Wound ontology"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.editorAssociations": {
+			"*.csv": "gc-excelviewer-csv-editor"
+		}
+	}
+}

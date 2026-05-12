@@ -2,13 +2,16 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/fma/releases/2020-04-13/fma.owl" uri="ontologies/fma_obo.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/bfo/" uri="ontologies/bfo-core.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/fma.owl" uri="ontologies/fma_obo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/obi.owl" uri="ontologies/obi.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="http://purl.obolibrary.org/obo/ro.owl" uri="ontologies/ro.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="https://purl.bioontology.org/ontology/OFL/" uri="ofl_2.1.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="https://purl.bioontology.org/ontology/OFL/abox/" uri="ontologies/ofl_abox.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="shadowed:https://purl.bioontology.org/ontology/OFL/" uri="ontologies/ofl_2.1.0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1778196883809" name="shadowed:https://purl.bioontology.org/ontology/OFL/" uri="ontologies/ontology_classes_reasoned.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://purl.obolibrary.org/obo/bfo/" uri="ontologies/bfo-core.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://purl.obolibrary.org/obo/cob.owl" uri="ontologies/cob.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://purl.obolibrary.org/obo/fma.owl" uri="ontologies/fma_obo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://purl.obolibrary.org/obo/go.owl" uri="ontologies/go.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://purl.obolibrary.org/obo/obi.owl" uri="ontologies/obi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://purl.obolibrary.org/obo/ro.owl" uri="ontologies/ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://www.semanticweb.org/nicofranke/ontologies/2026/4/Manual_A_Box_extensionOFL/" uri="Nico%20Manuell%20Individuen.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="http://www.semanticweb.org/nicofranke/ontologies/2026/4/untitled-ontology-100/" uri="ontologies/Abox%20patient%20manuell%20extension.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="duplicate:https://purl.bioontology.org/ontology/OFL/" uri="ontologies/ofl_2.1.0_for_inference.owl.old.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="duplicate:https://purl.bioontology.org/ontology/OFL/" uri="ontologies/ofl_2.1.0_inferred.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1778585547645" name="duplicate:https://purl.bioontology.org/ontology/OFL/" uri="ontologies/ofl_2.1.0_abox_inferred.owl"/>
     </group>
 </catalog>
