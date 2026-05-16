@@ -3,4 +3,5 @@ __pycache__/
 .DS_Store
 .venv/
 ontologies/ofl_abox_inferred.owl
+ontologies/ofl_2.1.0_abox_inferred.owl
 ontologies/go.owl
