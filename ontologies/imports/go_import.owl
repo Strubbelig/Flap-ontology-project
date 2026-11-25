@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://purl.bioontology.org/ontology/OFL/imports/go_import.owl">
+        <owl:versionIRI rdf:resource="https://purl.bioontology.org/ontology/OFL/2.2.1/imports/go_import.owl"/>
+        <dcterms:source rdf:resource="http://purl.obolibrary.org/obo/go/releases/2026-03-25/go.owl"/>
+        <dcterms:title>GO import module for OFL</dcterms:title>
+        <rdfs:comment>Module of the Gene Ontology (http://purl.obolibrary.org/obo/go/releases/2026-03-25/go.owl) for OFL 2.2.1: the 1 GO class(es) referenced by OFL and all their named superclasses (5 classes), with labels, definitions and subClassOf axioms between them (MIREOT-style, lower terms = OFL signature).</rdfs:comment>
+    </owl:Ontology>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"><rdfs:label>definition</rdfs:label></owl:AnnotationProperty>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003008">
+        <rdfs:label>system process</rdfs:label>
+        <obo:IAO_0000115>A multicellular organismal process carried out by any of the organs or tissues in an organ system. An organ system is a regularly interacting or interdependent group of organs or tissues that work together to carry out a biological objective.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003013">
+        <rdfs:label>circulatory system process</rdfs:label>
+        <obo:IAO_0000115>An organ system process carried out by any of the organs or tissues of the circulatory system. The circulatory system is an organ system that moves extracellular fluids to and from tissue within a multicellular organism.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003008"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008015">
+        <rdfs:label>blood circulation</rdfs:label>
+        <obo:IAO_0000115>The flow of blood through the body of an animal, enabling the transport of nutrients to the tissues and the removal of waste products.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003013"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <rdfs:label>biological_process</rdfs:label>
+        <obo:IAO_0000115>A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032501">
+        <rdfs:label>multicellular organismal process</rdfs:label>
+        <obo:IAO_0000115>Any biological process, occurring at the level of a multicellular organism, pertinent to its function.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </owl:Class>
+</rdf:RDF>

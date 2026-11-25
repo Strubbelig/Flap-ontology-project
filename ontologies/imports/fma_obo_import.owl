@@ -1,0 +1,3150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://purl.bioontology.org/ontology/OFL/imports/fma_obo_import.owl">
+        <owl:versionIRI rdf:resource="https://purl.bioontology.org/ontology/OFL/2.2.1/imports/fma_obo_import.owl"/>
+        <dcterms:source rdf:resource="http://purl.obolibrary.org/obo/fma/releases/2020-04-13/fma.owl"/>
+        <dcterms:title>FMA OBO import module for OFL</dcterms:title>
+        <rdfs:comment>Module of the OBO version of the FMA (fma_obo.owl, ontology IRI http://purl.obolibrary.org/obo/fma.owl, release 2020-04-13; not the original FMA, http://purl.org/sig/ont/fma.owl) for OFL 2.2.1: the 442 FMA classes referenced by OFL and all their named superclasses (766 classes), with labels, definitions and subClassOf axioms between them (MIREOT-style, lower terms = OFL signature, no upper bound).</rdfs:comment>
+    </owl:Ontology>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"><rdfs:label>definition</rdfs:label></owl:AnnotationProperty>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_3711">
+        <rdfs:label>Segment of artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86187"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_3726">
+        <rdfs:label>Anastomosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_11337"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_3960">
+        <rdfs:label>Internal thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_3994">
+        <rdfs:label>Second posterior intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_4176"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_4176">
+        <rdfs:label>Posterior intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_4729">
+        <rdfs:label>Internal thoracic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_4731">
+        <rdfs:label>Superior epigastric vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14293"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_4745">
+        <rdfs:label>Second posterior intercostal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_4858"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_4767">
+        <rdfs:label>Venous plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86188"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_4858">
+        <rdfs:label>Posterior intercostal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66644"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5018">
+        <rdfs:label>Bone organ</rdfs:label>
+        <obo:IAO_0000115>Organ with cavitated organ parts, which primarily consists of compact (cortical) and cancellous bone, which surround bone marrow cavities; together with other bones, cartilages and joints, it constitutes the skeletal system.  Examples: femur, sternum, maxilla, vertebra, talus.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55673"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5022">
+        <rdfs:label>Muscle organ</rdfs:label>
+        <obo:IAO_0000115>Nonparenchymatous organ that primarily consists of skeletal muscle tissue aggregated into macroscopic fasciculi by connective tissue; together with other muscles, it constitutes the muscular system. Examples: biceps, diaphragm, masseter, right third external intercostal muscle, external oblique, levator ani, serratus anterior.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55665"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5023">
+        <rdfs:label>Fascia organ</rdfs:label>
+        <obo:IAO_0000115>Nonparenchymatous organ that consists of organ parts composed of various types of connective tissue; it surrounds and interconnects various organs and body parts, and establishes the anatomical integrity of body parts and organ systems. Examples: superficial fascia, investing fascia, fat pad.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55665"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5034">
+        <rdfs:label>Lymph node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14065"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5858">
+        <rdfs:label>Spinal nerve</rdfs:label>
+        <obo:IAO_0000115>Neural tree (organ) which is directly continuous with the spinal cord. Examples: Fifth cervical spinal nerve, third lumbar spinal nerve.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61284"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5860">
+        <rdfs:label>Thoracic nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5858"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5865">
+        <rdfs:label>Cranial nerve</rdfs:label>
+        <obo:IAO_0000115>Neural tree organ which is continuous with the brain. Examples: Trochlear nerve, facial nerve.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61284"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5898">
+        <rdfs:label>Anatomical junction</rdfs:label>
+        <obo:IAO_0000115>Anatomical structure in which parts of two or more anatomical structures establish physical continuity with one another or intermingle their component parts. Examples: gastroesophageal junction, line alba, knee joint.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5901">
+        <rdfs:label>Nerve plexus</rdfs:label>
+        <obo:IAO_0000115>Anatomical junction where subdivisions of two or more neural trees interconnect with one another to form a network through which nerve fibers of the constituent nerve trees become regrouped; together with other nerve plexuses, nerves and ganglia, it constitutes the peripheral nervous system. Examples: cervical nerve plexus,  brachial nerve plexus, sacral nerve plexus.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5898"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5902">
+        <rdfs:label>Arterial plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86187"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5903">
+        <rdfs:label>Somatic nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5901"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5904">
+        <rdfs:label>Cervical nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5903"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5910">
+        <rdfs:label>Autonomic nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5901"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5913">
+        <rdfs:label>Nerve trunk</rdfs:label>
+        <obo:IAO_0000115>Segment of neural tree organ which consists of nerve fiber bundles aggregated to form a cable-like structure that branches off to different nerves; together with all nerves of the same tree constitutes a neural tree. Example: trunk of cranial nerve, trunk of spinal nerve, trunk of peripheral nerve.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_11195"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5982">
+        <rdfs:label>Anterior ramus of spinal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7052"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5985">
+        <rdfs:label>Branch of anterior ramus of spinal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10982"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_6028">
+        <rdfs:label>Intercostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5982"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_6188">
+        <rdfs:label>Trunk of branch of cervical nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14383"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_6871">
+        <rdfs:label>Lesser occipital nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12198"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_6872">
+        <rdfs:label>Great auricular nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65239"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7052">
+        <rdfs:label>Branch of spinal nerve trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10982"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7144">
+        <rdfs:label>Mesentery</rdfs:label>
+        <obo:IAO_0000115>Anatomical organ component composed of a double layer of serous membrane that suspends a viscus from the body wall or connects adjacent viscera and in doing so conveys blood vessels, lymphatics and nerves to and from the viscera.  Examples: greater omentum, broad ligament of uterus, sigmoid mesocolon.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14065"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7153">
+        <rdfs:label>Cardinal body part</rdfs:label>
+        <obo:IAO_0000115>Anatomical structure, which has as its direct parts instances of anatomical sets of organs and cardinal organ parts spatially associated with either the skull, vertebral column, or the skeleton of a limb; in their aggregate are surrounded by a part of the skin Examples: Head, body proper, right upper limb.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7154">
+        <rdfs:label>Head</rdfs:label>
+        <obo:IAO_0000115>Cardinal body part, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with the skull, it is partially surrounded by skin of head. Examples: There is only one head.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7153"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7155">
+        <rdfs:label>Neck</rdfs:label>
+        <obo:IAO_0000115>Subdivision of body proper, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with the cervical vertebral coumn, it is partially surrounded by skin of neck. Examples: There is only one neck.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_231430"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7163">
+        <rdfs:label>Skin</rdfs:label>
+        <obo:IAO_0000115>Nonparenchymatous organ that consists of the epidermis, dermis and sets of hair and nails and which surrounds the entire body. Subdivisions of the skin surround various body parts; as a whole, the skin constitutes the external layer of the body.  Examples: There is only one skin.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55665"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7181">
+        <rdfs:label>Trunk</rdfs:label>
+        <obo:IAO_0000115>Subdivision of body proper, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with the ribcage, thoracic and lumbar vertebral column, sacrum and coccyx, it is partially surrounded by skin of trunk. Examples: There is only one trunk.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_231430"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7182">
+        <rdfs:label>Limb</rdfs:label>
+        <obo:IAO_0000115>Cardinal body part, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with a complete set of bones of the appendicular skeleton, it is partially surrounded by skin of limb. Examples: There are only four instances, right upper and lower limbs and left upper and lower limbs.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7153"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7183">
+        <rdfs:label>Upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7182"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7207">
+        <rdfs:label>Jejunum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14092"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7474">
+        <rdfs:label>Long bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5018"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7476">
+        <rdfs:label>Flat bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5018"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7485">
+        <rdfs:label>Sternum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7476"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7538">
+        <rdfs:label>Cartilage organ component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14065"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7574">
+        <rdfs:label>Rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7591">
+        <rdfs:label>Costal cartilage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7538"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7592">
+        <rdfs:label>True rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7574"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7593">
+        <rdfs:label>Typical rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7592"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7594">
+        <rdfs:label>False rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7574"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7646">
+        <rdfs:label>Retinaculum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_82500"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7830">
+        <rdfs:label>Seventh rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7593"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8120">
+        <rdfs:label>Eighth rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7594"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8337">
+        <rdfs:label>Ninth rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7594"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8418">
+        <rdfs:label>Tenth rib</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7594"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8607">
+        <rdfs:label>Seventh intercostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_6028"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8608">
+        <rdfs:label>Eighth intercostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_6028"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8609">
+        <rdfs:label>Ninth intercostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_6028"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8610">
+        <rdfs:label>Tenth intercostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_6028"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8611">
+        <rdfs:label>Eleventh intercostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_6028"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8913">
+        <rdfs:label>Cutaneous branch of subcostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_11197"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_8915">
+        <rdfs:label>Lateral cutaneous branch of subcostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_8913"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9576">
+        <rdfs:label>Thorax</rdfs:label>
+        <obo:IAO_0000115>Subdivision of trunk proper, which is demarcated from the neck by the plane of the superior thoracic aperture and from the abdomen internally by the inferior surface of the diaphragm and externally by the costal margin and associated with the thoracic vertebral column and ribcage and from the back of the thorax by the external surface of the posterolateral part of the rib cage, the anterior surface of the thoracic vertebral column and the posterior axillary lines; together with the abdomen and the perineum, it constitutes the trunk proper. Examples: There is only one thorax.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_259102"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9577">
+        <rdfs:label>Abdomen</rdfs:label>
+        <obo:IAO_0000115>Subdivision of trunk proper, which is demarcated from the thorax internally by the inferior surface of the sternocostal part of the diaphragm and externally by the costal margin, from the back of abdomen by the external surface of the posterior abdominal wall,  from the perineum by the superior surface of the urogenital diaphragm and from the lower limbs by the inguinal folds; together with the thorax, and perineum, it constitutes the trunk proper. Examples: There is only one abdomen.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_259102"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9578">
+        <rdfs:label>Pelvis</rdfs:label>
+        <obo:IAO_0000115>Subdivision of abdomen, which is demarcated from the abdomen proper by the plane of the superior pelvic aperture, and from the perineum by the inferior surface of the pelvic diaphragm; together with the abdomen proper, it constitutes the abdomen. Examples: There is only one pelvis.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20357"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9616">
+        <rdfs:label>Muscle of head</rdfs:label>
+        <obo:IAO_0000115>Muscle organ which is a part of the head. Examples: masseter, orbicularis oculi.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5022"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9617">
+        <rdfs:label>Muscle of neck</rdfs:label>
+        <obo:IAO_0000115>Muscle organ which is a part of the neck. Examples: platysma, sternocleidomastoid, cricothyroid muscle.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5022"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9619">
+        <rdfs:label>Muscle of thorax</rdfs:label>
+        <obo:IAO_0000115>Muscle organ which is a part of the thorax. Examples: external intercostal muscle, diaphragm.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58274"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9620">
+        <rdfs:label>Muscle of abdomen</rdfs:label>
+        <obo:IAO_0000115>Muscle (organ) which is a part of the abdomen. Examples: external oblique, rectus abdominis.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58274"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9621">
+        <rdfs:label>Muscle of upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5022"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9622">
+        <rdfs:label>Muscle of lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5022"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9626">
+        <rdfs:label>Trapezius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32517"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9627">
+        <rdfs:label>Pectoralis major</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37349"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9628">
+        <rdfs:label>Rectus abdominis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9620"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9634">
+        <rdfs:label>Internal fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5023"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9637">
+        <rdfs:label>Portion of tissue</rdfs:label>
+        <obo:IAO_0000115>Anatomical structure which has as its parts cells of predominantly one type with or without intercellular matrix. Examples: epithelium, muscle tissue, connective tissue, neural tissue, lymphoid tissue.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9640">
+        <rdfs:label>Portion of connective tissue</rdfs:label>
+        <obo:IAO_0000115>Tissue which consists of fibroblasts, osteocytes or chondrocytes and intercellular matrix produced by these cells. Examples: bone (tissue), dense regular elastic tissue, areolar tissue, neuroglia, adipose tissue.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9637"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9661">
+        <rdfs:label>Limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67504"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9663">
+        <rdfs:label>Forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83016"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9664">
+        <rdfs:label>Foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83015"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9666">
+        <rdfs:label>Finger</rdfs:label>
+        <obo:IAO_0000115>Subdivision of the hand demarcated from the hand proper by the skin crease in line with the distal edge of finger webs. Examples: thumb, right middle finger, left little finger.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24945"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9712">
+        <rdfs:label>Hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83015"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9721">
+        <rdfs:label>Tendon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14065"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10461">
+        <rdfs:label>Skin of anterior chest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23029"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10462">
+        <rdfs:label>Skin of back</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86166"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10474">
+        <rdfs:label>Zone of muscle organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10483">
+        <rdfs:label>Zone of bone organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10561">
+        <rdfs:label>Costal tributary of posterior intercostal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12860"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10641">
+        <rdfs:label>Anterior intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70358"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10646">
+        <rdfs:label>Superior epigastric artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70358"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10648">
+        <rdfs:label>Mammary branch of internal thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70370"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10649">
+        <rdfs:label>Seventh anterior intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10641"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10656">
+        <rdfs:label>Fifth anterior intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10641"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10657">
+        <rdfs:label>Sixth anterior intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10641"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10663">
+        <rdfs:label>Suprascapular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70353"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10664">
+        <rdfs:label>Transverse cervical artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70353"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_10982">
+        <rdfs:label>Branch of spinal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65132"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_11195">
+        <rdfs:label>Segment of neural tree organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_11196">
+        <rdfs:label>Branch of anterior ramus of cervical nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5985"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_11197">
+        <rdfs:label>Branch of intercostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5985"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_11337">
+        <rdfs:label>Zone of continuity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5898"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12165">
+        <rdfs:label>Segment of skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12198">
+        <rdfs:label>Branch of anterior ramus of second cervical nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_11196"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12258">
+        <rdfs:label>Zone of internal fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12286">
+        <rdfs:label>Third posterior intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_4176"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12528">
+        <rdfs:label>Third posterior intercostal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_4858"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12768">
+        <rdfs:label>Deep lymph node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5034"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12787">
+        <rdfs:label>Abdominal lymph node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12768"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12795">
+        <rdfs:label>Mesenteric lymph node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66178"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_12860">
+        <rdfs:label>Tributary of posterior intercostal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_45849"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13109">
+        <rdfs:label>Pectoralis minor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37349"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13110">
+        <rdfs:label>External jugular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22930"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13303">
+        <rdfs:label>Humerus</rdfs:label>
+        <obo:IAO_0000115>Long bone which is part of the arm.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13321">
+        <rdfs:label>Clavicle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13324">
+        <rdfs:label>Cephalic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13335">
+        <rdfs:label>External oblique</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20278"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13338">
+        <rdfs:label>Infrahyoid muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9617"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13342">
+        <rdfs:label>Omohyoid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_13338"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13354">
+        <rdfs:label>Intercostal muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9619"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13357">
+        <rdfs:label>Latissimus dorsi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32517"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13394">
+        <rdfs:label>Scapula</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7476"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13397">
+        <rdfs:label>Serratus anterior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32518"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13407">
+        <rdfs:label>Sternocleidomastoid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64822"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13891">
+        <rdfs:label>Internal oblique</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20278"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_13902">
+        <rdfs:label>Fascia lata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58741"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14065">
+        <rdfs:label>Organ component</rdfs:label>
+        <obo:IAO_0000115>Cardinal organ part which is bounded predominantly by bonafide boundaries.  Examples: lobe of lung, osteon, acinus, submucosa, anterior leaflet of mitral valve, capsule of kidney, cortical bone, muscle fasciculus.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_82472"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14092">
+        <rdfs:label>Zone of small intestine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14293">
+        <rdfs:label>Tributary of internal thoracic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14317">
+        <rdfs:label>Tributary of external jugular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22930"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14319">
+        <rdfs:label>Suprascapular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14317"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14383">
+        <rdfs:label>Trunk of peripheral nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5913"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14650">
+        <rdfs:label>Omentum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14781">
+        <rdfs:label>Right gastro-epiploic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70436"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14796">
+        <rdfs:label>Left gastro-epiploic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70470"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_14808">
+        <rdfs:label>Jejunal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70478"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15370">
+        <rdfs:label>Lumbar vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78049"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15387">
+        <rdfs:label>Tributary of splenic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50736"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15390">
+        <rdfs:label>Left gastroepiploic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15387"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15396">
+        <rdfs:label>Tributary of superior mesenteric vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50736"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15397">
+        <rdfs:label>Right gastroepiploic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15396"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15402">
+        <rdfs:label>Jejunal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_15396"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_15570">
+        <rdfs:label>Transversus abdominis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20278"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16479">
+        <rdfs:label>Branch of lumbar nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_80209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16482">
+        <rdfs:label>Iliohypogastric nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_16479"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16485">
+        <rdfs:label>Lateral femoral cutaneous nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65239"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16487">
+        <rdfs:label>Obturator nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_16479"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16510">
+        <rdfs:label>Superior gluteal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_80177"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16511">
+        <rdfs:label>Inferior gluteal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_80177"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16588">
+        <rdfs:label>Zone of hip bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10483"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16589">
+        <rdfs:label>Ilium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_16588"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_16914">
+        <rdfs:label>Iliac crest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63613"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_18083">
+        <rdfs:label>Superficial fascia of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_259149"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_18868">
+        <rdfs:label>Superior gluteal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69804"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_18871">
+        <rdfs:label>Inferior gluteal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69803"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_18889">
+        <rdfs:label>Tributary of internal iliac vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78049"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_18908">
+        <rdfs:label>Superior gluteal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_18889"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_18911">
+        <rdfs:label>Inferior gluteal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_18889"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_19841">
+        <rdfs:label>Abdominal fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9634"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_19923">
+        <rdfs:label>Membranous layer of superficial fascia of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58616"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20103">
+        <rdfs:label>Regular connective tissue</rdfs:label>
+        <obo:IAO_0000115>Connective tissue, which consists of fibroblasts, the intercellular matrix of which contains a regular network of collagen and elastic fiber bundles. Examples: bone (tissue), cartilage (tissue), dense regular collagenous tissue.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9640"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20107">
+        <rdfs:label>Irregular connective tissue</rdfs:label>
+        <obo:IAO_0000115>Connective tissue, which consists of a population of connective tissue cells, the intercellular matrix of which contains an irregular network of collagen and elastic fiber bundles. Examples: areolar tissue, mucoid tissue, connective tissue of peritoneum, connective tissue of fibrous pericardium.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9640"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20109">
+        <rdfs:label>Dense irregular connective tissue</rdfs:label>
+        <obo:IAO_0000115>Irregular connective tissue is an irregular connective tissue, the intercellular matrix of which contains a dense irregular network of collagen and elastic fiber bundles. Examples: connective tissue of peritoneum, connective tissue of fibrous pericardium.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20107"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20110">
+        <rdfs:label>Adipose tissue</rdfs:label>
+        <obo:IAO_0000115>Dense irregular connective tissue, which predominantly consists of adipocytes.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20109"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20185">
+        <rdfs:label>Fascia organ component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14065"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20278">
+        <rdfs:label>Muscle of anterior abdominal wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9620"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20357">
+        <rdfs:label>Subdivision of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_259102"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20358">
+        <rdfs:label>Subdivision of thorax</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_259102"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20366">
+        <rdfs:label>Segment of superficial fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20684">
+        <rdfs:label>Trunk of branch of external iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_73204"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20686">
+        <rdfs:label>Inferior epigastric artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70247"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20687">
+        <rdfs:label>Deep circumflex iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70247"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20734">
+        <rdfs:label>Superficial epigastric artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70251"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20737">
+        <rdfs:label>Superficial circumflex iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70251"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20741">
+        <rdfs:label>Deep femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70251"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20798">
+        <rdfs:label>Lateral circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69459"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20799">
+        <rdfs:label>Medial circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69459"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20803">
+        <rdfs:label>Branch of lateral circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69459"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20804">
+        <rdfs:label>Ascending branch of lateral circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20803"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20805">
+        <rdfs:label>Descending branch of lateral circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20803"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20806">
+        <rdfs:label>Transverse branch of lateral circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20803"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_20809">
+        <rdfs:label>Branch of medial circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69459"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_21162">
+        <rdfs:label>Inferior epigastric vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78204"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_21182">
+        <rdfs:label>Deep circumflex iliac vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78204"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_21376">
+        <rdfs:label>Great saphenous vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44323"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_21378">
+        <rdfs:label>Tributary of great saphenous vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44323"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_21423">
+        <rdfs:label>Descending branch of left lateral circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20805"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_21546">
+        <rdfs:label>Fascia of rectus abdominis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_21792">
+        <rdfs:label>Fascia of muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_82500"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22310">
+        <rdfs:label>Iliacus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37367"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22314">
+        <rdfs:label>Gluteus maximus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64922"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22353">
+        <rdfs:label>Sartorius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22424"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22356">
+        <rdfs:label>Biceps femoris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22427"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22417">
+        <rdfs:label>Deep branch of medial circumflex femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20809"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22423">
+        <rdfs:label>Tensor fasciae latae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64922"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22424">
+        <rdfs:label>Muscle of anterior compartment of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22470"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22427">
+        <rdfs:label>Muscle of posterior compartment of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22470"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22429">
+        <rdfs:label>Zone of quadriceps femoris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22430">
+        <rdfs:label>Rectus femoris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22429"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22431">
+        <rdfs:label>Vastus lateralis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22429"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22432">
+        <rdfs:label>Vastus medialis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22429"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22439">
+        <rdfs:label>Muscle of medial compartment of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22470"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22470">
+        <rdfs:label>Muscle of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37368"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22471">
+        <rdfs:label>Muscle of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37368"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22472">
+        <rdfs:label>Muscle of anterior compartment of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22471"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22473">
+        <rdfs:label>Muscle of lateral compartment of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22471"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22474">
+        <rdfs:label>Muscle of posterior compartment of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22471"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22506">
+        <rdfs:label>Descending genicular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69459"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22532">
+        <rdfs:label>Tibialis anterior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22472"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22533">
+        <rdfs:label>Extensor hallucis longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22472"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22534">
+        <rdfs:label>Extensor digitorum longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22472"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22535">
+        <rdfs:label>Superior genicular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22539">
+        <rdfs:label>Fibularis longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22473"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22540">
+        <rdfs:label>Fibularis brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22473"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22541">
+        <rdfs:label>Gastrocnemius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65004"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22542">
+        <rdfs:label>Soleus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65004"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22584">
+        <rdfs:label>Superior medial genicular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22535"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22593">
+        <rdfs:label>Flexor hallucis longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65008"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22671">
+        <rdfs:label>Thoraco-acromial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22674">
+        <rdfs:label>Lateral thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22677">
+        <rdfs:label>Subscapular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22693">
+        <rdfs:label>Branch of brachial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22695">
+        <rdfs:label>Deep brachial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22693"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22730">
+        <rdfs:label>Radial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22738">
+        <rdfs:label>Branch of radial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22761">
+        <rdfs:label>First dorsal metacarpal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22738"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22799">
+        <rdfs:label>Branch of ulnar artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22809">
+        <rdfs:label>Branch of common interosseous artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22799"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22810">
+        <rdfs:label>Anterior interosseous artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22809"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22811">
+        <rdfs:label>Posterior interosseous artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22809"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22917">
+        <rdfs:label>Tributary of venous anastomosis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_30314"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22930">
+        <rdfs:label>Tributary of subclavian vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77884"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22937">
+        <rdfs:label>Tributary of brachial vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22938">
+        <rdfs:label>Deep brachial vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22937"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22947">
+        <rdfs:label>Radial vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22937"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22954">
+        <rdfs:label>Dorsal metacarpal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62504"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22966">
+        <rdfs:label>Tributary of cephalic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22967">
+        <rdfs:label>Median antebrachial vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78207"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22985">
+        <rdfs:label>Zone of skin of back</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86166"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_22988">
+        <rdfs:label>Skin of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12165"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23019">
+        <rdfs:label>Zone of skin of back of thorax</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49944"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23021">
+        <rdfs:label>Skin of neck</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12165"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23024">
+        <rdfs:label>Skin of scapular part of back</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23019"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23029">
+        <rdfs:label>Zone of skin of thorax</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23093"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23058">
+        <rdfs:label>Thoraco-acromial vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22966"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23062">
+        <rdfs:label>Pectoral branch of thoraco-acromial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70408"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23066">
+        <rdfs:label>Clavicular branch of thoraco-acromial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70408"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23093">
+        <rdfs:label>Zone of skin of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86166"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23100">
+        <rdfs:label>Skin of limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12165"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23113">
+        <rdfs:label>Subscapular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23117">
+        <rdfs:label>Branch of deep brachial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22693"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23120">
+        <rdfs:label>Radial collateral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23117"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23159">
+        <rdfs:label>Serratus anterior branch of lateral thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_79661"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23160">
+        <rdfs:label>Branch of lateral thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23179">
+        <rdfs:label>Circumflex scapular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70422"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23193">
+        <rdfs:label>Branch of circumflex scapular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70422"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23217">
+        <rdfs:label>Pectoral girdle</rdfs:label>
+        <obo:IAO_0000115>Subdivision of free upper limb, which is the proximal segment of an upper limb and links the free upper limb to the trunk; it is demarcated by the plane of the surface of the glenoid fossa from the free upper limb; together with the free upper limb, it constitutes the upper limb. Examples: There are only two instances, right and left pectoral girdles.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24874"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23220">
+        <rdfs:label>Subdivision of pectoral girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9661"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23466">
+        <rdfs:label>Ulna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24008">
+        <rdfs:label>Zone of long bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10483"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24012">
+        <rdfs:label>Epiphysis</rdfs:label>
+        <obo:IAO_0000115>Subdivision of long bone which forms its expanded proximal or distal articular end; together with other the subdivisions of long bone, it constitutes the long bone. Examples: proximal epiphysis of humerus, distal epiphysis of femur.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24008"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24040">
+        <rdfs:label>Inguinal part of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20357"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24137">
+        <rdfs:label>Anatomical surface</rdfs:label>
+        <obo:IAO_0000115>Anatomical boundary entity which has two spatial dimensions. Examples: body surface, epigastrium, precordium, right iliac fossa.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50705"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24146">
+        <rdfs:label>Body surface region</rdfs:label>
+        <obo:IAO_0000115>Anatomical surface, which is the external surface of a body part or a body part subdivision. Examples: surface of head, surface of front of neck, epigastric region, sacral region, surface of dorsum of right foot.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_242980"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24147">
+        <rdfs:label>Surface of subdivision of principal body part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24146"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24176">
+        <rdfs:label>Surface of subdivision of free upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_25231"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24217">
+        <rdfs:label>Back of thorax</rdfs:label>
+        <obo:IAO_0000115>Subdivision of thorax, which is the posterior part of the thorax and is demarcated from the chest by the external surface of the posterolateral part of the rib cage and the anterior surface of the thoracic vertebral column; together with the chest, it constitutes the thorax. Examples: There is only one chest.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_259104"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24218">
+        <rdfs:label>Subdivision of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67504"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24219">
+        <rdfs:label>Subdivision of neck</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_231430"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24223">
+        <rdfs:label>Front of neck</rdfs:label>
+        <obo:IAO_0000115>Subdivision of neck, which is demarcated from the back of the neck by the plane of the anterior part of the prevertebral fascia; together with the back of the neck, it constitutes the neck. Examples: There is only one front of neck.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24219"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24226">
+        <rdfs:label>Subdivision of pelvis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20357"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24479">
+        <rdfs:label>Fibula</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24492">
+        <rdfs:label>Metatarsal bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24493">
+        <rdfs:label>Phalanx of toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24503">
+        <rdfs:label>Second metatarsal bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24492"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24756">
+        <rdfs:label>Zone of skin of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86166"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24757">
+        <rdfs:label>Skin of scalp</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24864">
+        <rdfs:label>Axilla</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23220"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24874">
+        <rdfs:label>Limb girdle</rdfs:label>
+        <obo:IAO_0000115>Subdivision of limb, which is the proximal segment of a limb and links the free limb to the trunk; it is demarcated by the plane of the surfaces of the glenoid and acetabular fossae from the free limb; together with the free limb, it constitutes the limb. Examples: There are only four instances, right and left pectoral girdles and right and left pelvic girdles.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9661"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24875">
+        <rdfs:label>Free limb</rdfs:label>
+        <obo:IAO_0000115>Subdivision of limb, which is distal to the limb girdle and demarcated by the plane of the surfaces of the glenoid and acetabular fossae from the limb girdle; together with the limb girdle, it constitutes the limb. Examples: There are only four instances, right and left free upper limbs and right and left free lower limbs.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9661"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24876">
+        <rdfs:label>Free upper limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_241863"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24877">
+        <rdfs:label>Free lower limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_241863"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24878">
+        <rdfs:label>Free upper limb</rdfs:label>
+        <obo:IAO_0000115>Free limb, which is distal to the pectoral girdle and demarcated by the plane of the surface of the glenoid fossa from the pectoral girdle; together with the pectoral girdle, it constitutes the upper limb. Examples: There are only two instances, right and left free upper limbs.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24875"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24879">
+        <rdfs:label>Free lower limb</rdfs:label>
+        <obo:IAO_0000115>Free limb, which is distal to the pelvic girdle and demarcated by the plane of the surface of the acetabular fossa from the pelvic girdle; together with the pelvic girdle, it constitutes the lower limb. Examples: There are only two instances, right and left free lower limbs.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24875"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24890">
+        <rdfs:label>Arm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83014"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24910">
+        <rdfs:label>Anterior part of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24876"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24911">
+        <rdfs:label>Posterior part of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24876"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24945">
+        <rdfs:label>Segment of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24876"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24960">
+        <rdfs:label>Subdivision of pelvic girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9661"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24964">
+        <rdfs:label>Hip</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24960"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24967">
+        <rdfs:label>Thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83014"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24979">
+        <rdfs:label>Leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83016"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24984">
+        <rdfs:label>Posterior part of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24988"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24988">
+        <rdfs:label>Segment of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24877"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_24993">
+        <rdfs:label>Segment of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24877"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25000">
+        <rdfs:label>Plantar part of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24993"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25045">
+        <rdfs:label>Dorsal part of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24993"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25046">
+        <rdfs:label>Toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24993"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25047">
+        <rdfs:label>Big toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_25046"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25048">
+        <rdfs:label>Second toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_25046"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25054">
+        <rdfs:label>Subdivision of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_231430"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25056">
+        <rdfs:label>Back of trunk</rdfs:label>
+        <obo:IAO_0000115>Subdivision of trunk which is demarcated from the trunk proper by the external surface of the posterolateral part of the rib cage, the anterior surface of the thoracic vertebral column and the posterior axillary lines, the external surface of the posterior abdominal wall; together with the trunk proper, it constitutes the trunk. Examples: There is only one trunk proper.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_25054"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25072">
+        <rdfs:label>Thoracolumbar fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_27935"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25202">
+        <rdfs:label>Shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23220"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25231">
+        <rdfs:label>Surface of limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24147"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25245">
+        <rdfs:label>Buttock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24960"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25264">
+        <rdfs:label>Subdivision of surface of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24176"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_25314">
+        <rdfs:label>Palmar surface of finger</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_25264"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_26073">
+        <rdfs:label>Region of chest wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20358"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_27935">
+        <rdfs:label>Investing fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5023"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_30313">
+        <rdfs:label>Arterial trunk</rdfs:label>
+        <obo:IAO_0000115>Tubular organ part, the wall and lumen of which are continuous with those of the ventricles of the heart, directly or indirectly through branches of the aorta and pulmonary trunk. Examples: bronchial artery, hepatic artery, coronary artery, truncus anterior of right pulmonary artery, aorta.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86187"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_30314">
+        <rdfs:label>Venous trunk</rdfs:label>
+        <obo:IAO_0000115>Tubular organ part, the wall and lumen of which are continuous with those of the atria of the heart, directly or indirectly through tributaries of the venae cavae, pulmonary veins and the hepatic and portal veins. Examples: coronary sinus, posterior intercostal vein, hepatic vein, bronchial vein, pulmonary vein, trunk of inferior vena cava.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86188"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_30318">
+        <rdfs:label>Fascia cluster</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_42603"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32516">
+        <rdfs:label>Extrinsic muscle of shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_33531"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32517">
+        <rdfs:label>Superficial extrinsic muscle of shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32516"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32518">
+        <rdfs:label>Deep extrinsic muscle of shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32516"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32520">
+        <rdfs:label>Intrinsic muscle of shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_33531"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32546">
+        <rdfs:label>Infraspinatus muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32520"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32550">
+        <rdfs:label>Teres minor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32520"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32558">
+        <rdfs:label>Musculature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70779"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32583">
+        <rdfs:label>Superficial fascia of back</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86156"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32618">
+        <rdfs:label>Proximal phalanx of second toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32899"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32628">
+        <rdfs:label>Distal phalanx of second toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32899"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32822">
+        <rdfs:label>Distal epiphysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24012"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32854">
+        <rdfs:label>Zone of distal epiphysis of femur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32822"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32858">
+        <rdfs:label>Medial condyle of femur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32854"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_32899">
+        <rdfs:label>Phalanx of second toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24493"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_33531">
+        <rdfs:label>Muscle of shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37347"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_34257">
+        <rdfs:label>Bone of radius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83117"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_34828">
+        <rdfs:label>Skin of lateral chest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23029"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_34830">
+        <rdfs:label>Skin of shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37747"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37347">
+        <rdfs:label>Muscle of pectoral girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9621"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37348">
+        <rdfs:label>Muscle of free upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9621"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37349">
+        <rdfs:label>Pectoral muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37347"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37367">
+        <rdfs:label>Muscle of pelvic girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9622"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37368">
+        <rdfs:label>Muscle of free lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9622"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37369">
+        <rdfs:label>Muscle of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37368"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37370">
+        <rdfs:label>Muscle of arm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37348"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37371">
+        <rdfs:label>Muscle of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37348"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37372">
+        <rdfs:label>Muscle of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37348"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37373">
+        <rdfs:label>Abductor pollicis brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64916"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37382">
+        <rdfs:label>Abductor digiti minimi of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64917"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37417">
+        <rdfs:label>Interosseous muscle of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_42380"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37418">
+        <rdfs:label>Dorsal interosseous of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37417"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37424">
+        <rdfs:label>First dorsal interosseous of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37418"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37448">
+        <rdfs:label>Abductor hallucis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65046"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37450">
+        <rdfs:label>Flexor digitorum brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65046"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37451">
+        <rdfs:label>Abductor digiti minimi of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65046"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37456">
+        <rdfs:label>Interosseous of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65046"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37664">
+        <rdfs:label>Coracobrachialis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37711"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37667">
+        <rdfs:label>Brachialis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37711"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37688">
+        <rdfs:label>Triceps brachii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37712"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37694">
+        <rdfs:label>Lateral head of triceps brachii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_85453"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37704">
+        <rdfs:label>Anconeus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37712"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37711">
+        <rdfs:label>Muscle of anterior compartment of arm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37370"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37712">
+        <rdfs:label>Muscle of posterior compartment of arm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37370"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37747">
+        <rdfs:label>Skin of pectoral girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37753"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37750">
+        <rdfs:label>Subdivision of skin of free upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37753"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37753">
+        <rdfs:label>Subdivision of skin of upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23100"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37754">
+        <rdfs:label>Subdivision of skin of lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23100"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37758">
+        <rdfs:label>Subdivision of skin of free lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37754"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37780">
+        <rdfs:label>Fascia of arm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57806"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37790">
+        <rdfs:label>Skin of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37792">
+        <rdfs:label>Skin of left thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37790"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37803">
+        <rdfs:label>Pectoral fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58382"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37828">
+        <rdfs:label>Skin of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37840">
+        <rdfs:label>Skin of posterior part of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37846">
+        <rdfs:label>Skin of dorsum of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37849">
+        <rdfs:label>Skin of sole of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37852">
+        <rdfs:label>Skin of toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_37856">
+        <rdfs:label>Skin of second toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37852"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38122">
+        <rdfs:label>Skin of medial part of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38125">
+        <rdfs:label>Skin of lateral part of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38128">
+        <rdfs:label>Skin of lateral part of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38152">
+        <rdfs:label>Tendon of biceps brachii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38168">
+        <rdfs:label>Skin of medial part of knee</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37758"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38247">
+        <rdfs:label>Skin of lateral part of arm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37750"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38268">
+        <rdfs:label>Skin of anterior part of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37750"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38271">
+        <rdfs:label>Skin of posterior part of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37750"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38295">
+        <rdfs:label>Skin of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37750"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38304">
+        <rdfs:label>Skin of finger</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37750"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38339">
+        <rdfs:label>Fascia of deltoid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38456">
+        <rdfs:label>Muscle of anterior compartment of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37371"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38462">
+        <rdfs:label>Palmaris longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_38472"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38465">
+        <rdfs:label>Flexor carpi ulnaris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_38472"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38472">
+        <rdfs:label>Superficial muscle of anterior compartment of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_38456"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38485">
+        <rdfs:label>Brachioradialis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_38491"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38488">
+        <rdfs:label>Muscle of posterior compartment of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37371"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38491">
+        <rdfs:label>Superficial muscle of posterior compartment of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_38488"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38509">
+        <rdfs:label>Deep muscle of posterior compartment of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_38488"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38521">
+        <rdfs:label>Extensor pollicis longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_38509"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38734">
+        <rdfs:label>Fascia of trapezius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38747">
+        <rdfs:label>Fascia of latissimus dorsi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38851">
+        <rdfs:label>Antebrachial fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58456"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_38931">
+        <rdfs:label>Left vastus lateralis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22431"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_39079">
+        <rdfs:label>Medial cutaneous nerve of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65239"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_39080">
+        <rdfs:label>Lateral cutaneous nerve of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65270"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_39098">
+        <rdfs:label>Musculature of anterior compartment of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50391"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_39401">
+        <rdfs:label>Fascia of dorsal interosseous of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_42169"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_42167">
+        <rdfs:label>Tendon of muscle of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_42169">
+        <rdfs:label>Fascia of muscle of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_42380">
+        <rdfs:label>Intrinsic muscle of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37372"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_42603">
+        <rdfs:label>Organ component cluster</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64990"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_42824">
+        <rdfs:label>Zone of ilium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_16588"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43882">
+        <rdfs:label>Gracilis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22439"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43895">
+        <rdfs:label>Posterior tibial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69458"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43901">
+        <rdfs:label>Subdivision of posterior tibial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69458"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43915">
+        <rdfs:label>Dorsalis pedis artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69477"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43921">
+        <rdfs:label>Peroneal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_43901"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43925">
+        <rdfs:label>Medial plantar artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_43901"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43956">
+        <rdfs:label>Plantar metatarsal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_43901"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43971">
+        <rdfs:label>Plantar digital artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69713"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_43988">
+        <rdfs:label>Plantar digital artery of second toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_43971"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44032">
+        <rdfs:label>Branch of peroneal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_43901"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44318">
+        <rdfs:label>Superficial epigastric vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21378"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44319">
+        <rdfs:label>Superficial circumflex iliac vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21378"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44323">
+        <rdfs:label>Tributary of femoral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78204"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44324">
+        <rdfs:label>Tributary of deep femoral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44323"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44325">
+        <rdfs:label>Medial circumflex femoral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44323"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44326">
+        <rdfs:label>Lateral circumflex femoral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44323"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44327">
+        <rdfs:label>Popliteal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44324"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44330">
+        <rdfs:label>Tributary of popliteal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44324"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44332">
+        <rdfs:label>Posterior tibial vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44330"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44333">
+        <rdfs:label>Small saphenous vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44330"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44355">
+        <rdfs:label>Tributary of small saphenous vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44330"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44376">
+        <rdfs:label>Tributary of dorsal venous arch of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44355"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44377">
+        <rdfs:label>Dorsal metatarsal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44376"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44435">
+        <rdfs:label>First dorsal metacarpal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22954"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44440">
+        <rdfs:label>First dorsal metatarsal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44377"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44448">
+        <rdfs:label>Second dorsal metatarsal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44377"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44489">
+        <rdfs:label>Plantar venous arch of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78049"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44559">
+        <rdfs:label>Genicular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44330"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44644">
+        <rdfs:label>Dorsal metatarsal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69476"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44647">
+        <rdfs:label>First dorsal metatarsal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44644"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44678">
+        <rdfs:label>Branch of sciatic nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65269"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44696">
+        <rdfs:label>Branch of common fibular nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44678"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44771">
+        <rdfs:label>Deep fibular nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44696"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44922">
+        <rdfs:label>Left lateral circumflex femoral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44326"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44947">
+        <rdfs:label>Branch of radial nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65269"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44948">
+        <rdfs:label>Posterior cutaneous nerve of arm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44960"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_44960">
+        <rdfs:label>Cutaneous branch of radial nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44947"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45001">
+        <rdfs:label>Fascia of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57807"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45002">
+        <rdfs:label>Fascia of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57807"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45205">
+        <rdfs:label>Superficial fascia of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50281"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45211">
+        <rdfs:label>Fascia of left thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_45001"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45246">
+        <rdfs:label>Branch of femoral nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65269"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45262">
+        <rdfs:label>Saphenous nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_45246"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45281">
+        <rdfs:label>Subdivision of skin of pelvic girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37754"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45282">
+        <rdfs:label>Skin of hip</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_45281"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45285">
+        <rdfs:label>Skin of buttock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_45281"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45729">
+        <rdfs:label>Head of organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45738">
+        <rdfs:label>Platysma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64822"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_45849">
+        <rdfs:label>Trunk of tributary of superior systemic venous tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62512"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46448">
+        <rdfs:label>Frontal part of head</rdfs:label>
+        <obo:IAO_0000115>Subdivision of head proper which consists of the frontal bone and all layers superficial to it. Examples: There is only one frontal part of head.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58817"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46472">
+        <rdfs:label>Nose</rdfs:label>
+        <obo:IAO_0000115>*Subdivision of face which consists of the nasal skeleton, nasal septum and nasal cavity.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_54393"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46689">
+        <rdfs:label>Muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9616"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46690">
+        <rdfs:label>Genioglossus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46699"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46691">
+        <rdfs:label>Hyoglossus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46699"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46692">
+        <rdfs:label>Styloglossus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46699"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46693">
+        <rdfs:label>Superior longitudinal muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46701"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46694">
+        <rdfs:label>Inferior longitudinal muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46701"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46695">
+        <rdfs:label>Transverse muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46701"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46696">
+        <rdfs:label>Vertical muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46701"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46699">
+        <rdfs:label>Extrinsic muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46689"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46701">
+        <rdfs:label>Intrinsic muscle of tongue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46689"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46751">
+        <rdfs:label>Muscle of face</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9616"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46752">
+        <rdfs:label>Zone of epicranius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_10474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46754">
+        <rdfs:label>Subdivision of occipitofrontalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46752"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46757">
+        <rdfs:label>Frontalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46754"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46802">
+        <rdfs:label>Levator labii superioris alaeque nasi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46751"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46805">
+        <rdfs:label>Levator labii superioris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46751"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46810">
+        <rdfs:label>Zygomaticus major</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46751"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46811">
+        <rdfs:label>Zygomaticus minor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46751"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46838">
+        <rdfs:label>Risorius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46751"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46841">
+        <rdfs:label>Orbicularis oris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46751"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46854">
+        <rdfs:label>Extrinsic auricular muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_48966"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46857">
+        <rdfs:label>Auricularis posterior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_46854"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46888">
+        <rdfs:label>Fascia of quadriceps femoris</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46948">
+        <rdfs:label>Fascia of gracilis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47065">
+        <rdfs:label>Tendon of extensor hallucis longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47080">
+        <rdfs:label>Tendon of extensor digitorum longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47128">
+        <rdfs:label>Fascia of gastrocnemius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47140">
+        <rdfs:label>Tendon of gastrocnemius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47143">
+        <rdfs:label>Fascia of soleus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47155">
+        <rdfs:label>Tendon of soleus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47188">
+        <rdfs:label>Fascia of flexor hallucis longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47200">
+        <rdfs:label>Tendon of flexor hallucis longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_47338">
+        <rdfs:label>Fascia of temporoparietalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_48777">
+        <rdfs:label>Fascia of serratus anterior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_48966">
+        <rdfs:label>Auricular muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9616"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49006">
+        <rdfs:label>Temporalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57791"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49381">
+        <rdfs:label>Extensor retinaculum of ankle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7646"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49443">
+        <rdfs:label>Anatomical cluster</rdfs:label>
+        <obo:IAO_0000115>Anatomical structure, which has as its parts a heterogeneous collection of  organs, organ parts, cells, cell parts or body part subdivisions that are adjacent to, or continuous with one another; does not constitute a cell part, cell,  tissue,  organ, organ system or organ system subdivision, cardinal body part, body part subdivision or anatomical junction. Examples: joint, adnexa of uterus, root of lung, renal pedicle, back.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49472">
+        <rdfs:label>Superior thyroid artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70505"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49552">
+        <rdfs:label>Branch of facial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70505"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49554">
+        <rdfs:label>Facial branch of facial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49552"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49583">
+        <rdfs:label>Angular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49554"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49586">
+        <rdfs:label>Occipital artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70505"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49624">
+        <rdfs:label>Posterior auricular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70505"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49650">
+        <rdfs:label>Superficial temporal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70505"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49653">
+        <rdfs:label>Branch of superficial temporal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70505"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49657">
+        <rdfs:label>Transverse facial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49653"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49666">
+        <rdfs:label>Middle temporal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49653"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49688">
+        <rdfs:label>Branch of maxillary artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70505"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49742">
+        <rdfs:label>Deep temporal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49688"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49745">
+        <rdfs:label>Anterior deep temporal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49742"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49746">
+        <rdfs:label>Posterior deep temporal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49742"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49767">
+        <rdfs:label>Infra-orbital artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49688"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49868">
+        <rdfs:label>Ophthalmic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70523"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49872">
+        <rdfs:label>Branch of ophthalmic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70523"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49918">
+        <rdfs:label>Systemic arterial trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_30313"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49944">
+        <rdfs:label>Zone of skin of back of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22985"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50025">
+        <rdfs:label>Supratrochlear artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_51956"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50200">
+        <rdfs:label>Musculature of subdivision of upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_32558"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50257">
+        <rdfs:label>Superficial fascia of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20366"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50262">
+        <rdfs:label>Superficial fascia of subdivision of upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86159"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50270">
+        <rdfs:label>Superficial fascia of subdivision of free upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50262"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50272">
+        <rdfs:label>Superficial fascia of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50270"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50273">
+        <rdfs:label>Superficial fascia of subdivision of lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86159"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50281">
+        <rdfs:label>Superficial fascia of subdivision of free lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50273"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50391">
+        <rdfs:label>Musculature of subdivision of free upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50200"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50705">
+        <rdfs:label>Anatomical boundary entity</rdfs:label>
+        <obo:IAO_0000115>Immaterial anatomical entity of one less dimension than the anatomical entity it bounds or demarcates from another anatomical entity. Examples: surface of heart, surface of epithelial cell, cervicothoracic plane, supra-orbital notch, costal margin, apex beat, Sylvian point.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67112"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50720">
+        <rdfs:label>Artery</rdfs:label>
+        <obo:IAO_0000115>Subdivision of arterial tree (organ) which consists of branching sets of tubes (arterial trunk)  that form a tree; together with other arterial trees (organ part), it constitutes an arterial tree (organ). Examples: pulmonary arterial tree, right coronary arterial tree, superior mesenteric tree.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86187"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50723">
+        <rdfs:label>Vein</rdfs:label>
+        <obo:IAO_0000115>Subdivision of venous tree (organ) which consists of branching sets of tubes (venous trunks)  that form a tree; together with other venous trees (organ part), it constitutes a venous tree (organ). Examples: subclavian venous tree, jugular tree, extrahepatic portal tree, common iliac venous tree.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86188"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50736">
+        <rdfs:label>Subdivision of pre-hepatic portal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66645"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50802">
+        <rdfs:label>Occipital vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50978"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50823">
+        <rdfs:label>Middle thyroid vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77959"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50851">
+        <rdfs:label>Posterior auricular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14317"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50858">
+        <rdfs:label>Transverse cervical vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14317"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50868">
+        <rdfs:label>Facial nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5865"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50883">
+        <rdfs:label>Tributary of facial vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77959"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50893">
+        <rdfs:label>Angular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50898">
+        <rdfs:label>Supratrochlear vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_51802"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50931">
+        <rdfs:label>Tributary of retromandibular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14317"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50932">
+        <rdfs:label>Superficial temporal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50931"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50935">
+        <rdfs:label>Middle temporal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50931"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50945">
+        <rdfs:label>Tributary of pterygoid plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50954">
+        <rdfs:label>Deep temporal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50945"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50978">
+        <rdfs:label>Superior cerebral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50982"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50981">
+        <rdfs:label>Cerebral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50982">
+        <rdfs:label>Superficial cerebral vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50981"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51071">
+        <rdfs:label>Flexor digitorum longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65008"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51083">
+        <rdfs:label>Tendon of flexor digitorum longus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51099">
+        <rdfs:label>Tibialis posterior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65008"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51140">
+        <rdfs:label>Extensor digitorum brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65045"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51141">
+        <rdfs:label>Extensor hallucis brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65045"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51152">
+        <rdfs:label>Tributary of dural venous sinus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51156">
+        <rdfs:label>Tendon of extensor digitorum brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51174">
+        <rdfs:label>Tendon of extensor hallucis brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51244">
+        <rdfs:label>Tributary of cavernous sinus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_51152"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51246">
+        <rdfs:label>Superior ophthalmic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_51244"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51247">
+        <rdfs:label>Inferior ophthalmic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_51244"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51802">
+        <rdfs:label>Tributary of angular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_51956">
+        <rdfs:label>Terminal branch of ophthalmic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49872"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_52570">
+        <rdfs:label>Branch of cranial nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65132"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_52607">
+        <rdfs:label>Branch of trigeminal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_52570"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_52999">
+        <rdfs:label>Branch of mandibular nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_52607"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53187">
+        <rdfs:label>Deep temporal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_52999"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53278">
+        <rdfs:label>Posterior auricular nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_53438"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53438">
+        <rdfs:label>Branch of facial nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_52570"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53996">
+        <rdfs:label>Fascia of temporalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_21792"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_54326">
+        <rdfs:label>Nail</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71012"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_54328">
+        <rdfs:label>Nail of toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_54326"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_54344">
+        <rdfs:label>Nail of big toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_54328"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_54347">
+        <rdfs:label>Nail of second toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_54328"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_54393">
+        <rdfs:label>Subdivision of face</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24218"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55142">
+        <rdfs:label>Ansa cervicalis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_6188"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55220">
+        <rdfs:label>Lymphoid tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_79770"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55268">
+        <rdfs:label>Zone of organ</rdfs:label>
+        <obo:IAO_0000115>Organ region with one or more floating fiat boundaries. Examples: apical zone of lung, superior pole of kidney, gingiva, apex of prostate, ascending colon proper.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67619"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55652">
+        <rdfs:label>Anatomical set</rdfs:label>
+        <obo:IAO_0000115>Material anatomical entity which consists of the maximum number of discontinuous members of the same class. Examples: set of cranial nerves, ventral branches of aorta, set of mammary arteries, thoracic viscera, dental arcade.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67165"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55665">
+        <rdfs:label>Nonparenchymatous organ</rdfs:label>
+        <obo:IAO_0000115>Solid organ which consists of organ parts that are arranged as fascicles or sheets. Examples: muscle (organ), ligament (organ), membrane (organ), skin, viscerocranial mucosa.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55670"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55670">
+        <rdfs:label>Solid organ</rdfs:label>
+        <obo:IAO_0000115>Organ the unshared parts of which do not surround macroscopic anatomical spaces; only its shared parts (subdivisions of hollow tree organs) contain anatomical spaces. Examples: lung, liver, thymus, ovary, muscle (organ), meninx, superficial fascia, skin.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67498"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55671">
+        <rdfs:label>Cavitated organ</rdfs:label>
+        <obo:IAO_0000115>Organ the unshared parts of which surround one or more macroscopic anatomical spaces. Examples: neuraxis, tooth, esophagus, heart, long bone, corpus spongiosum of penis.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67498"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_55673">
+        <rdfs:label>Organ with cavitated organ parts</rdfs:label>
+        <obo:IAO_0000115>Cavitated organ in which its unshared parts surround two or more macroscopic anatomical spaces. Examples: heart, long bone, corpus spongiosum of penis, bulb of vestibule.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55671"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57791">
+        <rdfs:label>Muscle of head proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9616"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57806">
+        <rdfs:label>Fascia of upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57813"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57807">
+        <rdfs:label>Fascia of lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57813"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57813">
+        <rdfs:label>Fascia of limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_30318"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57815">
+        <rdfs:label>Fascia of neck</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_30318"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57863">
+        <rdfs:label>Zone of endothoracic fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12258"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57965">
+        <rdfs:label>Zone of investing fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58274">
+        <rdfs:label>Muscle of trunk</rdfs:label>
+        <obo:IAO_0000115>Muscle organ which is a part of the trunk. Examples: external intercostal muscle, external oblique,  levator ani.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5022"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58382">
+        <rdfs:label>Zone of investing thoracic fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57965"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58384">
+        <rdfs:label>Zone of investing fascia of upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57965"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58420">
+        <rdfs:label>Zone of investing fascia of free lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58421"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58421">
+        <rdfs:label>Zone of investing fascia of lower limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57965"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58425">
+        <rdfs:label>Investing fascia of pelvic girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58421"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58432">
+        <rdfs:label>Zone of investing fascia of free upper limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58384"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58456">
+        <rdfs:label>Zone of investing fascia of forearm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58432"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58616">
+        <rdfs:label>Fat body</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5023"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58741">
+        <rdfs:label>Zone of investing fascia of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58420"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58758">
+        <rdfs:label>Posterior intermuscular septum of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_79981"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58771">
+        <rdfs:label>Gluteal fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58425"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58793">
+        <rdfs:label>Dorsal fascia of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_79985"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58794">
+        <rdfs:label>Plantar fascia of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_79985"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_58817">
+        <rdfs:label>Subdivision of head proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24218"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_59345">
+        <rdfs:label>Subdivision of skin of head proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24756"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_59349">
+        <rdfs:label>Subdivision of skin of face</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24756"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61013">
+        <rdfs:label>Auricular cartilage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61196"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61196">
+        <rdfs:label>Zone of cartilage of external ear</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61284">
+        <rdfs:label>Neural tree organ</rdfs:label>
+        <obo:IAO_0000115>Neural tree organNonparenchymatous organ which has as its parts an aggregate of neurons (nuclei or ganglia) and their axons which are grouped into fasciculi by connective tissue to form elongated, cable-like structures that are arranged into a tree. Examples: vagus nerve, cervical spinal nerve, T2 spinal nerve (including the nuclei and ganglia of these nerves).</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55665"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61615">
+        <rdfs:label>Superficial fascia of front of neck</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86156"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61707">
+        <rdfs:label>Auriculotemporal part of head</rdfs:label>
+        <obo:IAO_0000115>Subdivision of head proper which consists of the temporal bone and all layers superficial to it, including the pinna. Examples: There are only two canonical instances, right and left auriculotemporal parts of head.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58817"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61708">
+        <rdfs:label>Subdivision of auriculotemporal part of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58817"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61775">
+        <rdfs:label>Physical anatomical entity</rdfs:label>
+        <obo:IAO_0000115>Anatomical entity which has three or fewer spatial dimensions. Examples: hemoglobin molecule, mitochondrion, hepatocyte, erythrocyte, heart, head, blood, urine, peritoneal cavity, diaphragmatic surface of heart, inferior margin of liver, apex of lung.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62955"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61926">
+        <rdfs:label>Intramural nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5910"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62504">
+        <rdfs:label>Tributary of deep palmar venous arch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22917"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62512">
+        <rdfs:label>Trunk of systemic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_30314"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62798">
+        <rdfs:label>Portion of heterogeneous tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9637"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62955">
+        <rdfs:label>Anatomical entity</rdfs:label>
+        <obo:IAO_0000115>Organismal continuant entity which is enclosed by the bona fide boundary of an organism or is an attribute of its structural organization. Examples: cell, heart, head, peritoneal cavity, apex of lung, anatomical term, sagittal plane.</obo:IAO_0000115>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63182">
+        <rdfs:label>Arteriole</rdfs:label>
+        <obo:IAO_0000115>Subdivision of arterial tree (organ) which is directly continuous with capillary vessel.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86187"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63252">
+        <rdfs:label>Myenteric nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61926"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63613">
+        <rdfs:label>Zone of ala of ilium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_42824"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63812">
+        <rdfs:label>Set of arteries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78562"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63814">
+        <rdfs:label>Set of veins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78562"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63819">
+        <rdfs:label>Set of nerves</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78562"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63862">
+        <rdfs:label>Subdivision of frontal part of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58817"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63864">
+        <rdfs:label>Forehead</rdfs:label>
+        <obo:IAO_0000115>Subdivision of head bounded by the hairline and the eyebrows.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63862"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63867">
+        <rdfs:label>Temporal part of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61708"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63881">
+        <rdfs:label>Subdivision of skin of frontal part of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59349"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63883">
+        <rdfs:label>Skin of forehead</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63881"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63884">
+        <rdfs:label>Skin of auriculotemporal part of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63885">
+        <rdfs:label>Subdivision of skin of auriculotemporal part of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63949">
+        <rdfs:label>Lateral part of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_74845"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63950">
+        <rdfs:label>Medial part of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_74845"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63952">
+        <rdfs:label>Subdivision of superficial fascia of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50281"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63953">
+        <rdfs:label>Superficial fascia of anterior part of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63952"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_63956">
+        <rdfs:label>Superficial fascia of lateral part of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63952"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_64822">
+        <rdfs:label>Superficial muscle of neck</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9617"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_64916">
+        <rdfs:label>Thenar muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_42380"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_64917">
+        <rdfs:label>Hypothenar muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_42380"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_64922">
+        <rdfs:label>Gluteal muscle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37367"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_64990">
+        <rdfs:label>Organ part cluster</rdfs:label>
+        <obo:IAO_0000115>Anatomical cluster which consists of all or some members of one or more organ part subclasses which are grouped together according to some shared attributes. Examples: root of lung, internal nose, soft palate, wall of gut, periorbita.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49443"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65004">
+        <rdfs:label>Superficial muscle of posterior compartment of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65008">
+        <rdfs:label>Deep muscle of posterior compartment of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22474"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65020">
+        <rdfs:label>Intrinsic muscle of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_37369"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65045">
+        <rdfs:label>Intrinsic muscle of dorsum of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65020"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65046">
+        <rdfs:label>Intrinsic muscle of plantar part of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65020"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65132">
+        <rdfs:label>Nerve</rdfs:label>
+        <obo:IAO_0000115>Segment of neural tree organ which has as its parts a nerve trunk and its branches; together with other nerves of the same tree it constitutes a neural tree. Examples: chorda tympani, digastric branch of facial nerve, greater petrosal nerve, posterior cutaneous branch of posterior ramus of cervical nerve, superior lateral cutaneous nerve of arm.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_11195"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65239">
+        <rdfs:label>Peripheral nerve</rdfs:label>
+        <obo:IAO_0000115>Neural tree (organ) which is directly continuous with the neuraxis. Examples: phrenic nerve, radial nerve, ilioinguinal nerve, sciatic nerve.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61284"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65269">
+        <rdfs:label>Branch of peripheral nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65132"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65270">
+        <rdfs:label>Branch of musculocutaneous nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65269"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65290">
+        <rdfs:label>Thoracodorsal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65239"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65293">
+        <rdfs:label>Medial pectoral nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65239"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65296">
+        <rdfs:label>Lateral pectoral nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65239"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65414">
+        <rdfs:label>Supraclavicular nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65239"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_65567">
+        <rdfs:label>Subcostal nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_6028"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66178">
+        <rdfs:label>Visceral abdominal lymph node</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12787"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66320">
+        <rdfs:label>Thoracodorsal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70422"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66464">
+        <rdfs:label>Systemic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50720"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66489">
+        <rdfs:label>Trunk of inferior epigastric artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20684"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66536">
+        <rdfs:label>Trunk of sural artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69418"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66537">
+        <rdfs:label>Trunk of lateral sural artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66536"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66538">
+        <rdfs:label>Trunk of medial sural artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66536"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66644">
+        <rdfs:label>Systemic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50723"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66645">
+        <rdfs:label>Portal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50723"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_66765">
+        <rdfs:label>Subdivision of lamellar bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67536"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67112">
+        <rdfs:label>Immaterial anatomical entity</rdfs:label>
+        <obo:IAO_0000115>Physical anatomical entity which is a three-dimensional space, surface, line or point associated with a material anatomical entity. Examples: body space, surface of heart, costal margin, apex of right lung, anterior compartment of right arm.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61775"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67135">
+        <rdfs:label>Anatomical structure</rdfs:label>
+        <obo:IAO_0000115>Material anatomical entity which is generated by coordinated expression of the organism's own genes that guide its morphogenesis; has inherent 3D shape; its parts are connected and spatially related to one another in patterns determined by coordinated gene expression. Examples: heart, right ventricle, mitral valve, myocardium, endothelium, lymphocyte, fibroblast, thorax, cardiovascular system, hemoglobin, T cell receptor.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67165"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67165">
+        <rdfs:label>Material anatomical entity</rdfs:label>
+        <obo:IAO_0000115>Physical anatomical entity which has mass. Examples: hemoglobin molecule, mitochondrion, hepatocyte, erythrocyte, heart, head, blood, urine.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61775"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67498">
+        <rdfs:label>Organ</rdfs:label>
+        <obo:IAO_0000115>Anatomical structure which has as its direct parts portions of two or more types of tissue or two or more types of cardinal organ part which constitute a maximally connected anatomical structure demarcated predominantly by a bona fide anatomical surface. Examples: femur, biceps, liver, heart, skin, tracheobronchial tree, ovary.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67504">
+        <rdfs:label>Subdivision of cardinal body part</rdfs:label>
+        <obo:IAO_0000115>Anatomical structure, which is a subdivision of a cardinal body part; it may exclude bones; is demarcated from other subdivisions of the same cardinal body part by anatomical surfaces or lines or topographical references; together with other contiguous subdivisions of the same cardinal body part, it constitutes a cardinal body part. Examples: thorax, perineum, back of neck, forearm, hand, phalanx, nose, auricle of ear, scrotum.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67536">
+        <rdfs:label>Cardinal tissue part</rdfs:label>
+        <obo:IAO_0000115>Anatomical structure, which is a subdivision of tissue demarcated by fiat boundaries. Examples: stratum germinativum, lamina of cerebral cortex.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67538">
+        <rdfs:label>Subdivision of epithelium</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67536"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67619">
+        <rdfs:label>Organ region</rdfs:label>
+        <obo:IAO_0000115>Cardinal organ part which is a fiat subdivision of an organ. Examples: lingula of left lung, tail of pancreas, artery, trochanter, nodulus of semilunar valve, right side of heart, duodenum, fundus of stomach.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_82472"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67815">
+        <rdfs:label>Glabrous skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86166"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69056">
+        <rdfs:label>Layer of epidermis proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70593"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69418">
+        <rdfs:label>Trunk of branch of popliteal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20684"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69458">
+        <rdfs:label>Subdivision of external iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69459">
+        <rdfs:label>Subdivision of deep femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70251"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69476">
+        <rdfs:label>Subdivision of anterior tibial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69458"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69477">
+        <rdfs:label>Segment of trunk of anterior tibial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86256"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69713">
+        <rdfs:label>Digital artery of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69476"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69784">
+        <rdfs:label>Branch of posterior tibial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69418"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69796">
+        <rdfs:label>Subdivision of internal iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69803">
+        <rdfs:label>Subdivision of anterior division of internal iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69796"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_69804">
+        <rdfs:label>Subdivision of posterior division of internal iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69796"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70247">
+        <rdfs:label>Subdivision of external iliac artery proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69458"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70248">
+        <rdfs:label>Femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69458"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70251">
+        <rdfs:label>Subdivision of femoral artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_69458"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70345">
+        <rdfs:label>Subdivision of subclavian artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70353">
+        <rdfs:label>Subdivision of thyrocervical artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70358">
+        <rdfs:label>Subdivision of internal thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70370">
+        <rdfs:label>Perforating branch of internal thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70358"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70399">
+        <rdfs:label>Subdivision of costocervical artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70408">
+        <rdfs:label>Subdivision of thoraco-acromial artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70422">
+        <rdfs:label>Subdivision of subscapular artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70345"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70429">
+        <rdfs:label>Subdivision of celiac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70433">
+        <rdfs:label>Subdivision of common hepatic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70429"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70436">
+        <rdfs:label>Subdivision of gastroduodenal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70433"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70470">
+        <rdfs:label>Subdivision of splenic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70429"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70478">
+        <rdfs:label>Subdivision of superior mesenteric artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70504">
+        <rdfs:label>Subdivision of common carotid artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66464"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70505">
+        <rdfs:label>Subdivision of external carotid artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70504"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70506">
+        <rdfs:label>Subdivision of internal carotid artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70504"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70523">
+        <rdfs:label>Subdivision of cerebral part of internal carotid artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70506"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70593">
+        <rdfs:label>Subdivision of epidermis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67538"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70779">
+        <rdfs:label>Set of organs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55652"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70815">
+        <rdfs:label>Set of perforating arteries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63812"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70837">
+        <rdfs:label>Set of subcutaneous abdominal veins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63814"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_70993">
+        <rdfs:label>Subdivision of dermis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67536"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_71012">
+        <rdfs:label>Skin appendage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70593"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_71209">
+        <rdfs:label>Tributary of axillary vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_22930"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_71210">
+        <rdfs:label>Lateral thoracic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_71213">
+        <rdfs:label>Thoracodorsal vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_71587">
+        <rdfs:label>Set of peroneal veins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63814"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_72217">
+        <rdfs:label>Papillary plexus of skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5902"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_72230">
+        <rdfs:label>Tendon of flexor digitorum brevis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9721"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_73204">
+        <rdfs:label>Trunk of branch of common iliac artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49918"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_74315">
+        <rdfs:label>Subcutaneous adipose tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20110"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_74845">
+        <rdfs:label>Segment of thigh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24877"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_74941">
+        <rdfs:label>Segment of nerve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_11195"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75468">
+        <rdfs:label>Set of superior clunial nerves</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63819"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75830">
+        <rdfs:label>Distal phalanx of toe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24493"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76755">
+        <rdfs:label>Thoracic fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57863"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76863">
+        <rdfs:label>Temporal fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20185"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76998">
+        <rdfs:label>Supreme intercostal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70399"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_77883">
+        <rdfs:label>Subdivision of brachiocephalic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78048"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_77884">
+        <rdfs:label>Subdivision of subclavian vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_77959">
+        <rdfs:label>Subdivision of internal jugular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_77883"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_78048">
+        <rdfs:label>Subdivision of superior vena caval tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66644"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_78049">
+        <rdfs:label>Subdivision of inferior vena caval tree</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_66644"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_78204">
+        <rdfs:label>Subdivision of external iliac vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_78049"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_78207">
+        <rdfs:label>Tributary of basilic vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_71209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_78562">
+        <rdfs:label>Set of organ regions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_228667"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_78575">
+        <rdfs:label>Lateral scapular part of pectoral girdle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_79190"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79071">
+        <rdfs:label>Lateral part of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24988"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79190">
+        <rdfs:label>Subdivision of shoulder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23220"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79661">
+        <rdfs:label>Muscular branch of lateral thoracic artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23160"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79743">
+        <rdfs:label>Subdivision of skin of cheek</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59349"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79759">
+        <rdfs:label>Skin of mastoid part of head</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_63885"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79770">
+        <rdfs:label>Lymphomyeloid tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_62798"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79981">
+        <rdfs:label>Zone of investing fascia of leg</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58420"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_79985">
+        <rdfs:label>Zone of investing fascia of foot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_58420"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_80177">
+        <rdfs:label>Branch of sacral nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_80209"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_80209">
+        <rdfs:label>Branch of nerve plexus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_65132"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_82472">
+        <rdfs:label>Cardinal organ part</rdfs:label>
+        <obo:IAO_0000115>anatomical structure which has as its direct parts two or more types of tissue and is continuous with one or more anatomical structures likewise constituted by two or more portions of tissues distinct from those of their complement. Examples: osteon, cortical bone, neck of femur, bronchopulmonary segment, left lobe of liver, anterior right side of heart, interventricular branch of left coronary artery, right atrium, mitral valve, head of pancreas.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_82485">
+        <rdfs:label>Organ component layer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_14065"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_82500">
+        <rdfs:label>Membranous layer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_82485"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_83014">
+        <rdfs:label>Proximal free limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83017"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_83015">
+        <rdfs:label>Distal free limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83017"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_83016">
+        <rdfs:label>Middle free limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_83017"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_83017">
+        <rdfs:label>Cardinal free limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_241863"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_83117">
+        <rdfs:label>Bone tissue of long bone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_224804"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_84256">
+        <rdfs:label>Descending genicular vein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_44324"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_85453">
+        <rdfs:label>Head of muscle organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_45729"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86020">
+        <rdfs:label>Subdivision of transverse cervical artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70353"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86140">
+        <rdfs:label>Organ segment</rdfs:label>
+        <obo:IAO_0000115>Organ region with one or more anchored fiat boundaries. Examples: artery, trunk of nerve, cervical part of esophagus, pelvic part of vagina, horn of thyroid cartilage, anterior segment of eyeball.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67619"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86156">
+        <rdfs:label>Zone of superficial fascia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86159">
+        <rdfs:label>Zone of superficial fascia of limb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86156"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86166">
+        <rdfs:label>Zone of skin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55268"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86187">
+        <rdfs:label>Segment of arterial tree organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86188">
+        <rdfs:label>Segment of venous tree organ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86140"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86215">
+        <rdfs:label>Branch of thoracodorsal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_70422"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86219">
+        <rdfs:label>Serratus anterior branch of thoracodorsal artery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86215"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_86256">
+        <rdfs:label>Segment of arterial trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86187"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_223004">
+        <rdfs:label>Segment of back of hand</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24945"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_224804">
+        <rdfs:label>Bone tissue</rdfs:label>
+        <obo:IAO_0000115>Regular connective tissue, which consists of osteocytes and related cells,  the intercellular matrix of which is ossified. Examples: woven bone, lamellar bone.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_20103"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_228667">
+        <rdfs:label>Set of organ parts</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_55652"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_228788">
+        <rdfs:label>Zone of superficial fascia of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86156"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_231430">
+        <rdfs:label>Subdivision of body proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67504"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_241863">
+        <rdfs:label>Free limb segment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9661"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_242980">
+        <rdfs:label>Bona fide anatomical surface</rdfs:label>
+        <obo:IAO_0000115>Anatomical surface which marks a physical discontinuity between two or more anatomical structures or is an interface between an anatomical space and one more anatomical structures. Examples: surface of head, costal surface of lung, luminal surface of epithelium, P-face of plasma membrane.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_24137"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_258970">
+        <rdfs:label>Skin of region of abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_12165"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_258978">
+        <rdfs:label>Skin of lower abdomen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_258970"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_259102">
+        <rdfs:label>Subdivision of trunk proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_25054"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_259104">
+        <rdfs:label>Subdivision of back of trunk</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_25054"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_259149">
+        <rdfs:label>Zone of superficial fascia of trunk proper</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_228788"/>
+    </owl:Class>
+</rdf:RDF>
