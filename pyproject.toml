@@ -19,6 +19,7 @@ dependencies = [
     "python-dotenv",
     "networkx",
     "rdflib",
+    "pyoxigraph",
     "torch",
     "transformers",
     "scikit-learn",

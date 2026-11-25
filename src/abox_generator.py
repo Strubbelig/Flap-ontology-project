@@ -124,6 +124,8 @@ from ofl_constants import (
     PREINSERTION_TREATMENT_CLS,                  # CQ13: OFLID120048 → lets OWL RL infer OFLID130001
     GRAFT_TRANSFER_CLS, SKIN_GRAFT_CLS, TARGET_END_LOCATION_OF,  # CQ15: skin graft
     ANASTOMOSIS_TECHNIQUES,                      # CQ16: [OFLID10233, OFLID10235] (primitive → must assert)
+    PERFUSED_BY, ANTEROGRADE_CIRCULATION, RETROGRADE_CIRCULATION, RETROGRADE_SHARE,  # CQ10
+    CUTANEOUS_ISLAND_FLAP, SKIN,                 # CQ12
 )
 try:
     from config.settings import (
@@ -202,6 +204,9 @@ class ABox:
     ) -> "ABox":
         """Build the ABox graph in memory."""
         random.seed(seed)
+        # Separate stream for the CQ10/CQ12 additions so every other random draw
+        # (roles, movements, skin grafts, ...) stays identical to earlier builds.
+        self._rng_cq = random.Random(seed + 1)
         tbox_info = self._extract_tbox_info()
 
         # ── Create the output Graph and declare namespace prefixes ─────────────
@@ -327,6 +332,31 @@ class ABox:
 
             flap_count += 1
             patient_n  += 1
+
+        # ── Phase 4: Cutaneous island flap instances (CQ12) ────────────────────
+        # Island versions of the pedicled flaps that carry a vascular pedicle:
+        # the skin island stays attached only through the pedicle.
+        island_candidates = [
+            (flap_iri, flap_info) for flap_iri, flap_info in parts_map.items()
+            if _infer_transfer(flap_info["label"]) == PEDICLED_TRANSFER
+            and pedicle_map.get(flap_info["label"].lower())
+        ]
+        for flap_iri, flap_info in island_candidates:
+            flap_label   = flap_info["label"]
+            pedicle_info = pedicle_map[flap_label.lower()]
+            for side in ("left", "right"):
+                self._add_instance(
+                    output_graph, counter, patient_n,
+                    flap_iri, flap_label, flap_info["parts"], origin_map.get(flap_iri),
+                    pedicle_cls=pedicle_info.get("iri"),
+                    pedicle_vessels=pedicle_info.get("vessels", []),
+                    survival_cls=MAIN_SURVIVAL[0], modification_cls=MOD_NO,
+                    transfer_cls=PEDICLED_TRANSFER,
+                    distance_cls=_infer_distance(flap_label, PEDICLED_TRANSFER), side=side,
+                    is_perforator=flap_iri in perforator_set, island=True,
+                )
+                flap_count += 1
+                patient_n  += 1
 
         # Count NamedIndividuals by querying the graph for all subjects that
         # have rdf:type owl:NamedIndividual
@@ -597,6 +627,7 @@ class ABox:
         distance_cls: URIRef,           # LOCAL_FLAP, REGIONAL_FLAP, DISTANT_FLAP
         side: str,                      # "left" or "right"
         is_perforator: bool = False,    # True iff the TBox defines this as a perforator flap
+        island: bool = False,           # True → cutaneous island variant (CQ12)
     ) -> None:
         """
         Write all triples for one flap instance and all its satellite
@@ -643,7 +674,8 @@ class ABox:
         recipient_site_id = counter.next()
         donor_site_id     = counter.next() if distance_cls != LOCAL_FLAP else None  # Non-local flaps get a separate donor site individual. Local flaps reuse recipient_site_id as the donor site (donor = recipient).
 
-        instance_label = f"{side_prefix}{flap_label} of patient {patient_n}"
+        island_word    = " (cutaneous island)" if island else ""
+        instance_label = f"{side_prefix}{flap_label}{island_word} of patient {patient_n}"
 
         # ── Patient ────────────────────────────────────────────────────────────
         # PATIENT_TYPE = NCBITaxon:9606 (Homo sapiens)
@@ -701,6 +733,18 @@ class ABox:
                               PEDICLE_VESSEL_ROLE)
                 output_graph.add((ped_vessel_id, HAS_ROLE, ped_role_id))
                 output_graph.add((pedicle_id,    HAS_PART, ped_vessel_id))
+                # CQ10: the pedicle artery is perfused by a blood circulation process
+                # (anterograde, or retrograde for a share of pedicled flaps).
+                if ped_fma == SEGMENT_ARTERIAL_TREE:
+                    retro = (transfer_cls == PEDICLED_TRANSFER
+                             and self._rng_cq.random() < RETROGRADE_SHARE)
+                    circ_cls  = RETROGRADE_CIRCULATION if retro else ANTEROGRADE_CIRCULATION
+                    circ_word = "Retrograde" if retro else "Anterograde"
+                    circ_id   = counter.next()
+                    self._declare(output_graph, circ_id,
+                                  f"{circ_word} blood circulation in pedicle artery of {instance_label}",
+                                  circ_cls)
+                    output_graph.add((ped_vessel_id, PERFUSED_BY, circ_id))
 
             # The pedicle carries a blood-supply function (BFO:function)
             blood_func_id = counter.next()
@@ -881,6 +925,14 @@ class ABox:
         # Mereological structure
         for part_id in part_ids:
             output_graph.add((flap_id, HAS_PART, part_id))
+        # CQ12: island flaps carry a skin island and are typed OFLID10115 explicitly
+        if island:
+            skin_island_id = counter.next()
+            self._declare(output_graph, skin_island_id,
+                          f"Skin island of {instance_label}", SKIN)
+            output_graph.add((skin_island_id, PART_OF,  flap_id))
+            output_graph.add((flap_id,        HAS_PART, skin_island_id))
+            output_graph.add((flap_id,        RDF.type, CUTANEOUS_ISLAND_FLAP))
         if pedicle_id:
             output_graph.add((flap_id, HAS_PART, pedicle_id))
 

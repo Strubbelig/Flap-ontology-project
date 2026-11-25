@@ -177,6 +177,25 @@ PEDICLED_MOVEMENTS    = [MOVEMENT_ROTATION, MOVEMENT_ADVANCEMENT, MOVEMENT_TRANS
 # satisfies the nested restriction, letting OWL RL infer OFLID130001.
 PREINSERTION_TREATMENT_CLS = OFL.OFLID120048  # Preinsertion treatment of the flap recipient site
 
+# ── CQ10: Arterial flow direction ─────────────────────────────────────────────
+# OFLID10093 (Flaps classified by arterial flow direction) is defined (OFL 2.2.1) as
+# OFLID10094 AND (has_part some (OFLID120023 AND FMA:86187 AND (perfused_by some GO:0008015))).
+# OFLID10113 / OFLID10123 narrow the filler to anterograde / retrograde circulation.
+# 'perfused by' has domain artery-or-vein, so it is asserted on the pedicle artery,
+# never on the flap; OWL RL then infers the flap classes via the transitive has_part.
+PERFUSED_BY             = OFL.OFLID120064  # perfused by
+ANTEROGRADE_CIRCULATION = OFL.OFLID120062  # Anterograde blood circulation
+RETROGRADE_CIRCULATION  = OFL.OFLID120063  # Retrograde blood circulation
+RETROGRADE_SHARE        = 0.25             # share of pedicled flaps generated with retrograde flow
+
+# ── CQ12: Island flaps ────────────────────────────────────────────────────────
+# OFLID10115 (Cutaneous island flap) = OFLID120032 AND NOT (...) AND (has_part some FMA:7163).
+# The complement and the 'continuous with only ...' in OFLID120032 cannot be
+# inferred by OWL RL, so island instances are typed OFLID10115 explicitly and
+# carry a skin-island part; OWL RL infers OFLID120032 and OFLID10053 from it.
+CUTANEOUS_ISLAND_FLAP = OFL.OFLID10115
+SKIN                  = OBO.FMA_7163       # Skin
+
 # ── CQ15: Skin graft ──────────────────────────────────────────────────────────
 # OFLID120066 (Flaps with skin graft) is defined as
 # OFLID120065 AND (OFLID12002 someValuesFrom (OFLID10702 AND (RO_0000057 someValuesFrom OFLID106021))).
