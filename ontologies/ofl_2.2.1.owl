@@ -8306,19 +8306,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
     <!-- https://purl.bioontology.org/ontology/OFL/OFLID1000297 -->
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000297">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10055"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24876"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10055"/>
-        <rdfs:label xml:lang="en">Rectus abdominis flap with free upper limb segment</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated in version 2.2.1. The class modelled the free upper limb segment (FMA_24876) as a part of a rectus abdominis flap. It was created in error by the variant generator from an earlier union axiom.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete Rectus abdominis flap with free upper limb segment</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
