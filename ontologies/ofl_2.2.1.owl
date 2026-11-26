@@ -293,6 +293,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/fma#branch_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/fma#branch_of">
+        <rdfs:subPropertyOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fma#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/fma#part_of">
+        <rdfs:subPropertyOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://purl.bioontology.org/ontology/OFL/OFLID1000051 -->
 
     <owl:ObjectProperty rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000051"/>
@@ -10505,17 +10521,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10025"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_43882"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_43882"/>
-                                    </owl:Restriction>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_43882"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12664,14 +12670,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                 <owl:unionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_10474"/>
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_5022"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_10474"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_5022"/>
-                                    </owl:Restriction>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_85453"/>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
