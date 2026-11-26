@@ -20,3 +20,4 @@ http://purl.obolibrary.org/obo/RO_0002488
 http://purl.obolibrary.org/obo/RO_0002583
 http://purl.obolibrary.org/obo/RO_0003301
 http://purl.obolibrary.org/obo/RO_0002234
+http://purl.obolibrary.org/obo/RO_0002178
