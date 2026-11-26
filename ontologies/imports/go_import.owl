@@ -6,6 +6,8 @@
         <dcterms:title>GO import module for OFL</dcterms:title>
         <rdfs:comment>Module of the Gene Ontology (http://purl.obolibrary.org/obo/go/releases/2026-03-25/go.owl) for OFL 2.2.1: the 1 GO class(es) referenced by OFL and all their named superclasses (5 classes), with labels, definitions and subClassOf axioms between them (MIREOT-style, lower terms = OFL signature).</rdfs:comment>
     </owl:Ontology>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"><rdfs:label>definition</rdfs:label></owl:AnnotationProperty>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003008">
         <rdfs:label>system process</rdfs:label>
