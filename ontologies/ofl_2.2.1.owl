@@ -2,7 +2,6 @@
 <rdf:RDF xmlns="https://purl.bioontology.org/ontology/OFL/"
      xml:base="https://purl.bioontology.org/ontology/OFL/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
-     xmlns:fma="http://purl.org/sig/ont/fma/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -27,6 +26,7 @@
     <owl:Ontology rdf:about="https://purl.bioontology.org/ontology/OFL">
         <owl:versionIRI rdf:resource="https://purl.bioontology.org/ontology/OFL/2.2.1"/>
         <owl:priorVersion rdf:resource="https://purl.bioontology.org/ontology/OFL/2.2.0"/>
+        <term:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cob/releases/2025-12-15/cob.owl"/>
         <owl:imports rdf:resource="https://purl.bioontology.org/ontology/OFL/imports/fma_obo_import.owl"/>
@@ -90,24 +90,6 @@
     
 
 
-    <!-- http://purl.org/sig/ont/fma/abbreviation -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/abbreviation"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/definition -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/definition"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/synonym -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/synonym"/>
-    
-
-
     <!-- http://www.co-ode.org/ontologies/ont.owl#synonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#synonym"/>
@@ -117,6 +99,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     
 
 
@@ -245,6 +233,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002178 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002178"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002214 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002214"/>
@@ -299,92 +293,19 @@
     
 
 
-    <!-- http://purl.org/sig/ont/fma/arterial_supply -->
+    <!-- http://purl.obolibrary.org/obo/fma#branch_of -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/arterial_supply"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/arterial_supply_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/arterial_supply_of"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/branch_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/branch_of"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/constitutional_part_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/constitutional_part_of"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/drains_into -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/drains_into"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/has_location -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/has_location"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/nerve_supply -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/nerve_supply"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/nerve_supply_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/nerve_supply_of"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/part -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/part">
-        <rdfs:subPropertyOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/part_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/part_of">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/fma#branch_of">
         <rdfs:subPropertyOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
-        <rdfs:label xml:lang="en">fma part of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.org/sig/ont/fma/regional_part_of -->
+    <!-- http://purl.obolibrary.org/obo/fma#part_of -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/regional_part_of"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/related_object -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/related_object"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/venous_drainage -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/venous_drainage"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/venous_drainage_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/sig/ont/fma/venous_drainage_of"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/fma#part_of">
+        <rdfs:subPropertyOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
+    </owl:ObjectProperty>
     
 
 
@@ -397,7 +318,6 @@
     <!-- https://purl.bioontology.org/ontology/OFL/OFLID1000067 -->
 
     <owl:ObjectProperty rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000067">
-        <rdfs:subPropertyOf rdf:resource="http://purl.org/sig/ont/fma/has_location"/>
         <owl:inverseOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000068"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="en">Superficial to</rdfs:label>
@@ -408,7 +328,6 @@
     <!-- https://purl.bioontology.org/ontology/OFL/OFLID1000068 -->
 
     <owl:ObjectProperty rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000068">
-        <rdfs:subPropertyOf rdf:resource="http://purl.org/sig/ont/fma/has_location"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:label xml:lang="en">Profound to</rdfs:label>
     </owl:ObjectProperty>
@@ -587,36 +506,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/dimension -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/sig/ont/fma/dimension"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/has_dimension -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/sig/ont/fma/has_dimension"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/has_inherent_3-D_shape -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/sig/ont/fma/has_inherent_3-D_shape"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/laterality -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/sig/ont/fma/laterality"/>
-    
-
-
-    <!-- http://purl.org/sig/ont/fma/physical_state -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.org/sig/ont/fma/physical_state"/>
     
 
 
@@ -1398,13 +1287,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_23193">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/branch_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_23179"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002380"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_23179"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4684,7 +4567,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000008">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000025"/>
-        <fma:synonym>Flaps with fusiform shape skin incision</fma:synonym>
+        <oboI:hasExactSynonym>Flaps with fusiform shape skin incision</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps with spindle shape skin incision</rdfs:label>
     </owl:Class>
     
@@ -4741,7 +4624,7 @@
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000025">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000023"/>
         <x_1.1:description>Starting point of the incision equals end point of the incision.</x_1.1:description>
-        <fma:synonym>Skin island</fma:synonym>
+        <oboI:hasExactSynonym>Skin island</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps with closed skin incision</rdfs:label>
     </owl:Class>
     
@@ -4751,7 +4634,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000026">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000024"/>
-        <fma:synonym>I shape incision</fma:synonym>
+        <oboI:hasExactSynonym>I shape incision</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps with straight skin incision</rdfs:label>
     </owl:Class>
     
@@ -4761,7 +4644,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000027">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000024"/>
-        <fma:synonym>C shape incision</fma:synonym>
+        <oboI:hasExactSynonym>C shape incision</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps with curved skin incision</rdfs:label>
     </owl:Class>
     
@@ -4789,7 +4672,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000030">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000028"/>
-        <fma:synonym>Serial Z plasty</fma:synonym>
+        <oboI:hasExactSynonym>Serial Z plasty</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps with serial z shape skin incision</rdfs:label>
     </owl:Class>
     
@@ -4817,7 +4700,7 @@
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000034">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID1000025"/>
-        <fma:synonym>O shape incision</fma:synonym>
+        <oboI:hasExactSynonym>O shape incision</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps with circular shape skin incision</rdfs:label>
     </owl:Class>
     
@@ -4856,11 +4739,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23193"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/arterial_supply_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002178"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_23024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <fma:synonym>Descending branch of circumflex scapular artery</fma:synonym>
+        <oboI:hasExactSynonym>Descending branch of circumflex scapular artery</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Parascapular cutaneous artery</rdfs:label>
     </owl:Class>
     
@@ -4872,11 +4755,11 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_23193"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/arterial_supply_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002178"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_34830"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <fma:synonym>Transverse branch of circumflex scapular artery</fma:synonym>
+        <oboI:hasExactSynonym>Transverse branch of circumflex scapular artery</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Scapular cutaneous artery</rdfs:label>
     </owl:Class>
     
@@ -6254,7 +6137,7 @@
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <fma:definition>A graft is a segment of healthy tissue transplanted from one area of a person&apos;s body to another. Unlike a flap, a graft initially relies solely on diffusion for nourishment, and its blood supply is later established through neovascularization—primarily via newly formed capillary networks—which develops a significant time after transplantation.</fma:definition>
+        <obo:IAO_0000115>A graft is a segment of healthy tissue transplanted from one area of a person&apos;s body to another. Unlike a flap, a graft initially relies solely on diffusion for nourishment, and its blood supply is later established through neovascularization—primarily via newly formed capillary networks—which develops a significant time after transplantation.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Surgical graft</rdfs:label>
     </owl:Class>
     
@@ -10466,8 +10349,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         </rdfs:subClassOf>
         <term:bibliographicCitation>Chuang, David C. C., L. H. Colony, H. C. Chen, und F. C. Wei. „Groin Flap Design and Versatility“. Plastic and Reconstructive Surgery 84, Nr. 1 (Juli 1989): 100.</term:bibliographicCitation>
         <term:bibliographicCitation>Smith, Paul J., Brian Foley, und Jan A. McGREGOR. „THE ANATOMICAL BASIS OF THE GROIN FLAP“. Plastic and Reconstructive Surgery 49, Nr. 1 (Januar 1972): 41.</term:bibliographicCitation>
-        <fma:abbreviation>SCIA flap</fma:abbreviation>
-        <fma:synonym>Superficial circumflex iliac artery flap</fma:synonym>
+        <oboI:hasExactSynonym>SCIA flap</oboI:hasExactSynonym>
+        <oboI:hasExactSynonym>Superficial circumflex iliac artery flap</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Groin flap</rdfs:label>
     </owl:Class>
     
@@ -10638,17 +10521,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10025"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13296"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_43882"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_43882"/>
-                                    </owl:Restriction>
-                                </owl:unionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_43882"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -11415,18 +11288,6 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10110"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/related_object"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_9663"/>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Flaps originating from the forearm</rdfs:label>
     </owl:Class>
     
@@ -11487,7 +11348,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <owl:disjointWith rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10054"/>
-        <fma:synonym xml:lang="en">Pedicled flaps</fma:synonym>
+        <oboI:hasExactSynonym xml:lang="en">Pedicled flaps</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps with tissue connection to origin</rdfs:label>
     </owl:Class>
     
@@ -11521,7 +11382,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <fma:synonym>Free flaps</fma:synonym>
+        <oboI:hasExactSynonym>Free flaps</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Flaps without tissue connection to origin</rdfs:label>
     </owl:Class>
     
@@ -11721,13 +11582,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_86020"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/branch_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_10664"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002380"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_10664"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12293,7 +12148,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10082"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <fma:synonym>Mid-dermal arterial plexus</fma:synonym>
+        <oboI:hasExactSynonym>Mid-dermal arterial plexus</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Dermal arterial plexus</rdfs:label>
     </owl:Class>
     
@@ -12702,27 +12557,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
     <!-- https://purl.bioontology.org/ontology/OFL/OFLID10100 -->
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10100">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10002"/>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/laterality"/>
-                                <owl:hasValue>left</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/laterality"/>
-                                <owl:hasValue>right</owl:hasValue>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10002"/>
-        <rdfs:label xml:lang="en">Flaps classified by side of region of origin</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated in version 2.2.1. The class was defined by the laterality data property of the original FMA, which OFL no longer uses.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete Flaps classified by side of region of origin</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -12833,14 +12670,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                 <owl:unionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_10474"/>
                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_5022"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_10474"/>
-                                    </owl:Restriction>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID13297"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_5022"/>
-                                    </owl:Restriction>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_85453"/>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
@@ -12857,19 +12687,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
     <!-- https://purl.bioontology.org/ontology/OFL/OFLID10107 -->
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10107">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10100"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/laterality"/>
-                        <owl:hasValue>left</owl:hasValue>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10100"/>
-        <rdfs:label xml:lang="en">Flaps from the left side</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated in version 2.2.1. The class was defined by the laterality data property of the original FMA, which OFL no longer uses.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete Flaps from the left side</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -12877,19 +12697,9 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
     <!-- https://purl.bioontology.org/ontology/OFL/OFLID10108 -->
 
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10108">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10100"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/laterality"/>
-                        <owl:hasValue>right</owl:hasValue>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10100"/>
-        <rdfs:label xml:lang="en">Flaps from the right side</rdfs:label>
+        <rdfs:comment xml:lang="en">Deprecated in version 2.2.1. The class was defined by the laterality data property of the original FMA, which OFL no longer uses.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete Flaps from the right side</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -13114,7 +12924,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         </owl:equivalentClass>
         <owl:disjointWith rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10116"/>
         <obo:IAO_0000119 xml:lang="en">Kimyai-Asadi A, Goldberg LH. Island pedicle flap. Dermatol Clin. 2005 Jan;23(1):113-27, vi-vii. doi: 10.1016/j.det.2004.07.001. PMID: 15620623.</obo:IAO_0000119>
-        <fma:definition xml:lang="en">The island pedicle flap uses an island of skin that is detached from its epidermal and dermal attachments while retaining its vascular supply from an underlying pedicle to repair a cutaneous defect.</fma:definition>
+        <obo:IAO_0000115 xml:lang="en">The island pedicle flap uses an island of skin that is detached from its epidermal and dermal attachments while retaining its vascular supply from an underlying pedicle to repair a cutaneous defect.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Cutaneous island flap</rdfs:label>
     </owl:Class>
     
@@ -13769,7 +13579,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10144">
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10004"/>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10070"/>
-        <fma:synonym>VY flap</fma:synonym>
+        <oboI:hasExactSynonym>VY flap</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">Vy plasty</rdfs:label>
     </owl:Class>
     
@@ -13991,8 +13801,8 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID10087"/>
-        <fma:synonym>Foucher Flap</fma:synonym>
-        <fma:synonym>Kite Flap</fma:synonym>
+        <oboI:hasExactSynonym>Foucher Flap</oboI:hasExactSynonym>
+        <oboI:hasExactSynonym>Kite Flap</oboI:hasExactSynonym>
         <rdfs:label xml:lang="en">First dorsal metacarpal artery flap</rdfs:label>
     </owl:Class>
     
@@ -14096,7 +13906,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10012"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/constitutional_part_of"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25047"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -24756,13 +24566,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000136"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002338"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_24964"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24964"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -24801,13 +24605,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000136"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002338"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_24864"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24864"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -24843,13 +24641,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID1000136"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002338"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_25245"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25245"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -26276,15 +26068,15 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_3711"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/part_of"/>
-                <owl:allValuesFrom>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_10641"/>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_4176"/>
                         </owl:unionOf>
                     </owl:Class>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Segment of intercostal artery</rdfs:label>
@@ -26338,7 +26130,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.bioontology.org/ontology/OFL/OFLID106012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <fma:definition xml:lang="en">A flap harvest procedure that involves dissecting a small perforator vessel, often identified preoperatively using a Doppler probe, followed by tracking the vessel retrogradely until targeted vessel length is reached.</fma:definition>
+        <obo:IAO_0000115 xml:lang="en">A flap harvest procedure that involves dissecting a small perforator vessel, often identified preoperatively using a Doppler probe, followed by tracking the vessel retrogradely until targeted vessel length is reached.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Perforator flap harvest process</rdfs:label>
     </owl:Class>
     
@@ -27407,13 +27199,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10702"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002338"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_24864"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24864"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -27443,13 +27229,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10702"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002338"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_25245"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25245"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -27516,13 +27296,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10702"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002338"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_24964"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24964"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -27619,13 +27393,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10702"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002339"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_24864"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24864"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -27655,13 +27423,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10702"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002339"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_24964"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_24964"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -27691,13 +27453,7 @@ retrieved 27.5.2025, 19:56</obo:IAO_0000119>
                                     <rdf:Description rdf:about="https://purl.bioontology.org/ontology/OFL/OFLID10702"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002339"/>
-                                        <owl:someValuesFrom>
-                                            <owl:Class>
-                                                <owl:unionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_25245"/>
-                                                </owl:unionOf>
-                                            </owl:Class>
-                                        </owl:someValuesFrom>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_25245"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
